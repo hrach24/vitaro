@@ -1,16 +1,13 @@
 from fastapi import APIRouter, HTTPException
 from typing import List, Optional
 from models import Product, ProductCreate, Category
-from motor.motor_asyncio import AsyncIOMotorClient
-import os
+from database import get_database
 from datetime import datetime
 
 router = APIRouter(prefix="/api/products", tags=["products"])
 
 # Get database
-mongo_url = os.environ['MONGO_URL']
-client = AsyncIOMotorClient(mongo_url)
-db = client[os.environ['DB_NAME']]
+db = get_database()
 
 @router.get("", response_model=List[Product])
 async def get_products(category: Optional[str] = None):
