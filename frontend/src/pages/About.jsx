@@ -23,21 +23,27 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1581056771085-3ce30d907416?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwzfHxtZWRpY2FsJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzU5OTE1Mjc5fDA&ixlib=rb-4.1.0&q=85"
-                alt="Medical Facility"
+                src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/2rb9vcpa_IMG_3131.jpeg"
+                alt="VITARO Medical Manufacturing Facility"
                 className="rounded-2xl shadow-2xl"
               />
+              <div className="mt-4 text-center">
+                <p className="text-sm text-gray-500">VITARO Medical Manufacturing Facility - Shanghai, China</p>
+              </div>
             </div>
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Founded in {companyInfo.founded}, VITARO Medical has grown from a small medical supplies distributor to a leading global manufacturer of premium medical products. Our journey has been driven by an unwavering commitment to quality, innovation, and patient safety.
+                Founded in <strong>2002</strong>, VITARO Medical has evolved from a dedicated medical supplies manufacturer to a globally recognized leader in premium medical device production. For over two decades, our state-of-the-art manufacturing facility in Shanghai, China has been at the forefront of medical innovation and quality excellence.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Today, we serve healthcare facilities in over {companyInfo.countries} countries, employing {companyInfo.employees} dedicated professionals who share our vision of advancing healthcare through superior medical products.
+                Our 50,000+ square meter facility combines cutting-edge manufacturing technology with stringent quality control systems. We specialize in producing high-quality medical gloves, face masks, disposable materials, and essential medical supplies that meet the demanding standards of healthcare professionals worldwide.
+              </p>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+                Today, we serve healthcare facilities in over {companyInfo.countries} countries, employing {companyInfo.employees} dedicated professionals who share our vision of advancing healthcare through superior medical products. Our commitment to research and development ensures that every product bearing the VITARO name represents the pinnacle of safety, reliability, and performance.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Every product we manufacture undergoes rigorous quality control and meets international standards, ensuring healthcare professionals can trust VITARO Medical for their critical needs.
+                From our ISO-certified cleanrooms to our advanced testing laboratories, every stage of our manufacturing process adheres to the highest international standards. We don't just meet regulatory requirements—we exceed them, because we understand that healthcare professionals and patients depend on the quality and consistency of our products every single day.
               </p>
             </div>
           </div>
