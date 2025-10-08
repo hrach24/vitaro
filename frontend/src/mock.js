@@ -166,21 +166,30 @@ export const companyInfo = {
   tagline: 'Innovation in Healthcare Solutions',
   mission: 'To provide high-quality, reliable medical products that enhance healthcare delivery and patient safety worldwide.',
   vision: 'To be a global leader in medical product manufacturing, recognized for innovation, quality, and sustainability.',
-  founded: '2010',
+  founded: '2002',
   employees: '500+',
   countries: '45+',
   certifications: [
-    { name: 'ISO 13485:2016', description: 'Medical Devices Quality Management' },
-    { name: 'CE Marking', description: 'European Conformity' },
+    { name: 'ISO 13485:2016', description: 'Medical Devices Quality Management System' },
+    { name: 'ISO 9001:2015', description: 'Quality Management Systems' },
+    { name: 'CE Marking', description: 'European Conformity Standards' },
     { name: 'FDA Registered', description: 'US Food and Drug Administration' },
-    { name: 'ISO 9001:2015', description: 'Quality Management Systems' }
+    { name: 'EN ISO 374', description: 'Protective Gloves Standard' },
+    { name: 'EN 455', description: 'Medical Gloves Standard' },
+    { name: 'ASTM D6319', description: 'Nitrile Examination Gloves' },
+    { name: 'ISO 11607', description: 'Packaging for Medical Devices' },
+    { name: 'EN 14683', description: 'Medical Face Masks Standard' },
+    { name: 'GB 19083', description: 'Chinese Medical Mask Standard' },
+    { name: 'GMP Certified', description: 'Good Manufacturing Practice' },
+    { name: 'ISO 14001', description: 'Environmental Management' }
   ],
   contact: {
-    address: '123 Medical Park Avenue, Healthcare District',
-    city: 'Medical City, MC 12345',
-    country: 'Global Healthcare Hub',
-    phone: '+1 (555) 123-4567',
-    email: 'info@vitaro-medical.com',
-    hours: 'Monday - Friday: 9:00 AM - 6:00 PM'
+    address: 'Plot 12, Unit A, North Ridge Industrial Park',
+    addressLine2: 'No. 3 Hengshan Road, Jiading District',
+    city: 'Shanghai 201800, China',
+    phone: '+86 21 6798 1203',
+    email: 'info@myvitaro.com',
+    website: 'www.myvitaro.com',
+    hours: 'Monday - Friday: 9:00 AM - 6:00 PM (CST)'
   }
 };
