@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Search, Filter, Download, Shield } from 'lucide-react';
-import { products, categories } from '../mock';
+import { productsAPI } from '../api';
 import { Button } from '../components/ui/button';
 import {
   Dialog,
