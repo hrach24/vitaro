@@ -1,10 +1,9 @@
 from fastapi import FastAPI, APIRouter
-from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
-from motor.motor_asyncio import AsyncIOMotorClient
-import os
 import logging
-from pathlib import Path
+
+# Import database
+from database import get_database, get_client
 
 # Import route modules
 from routes import products, news, contact, newsletter
@@ -13,14 +12,9 @@ from routes import products, news, contact, newsletter
 from models import Product, NewsArticle
 from seed_data import products_data, news_data
 
-
-ROOT_DIR = Path(__file__).parent
-load_dotenv(ROOT_DIR / '.env')
-
-# MongoDB connection
-mongo_url = os.environ['MONGO_URL']
-client = AsyncIOMotorClient(mongo_url)
-db = client[os.environ['DB_NAME']]
+# Get database and client
+db = get_database()
+client = get_client()
 
 # Create the main app without a prefix
 app = FastAPI(title="VITARO Medical API", version="1.0.0")
