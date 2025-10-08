@@ -1,16 +1,13 @@
 from fastapi import APIRouter, HTTPException
 from typing import List, Optional
 from models import NewsArticle, NewsArticleCreate
-from motor.motor_asyncio import AsyncIOMotorClient
-import os
+from database import get_database
 from datetime import datetime
 
 router = APIRouter(prefix="/api/news", tags=["news"])
 
 # Get database
-mongo_url = os.environ['MONGO_URL']
-client = AsyncIOMotorClient(mongo_url)
-db = client[os.environ['DB_NAME']]
+db = get_database()
 
 @router.get("", response_model=List[NewsArticle])
 async def get_news(category: Optional[str] = None):
