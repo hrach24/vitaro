@@ -74,8 +74,15 @@ const News = () => {
         </div>
       </section>
 
+      {/* Loading State */}
+      {loading ? (
+        <section className="py-20 text-center">
+          <p className="text-xl text-gray-600">Loading news...</p>
+        </section>
+      ) : null}
+
       {/* Featured Article */}
-      {filteredArticles.length > 0 && (
+      {!loading && filteredArticles.length > 0 && (
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
