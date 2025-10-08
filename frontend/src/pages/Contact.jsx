@@ -1,9 +1,21 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
-import { companyInfo } from '../mock';
 import { toast } from 'sonner';
 import { Button } from '../components/ui/button';
 import { Textarea } from '../components/ui/textarea';
+import { contactAPI } from '../api';
+
+// Company info (could be moved to environment variables)
+const companyInfo = {
+  contact: {
+    address: '123 Medical Park Avenue, Healthcare District',
+    city: 'Medical City, MC 12345',
+    country: 'Global Healthcare Hub',
+    phone: '+1 (555) 123-4567',
+    email: 'info@vitaro-medical.com',
+    hours: 'Monday - Friday: 9:00 AM - 6:00 PM'
+  }
+};
 
 const Contact = () => {
   const [formData, setFormData] = useState({
