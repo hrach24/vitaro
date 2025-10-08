@@ -1,15 +1,12 @@
 from fastapi import APIRouter, HTTPException
 from typing import List
 from models import Contact, ContactCreate
-from motor.motor_asyncio import AsyncIOMotorClient
-import os
+from database import get_database
 
 router = APIRouter(prefix="/api/contact", tags=["contact"])
 
 # Get database
-mongo_url = os.environ['MONGO_URL']
-client = AsyncIOMotorClient(mongo_url)
-db = client[os.environ['DB_NAME']]
+db = get_database()
 
 @router.post("", response_model=Contact)
 async def submit_contact(contact: ContactCreate):
