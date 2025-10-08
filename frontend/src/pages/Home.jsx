@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Shield, Award, Globe, CheckCircle, Download } from 'lucide-react';
 import { productsAPI } from '../api';
+import ParallaxSection from '../components/ParallaxSection';
 
 const Home = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);
