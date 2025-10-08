@@ -272,6 +272,43 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Technology & Innovation Parallax Section */}
+      <ParallaxSection
+        imageUrl="https://images.unsplash.com/photo-1740362381367-09cb98b4e1c6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwZXF1aXBtZW50JTIwbWFudWZhY3R1cmluZ3xlbnwwfHx8fDE3NTk5NTAzMjB8MA&ixlib=rb-4.1.0&q=85"
+        height="450px"
+        speed={0.6}
+      >
+        <div className="container mx-auto px-4 h-full flex items-center justify-center">
+          <div className="max-w-4xl text-center text-white">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
+              Innovation Meets Precision
+            </h2>
+            <p className="text-xl mb-8 drop-shadow-lg leading-relaxed">
+              From advanced robotics to rigorous quality control, every step of our 
+              manufacturing process is designed to deliver medical products healthcare 
+              professionals can trust.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+              <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
+                <Shield className="mx-auto mb-3 text-orange-400" size={40} />
+                <p className="font-semibold text-lg">ISO Certified</p>
+                <p className="text-sm opacity-90 mt-2">Multiple international certifications</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
+                <Award className="mx-auto mb-3 text-orange-400" size={40} />
+                <p className="font-semibold text-lg">Quality Assured</p>
+                <p className="text-sm opacity-90 mt-2">Rigorous testing at every stage</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
+                <Globe className="mx-auto mb-3 text-orange-400" size={40} />
+                <p className="font-semibold text-lg">Global Reach</p>
+                <p className="text-sm opacity-90 mt-2">Serving 45+ countries worldwide</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ParallaxSection>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-orange-500 to-orange-600">
         <div className="container mx-auto px-4">
