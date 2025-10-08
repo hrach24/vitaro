@@ -7,15 +7,17 @@ import { newsletterAPI } from '../api';
 const Footer = () => {
   const [email, setEmail] = useState('');
 
-  const handleNewsletterSubmit = (e) => {
+  const handleNewsletterSubmit = async (e) => {
     e.preventDefault();
     if (email) {
-      // Mock: Save to localStorage
-      const subscriptions = JSON.parse(localStorage.getItem('newsletter') || '[]');
-      subscriptions.push({ email, date: new Date().toISOString() });
-      localStorage.setItem('newsletter', JSON.stringify(subscriptions));
-      toast.success('Thank you for subscribing to our newsletter!');
-      setEmail('');
+      try {
+        await newsletterAPI.subscribe(email);
+        toast.success('Thank you for subscribing to our newsletter!');
+        setEmail('');
+      } catch (error) {
+        toast.error('Failed to subscribe. Please try again.');
+        console.error('Error subscribing to newsletter:', error);
+      }
     }
   };
 
