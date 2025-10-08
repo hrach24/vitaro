@@ -34,24 +34,23 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Mock: Save to localStorage
-    const contacts = JSON.parse(localStorage.getItem('contacts') || '[]');
-    contacts.push({
-      ...formData,
-      date: new Date().toISOString()
-    });
-    localStorage.setItem('contacts', JSON.stringify(contacts));
-    toast.success('Thank you for contacting us! We will get back to you soon.');
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      company: '',
-      subject: '',
-      message: ''
-    });
+    try {
+      await contactAPI.submit(formData);
+      toast.success('Thank you for contacting us! We will get back to you soon.');
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        company: '',
+        subject: '',
+        message: ''
+      });
+    } catch (error) {
+      toast.error('Failed to submit your message. Please try again.');
+      console.error('Error submitting contact form:', error);
+    }
   };
 
   return (
