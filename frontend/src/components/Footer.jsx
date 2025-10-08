@@ -132,15 +132,15 @@ const Footer = () => {
             <ul className="space-y-3 text-slate-300 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin size={18} className="text-orange-400 flex-shrink-0 mt-0.5" />
-                <span>123 Medical Park Avenue, Healthcare District</span>
+                <span>Plot 12, Unit A, North Ridge Industrial Park, No. 3 Hengshan Road, Jiading District, Shanghai 201800, China</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={18} className="text-orange-400 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+86 21 6798 1203</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={18} className="text-orange-400 flex-shrink-0" />
-                <span>info@vitaro-medical.com</span>
+                <span>info@myvitaro.com</span>
               </li>
             </ul>
           </div>
