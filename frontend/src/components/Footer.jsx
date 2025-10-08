@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Linkedin, Mail, Phone, MapPin, Send } from 'lucide-react';
 import { toast } from 'sonner';
+import { newsletterAPI } from '../api';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
