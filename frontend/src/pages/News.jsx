@@ -9,8 +9,24 @@ import {
 } from '../components/ui/dialog';
 
 const News = () => {
+  const [newsArticles, setNewsArticles] = useState([]);
   const [selectedArticle, setSelectedArticle] = useState(null);
   const [selectedFilter, setSelectedFilter] = useState('All');
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchNews = async () => {
+      try {
+        const data = await newsAPI.getAll();
+        setNewsArticles(data);
+      } catch (error) {
+        console.error('Error fetching news:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchNews();
+  }, []);
 
   const categories = ['All', ...new Set(newsArticles.map(article => article.category))];
 
