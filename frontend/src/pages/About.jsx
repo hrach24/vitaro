@@ -113,11 +113,24 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Certifications & Compliance</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Our commitment to quality is validated by international certifications
+              Our commitment to quality is validated by international certifications and regulatory approvals
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {companyInfo.certifications.map((cert, index) => (
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+            {[
+              { name: 'ISO 13485:2016', description: 'Medical Devices Quality Management System' },
+              { name: 'ISO 9001:2015', description: 'Quality Management Systems' },
+              { name: 'CE Marking', description: 'European Conformity Standards' },
+              { name: 'FDA Registered', description: 'US Food and Drug Administration' },
+              { name: 'EN ISO 374', description: 'Protective Gloves Standard' },
+              { name: 'EN 455', description: 'Medical Gloves Standard' },
+              { name: 'ASTM D6319', description: 'Nitrile Examination Gloves' },
+              { name: 'ISO 11607', description: 'Packaging for Medical Devices' },
+              { name: 'EN 14683', description: 'Medical Face Masks Standard' },
+              { name: 'GB 19083', description: 'Chinese Medical Mask Standard' },
+              { name: 'GMP Certified', description: 'Good Manufacturing Practice' },
+              { name: 'ISO 14001', description: 'Environmental Management' }
+            ].map((cert, index) => (
               <div
                 key={index}
                 className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
