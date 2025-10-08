@@ -106,7 +106,11 @@ const Products = () => {
       {/* Products Grid */}
       <section className="py-16 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4">
-          {filteredProducts.length === 0 ? (
+          {loading ? (
+            <div className="text-center py-20">
+              <p className="text-xl text-gray-600">Loading products...</p>
+            </div>
+          ) : filteredProducts.length === 0 ? (
             <div className="text-center py-20">
               <Filter className="mx-auto text-gray-400 mb-4" size={48} />
               <p className="text-xl text-gray-600">No products found matching your criteria</p>
