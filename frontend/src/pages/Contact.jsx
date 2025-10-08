@@ -76,7 +76,7 @@ const Contact = () => {
               {
                 icon: MapPin,
                 title: 'Address',
-                info: `${companyInfo.contact.address}, ${companyInfo.contact.city}, ${companyInfo.contact.country}`
+                info: `${companyInfo.contact.address}, ${companyInfo.contact.addressLine2}, ${companyInfo.contact.city}`
               },
               {
                 icon: Phone,
