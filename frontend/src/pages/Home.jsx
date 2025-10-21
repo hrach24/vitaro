@@ -137,9 +137,9 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Insulin Syringe Manufacturing Parallax Section */}
+      {/* VITARO Factory Manufacturing Parallax Section */}
       <ParallaxSection
-        imageUrl="https://images.unsplash.com/photo-1651493803684-03a332c42014?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxpbnN1bGluJTIwc3lyaW5nZXxlbnwwfHx8fDE3NjEwMjk1NjB8MA&ixlib=rb-4.1.0&q=85"
+        imageUrl="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/sa0gse2e_factory.jpg"
         height="500px"
         speed={0.5}
       >
