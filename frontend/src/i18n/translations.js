@@ -541,6 +541,25 @@ export const translations = {
     manufacturingDesc: '상하이에 있는 10,000평방미터 이상의 시설은 최첨단 자동화, 정밀 로봇 공학 및 ISO 인증 클린룸을 결합하여 국제 품질 표준을 초과하는 의료 기기를 생산합니다.',
     worldClassFacility: '세계적 수준의 제조 시설',
     facilityDesc: '중국 상하이에 위치한 최첨단 10,000평방미터 시설은 첨단 기술과 엄격한 품질 관리로 프리미엄 의료 및 치과 장비를 생산합니다.',
-    exploreOurFacility2: '시설 탐색'
+    exploreOurFacility2: '시설 탐색',
+    
+    // Product Modal
+    description: '설명',
+    keySpecifications: '주요 사양',
+    material: '재료',
+    sizes: '크기',
+    packaging: '포장',
+    
+    // About Additional
+    coreValues: '우리의 핵심 가치',
+    coreValuesDesc: '우리가 하는 모든 것을 안내하는 원칙',
+    qualityFirst: '품질 우선',
+    qualityFirstDesc: '모든 제품에서 타협 없는 표준',
+    innovation: '혁신',
+    innovationDesc: '지속적인 개선 및 발전',
+    integrity: '성실',
+    integrityDesc: '투명하고 윤리적인 비즈니스 관행',
+    customerFocus: '고객 중심',
+    customerFocusDesc: '기대를 충족하고 초과'
   }
 };
