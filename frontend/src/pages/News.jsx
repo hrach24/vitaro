@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Tag, ArrowRight } from 'lucide-react';
 import { newsAPI } from '../api';
+import { useLanguage } from '../i18n/LanguageContext';
 import {
   Dialog,
   DialogContent,
