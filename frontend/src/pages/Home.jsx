@@ -255,9 +255,9 @@ const Home = () => {
       <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-teal-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Certifications & Standards</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('certificationsStandards')}</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Our commitment to quality is reflected in our certifications
+              {t('certificationsDesc')}
             </p>
           </div>
           <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
