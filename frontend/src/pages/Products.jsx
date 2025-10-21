@@ -172,11 +172,11 @@ const Products = () => {
                   className="w-full h-64 object-cover rounded-lg"
                 />
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Description</h3>
+                  <h3 className="text-lg font-semibold mb-2">{t('description')}</h3>
                   <p className="text-gray-600">{selectedProduct.description}</p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-3">Specifications</h3>
+                  <h3 className="text-lg font-semibold mb-3">{t('keySpecifications')}</h3>
                   <div className="grid md:grid-cols-2 gap-3">
                     {Object.entries(selectedProduct.specifications).map(([key, value]) => (
                       <div key={key} className="bg-gray-50 p-3 rounded-lg">
@@ -189,7 +189,7 @@ const Products = () => {
                 <div>
                   <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
                     <Shield className="text-orange-600" size={20} />
-                    Certifications
+                    {t('certifications')}
                   </h3>
                   <div className="flex gap-2 flex-wrap">
                     {selectedProduct.certifications.map((cert, index) => (
@@ -202,10 +202,10 @@ const Products = () => {
                 <div className="flex gap-3 pt-4">
                   <Button className="flex-1 bg-orange-500 hover:bg-orange-600">
                     <Download size={18} className="mr-2" />
-                    Download Datasheet
+                    {t('downloadDatasheet')}
                   </Button>
                   <Button variant="outline" className="flex-1">
-                    Request Quote
+                    {t('requestQuote')}
                   </Button>
                 </div>
               </div>
