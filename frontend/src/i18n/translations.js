@@ -89,7 +89,59 @@ export const translations = {
     
     // Product Details
     requestQuote: 'Request Quote',
-    downloadDatasheet: 'Download Datasheet'
+    downloadDatasheet: 'Download Datasheet',
+    
+    // Stats
+    yearsExperience2: 'Years Experience',
+    countriesServed2: 'Countries Served',
+    healthcarePartners2: 'Healthcare Partners',
+    qualityGuaranteed2: 'Quality Guaranteed',
+    
+    // Featured Products Section
+    featuredProducts: 'Featured Products',
+    featuredProductsDesc: 'Explore our range of high-quality medical products designed for professional healthcare environments',
+    viewAllProducts: 'View All Products',
+    
+    // Why Choose Us
+    whyChooseVitaro: 'Why Choose VITARO',
+    whyChooseDesc: 'Committed to excellence in every aspect of medical product manufacturing',
+    qualityAssurance: 'Quality Assurance',
+    qualityAssuranceDesc: 'All products meet international standards and certifications including ISO 13485, CE, and FDA approval.',
+    globalReach: 'Global Reach',
+    globalReachDesc: 'Serving healthcare facilities in over 45 countries with reliable supply chains and logistics.',
+    innovationFocus: 'Innovation Focus',
+    innovationFocusDesc: 'Continuous research and development to bring cutting-edge medical products to market.',
+    
+    // Certifications Section
+    certificationsStandards: 'Certifications & Standards',
+    certificationsDesc: 'Our commitment to quality is reflected in our certifications',
+    
+    // CTA Section
+    readyToPartner: 'Ready to Partner With Us?',
+    readyToPartnerDesc: 'Get in touch with our team to discuss your medical supply needs and discover how VITARO can support your healthcare facility.',
+    contactSalesTeam: 'Contact Sales Team',
+    browseCatalog: 'Browse Catalog',
+    
+    // About Page
+    companyHistory: 'Company History',
+    companyStory: 'Founded in 2002, VITARO Medical has evolved from a dedicated medical supplies manufacturer to a globally recognized leader in premium medical and dental device production. For over two decades, our state-of-the-art manufacturing facility in Shanghai, China has been at the forefront of medical innovation and quality excellence.',
+    facilityDescription: 'Our 10,000+ square meter facility combines cutting-edge manufacturing technology with stringent quality control systems. We specialize in producing high-quality medical gloves, syringes, dental equipment, handpieces, and essential medical supplies that meet the demanding standards of healthcare professionals worldwide.',
+    qualityCommitment: 'From our ISO-certified cleanrooms to our advanced testing laboratories, every stage of our manufacturing process adheres to the highest international standards. We don\'t just meet regulatory requirements—we exceed them, because we understand that healthcare professionals and patients depend on the quality and consistency of our products every single day.',
+    ourTeam: 'Our Team',
+    ourTeamDesc: '500+ dedicated professionals working together to deliver excellence in healthcare solutions',
+    teamDescription: 'Our team consists of experienced healthcare professionals, quality assurance specialists, engineers, and customer service experts, all committed to manufacturing products that healthcare professionals can trust.',
+    
+    // Contact Page
+    getInTouchDesc: 'Get in touch with our team for inquiries, support, or partnership opportunities',
+    fillFormDesc: 'Fill out the form below and our team will respond within 24 hours',
+    companyNameLabel: 'Company Name',
+    jobTitleLabel: 'Job Title',
+    messageLabel: 'Message',
+    messagePlaceholder: 'Please provide details about your inquiry...',
+    
+    // Product Search
+    searchProducts: 'Search products...',
+    noProductsFound: 'No products found matching your criteria'
   },
   
   zh: {
