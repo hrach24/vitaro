@@ -155,7 +155,34 @@ export const translations = {
     privacyPolicy: '隐私政策',
     termsOfService: '服务条款',
     cookiePolicy: 'Cookie政策',
-    allRightsReserved: '版权所有'
+    allRightsReserved: '版权所有',
+    
+    // Common
+    loading: '加载中...',
+    search: '搜索',
+    filter: '筛选',
+    download: '下载',
+    submit: '提交',
+    close: '关闭',
+    
+    // News Page
+    newsAndUpdates: '新闻与更新',
+    latestNews: '了解最新消息、产品发布和行业见解',
+    readMore: '阅读更多',
+    readFullArticle: '阅读全文',
+    featured: '精选',
+    
+    // About
+    chineseKoreanJV: '中韩合资企业',
+    facilitySizeText: '平方米工厂',
+    ourMission: '我们的使命',
+    ourVision: '我们的愿景',
+    ourValues: '核心价值观',
+    certificationsCompliance: '认证与合规',
+    
+    // Product Details
+    requestQuote: '询价',
+    downloadDatasheet: '下载数据表'
   },
   
   ko: {
