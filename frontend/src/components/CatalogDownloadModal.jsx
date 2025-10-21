@@ -27,37 +27,35 @@ const CatalogDownloadModal = ({ isOpen, onClose }) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    try {
+      // Submit registration to backend
+      await catalogAPI.register(formData);
+      
+      setIsSuccess(true);
 
-    // Save registration to localStorage
-    const registrations = JSON.parse(localStorage.getItem('catalog_registrations') || '[]');
-    registrations.push({
-      ...formData,
-      timestamp: new Date().toISOString()
-    });
-    localStorage.setItem('catalog_registrations', JSON.stringify(registrations));
-
-    setIsSubmitting(false);
-    setIsSuccess(true);
-
-    // Generate and download catalog
-    setTimeout(() => {
-      generateCatalogPDF();
-      toast.success('Catalog downloaded successfully!');
+      // Generate and download catalog
       setTimeout(() => {
-        onClose();
-        setIsSuccess(false);
-        setFormData({
-          fullName: '',
-          email: '',
-          phone: '',
-          company: '',
-          country: '',
-          jobTitle: ''
-        });
-      }, 2000);
-    }, 500);
+        generateCatalogPDF();
+        toast.success('Catalog downloaded successfully!');
+        setTimeout(() => {
+          onClose();
+          setIsSuccess(false);
+          setFormData({
+            fullName: '',
+            email: '',
+            phone: '',
+            company: '',
+            country: '',
+            jobTitle: ''
+          });
+        }, 2000);
+      }, 500);
+    } catch (error) {
+      console.error('Registration error:', error);
+      toast.error('Failed to register. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const generateCatalogPDF = () => {
