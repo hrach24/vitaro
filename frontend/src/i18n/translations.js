@@ -353,7 +353,26 @@ export const translations = {
     manufacturingDesc: '我们位于上海的10,000多平方米工厂结合了尖端自动化、精密机器人技术和ISO认证的洁净室，生产超越国际质量标准的医疗设备。',
     worldClassFacility: '世界级制造工厂',
     facilityDesc: '我们位于中国上海的最先进的10,000平方米工厂，采用先进技术和严格的质量控制，生产优质医疗和牙科设备。',
-    exploreOurFacility2: '探索我们的工厂'
+    exploreOurFacility2: '探索我们的工厂',
+    
+    // Product Modal
+    description: '描述',
+    keySpecifications: '主要规格',
+    material: '材料',
+    sizes: '尺寸',
+    packaging: '包装',
+    
+    // About Additional
+    coreValues: '我们的核心价值观',
+    coreValuesDesc: '指导我们所做一切的原则',
+    qualityFirst: '质量第一',
+    qualityFirstDesc: '每个产品都坚持不妥协的标准',
+    innovation: '创新',
+    innovationDesc: '持续改进和进步',
+    integrity: '诚信',
+    integrityDesc: '透明和道德的商业实践',
+    customerFocus: '客户至上',
+    customerFocusDesc: '满足并超越期望'
   },
   
   ko: {
