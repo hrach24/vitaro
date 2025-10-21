@@ -4,6 +4,7 @@ import { toast } from 'sonner';
 import { Button } from '../components/ui/button';
 import { Textarea } from '../components/ui/textarea';
 import { contactAPI } from '../api';
+import { useLanguage } from '../i18n/LanguageContext';
 
 // Company info
 const companyInfo = {
