@@ -70,7 +70,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-slate-300 text-sm mb-4">
-              Leading manufacturer of high-quality medical and dental products. Chinese-Korean joint venture committed to healthcare excellence and innovation.
+              {t('leadingManufacturer')}
             </p>
           </div>
 
