@@ -86,10 +86,10 @@ const Header = () => {
       {/* Mobile Menu */}
       <div
         className={`lg:hidden overflow-hidden transition-all duration-300 ${
-          isMobileMenuOpen ? 'max-h-96 border-t' : 'max-h-0'
+          isMobileMenuOpen ? 'max-h-96 border-t border-blue-500' : 'max-h-0'
         }`}
       >
-        <nav className="container mx-auto px-4 py-4 bg-white">
+        <nav className="container mx-auto px-4 py-4 bg-blue-600">
           {navLinks.map((link) => (
             <Link
               key={link.path}
@@ -97,8 +97,8 @@ const Header = () => {
               onClick={() => setIsMobileMenuOpen(false)}
               className={`block px-4 py-3 rounded-lg font-medium transition-all mb-1 ${
                 location.pathname === link.path
-                  ? 'text-orange-600 bg-orange-50'
-                  : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                  ? 'text-white bg-blue-700'
+                  : 'text-blue-50 hover:text-white hover:bg-blue-700'
               }`}
             >
               {link.label}
