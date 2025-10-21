@@ -115,7 +115,7 @@ const Products = () => {
           ) : filteredProducts.length === 0 ? (
             <div className="text-center py-20">
               <Filter className="mx-auto text-gray-400 mb-4" size={48} />
-              <p className="text-xl text-gray-600">No products found matching your criteria</p>
+              <p className="text-xl text-gray-600">{t('noProductsFound')}</p>
             </div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
