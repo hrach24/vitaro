@@ -6,7 +6,7 @@ import logging
 from database import get_database, get_client
 
 # Import route modules
-from routes import products, news, contact, newsletter
+from routes import products, news, contact, newsletter, catalog
 
 # Import models for seeding
 from models import Product, NewsArticle
