@@ -62,13 +62,14 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden lg:block">
+          {/* Language Switcher & CTA Button */}
+          <div className="hidden lg:flex items-center gap-4">
+            <LanguageSwitcher />
             <Link
               to="/contact"
               className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30 hover:-translate-y-0.5"
             >
-              Get in Touch
+              {t('getInTouch')}
             </Link>
           </div>
 
