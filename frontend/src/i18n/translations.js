@@ -248,6 +248,33 @@ export const translations = {
     privacyPolicy: '개인정보 보호정책',
     termsOfService: '서비스 약관',
     cookiePolicy: '쿠키 정책',
-    allRightsReserved: '모든 권리 보유'
+    allRightsReserved: '모든 권리 보유',
+    
+    // Common
+    loading: '로딩 중...',
+    search: '검색',
+    filter: '필터',
+    download: '다운로드',
+    submit: '제출',
+    close: '닫기',
+    
+    // News Page
+    newsAndUpdates: '뉴스 및 업데이트',
+    latestNews: '최신 뉴스, 제품 출시 및 업계 인사이트를 확인하세요',
+    readMore: '더 읽기',
+    readFullArticle: '전체 기사 읽기',
+    featured: '주요',
+    
+    // About
+    chineseKoreanJV: '중국-한국 합작 투자',
+    facilitySizeText: '평방미터 시설',
+    ourMission: '우리의 미션',
+    ourVision: '우리의 비전',
+    ourValues: '핵심 가치',
+    certificationsCompliance: '인증 및 규정 준수',
+    
+    // Product Details
+    requestQuote: '견적 요청',
+    downloadDatasheet: '데이터시트 다운로드'
   }
 };
