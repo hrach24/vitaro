@@ -63,9 +63,9 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <img
-              src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/etcyq21f_IMG_3124.jpeg"
+              src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/2rb9vcpa_IMG_3131.jpeg"
               alt="VITARO Medical"
-              className="h-10 w-auto mb-4 mix-blend-lighten"
+              className="h-12 w-auto mb-4"
               style={{ filter: 'brightness(0) invert(1)' }}
             />
             <p className="text-slate-300 text-sm mb-4">
