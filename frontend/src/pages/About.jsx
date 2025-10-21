@@ -63,7 +63,7 @@ const About = () => {
               <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
                 <Target className="text-orange-600" size={28} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('ourMission')}</h3>
               <p className="text-gray-600 leading-relaxed">
                 {companyInfo.mission}
               </p>
