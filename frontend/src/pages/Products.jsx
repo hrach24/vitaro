@@ -85,7 +85,7 @@ const Products = () => {
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
-                All Products
+                {t('allProducts')}
               </button>
               {categories.map((cat) => (
                 <button
