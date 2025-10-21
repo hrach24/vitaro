@@ -310,7 +310,31 @@ export const translations = {
     
     // Product Search
     searchProducts: '搜索产品...',
-    noProductsFound: '未找到符合您条件的产品'
+    noProductsFound: '未找到符合您条件的产品',
+    
+    // Footer Additional
+    leadingManufacturer: '高品质医疗和牙科产品的领先制造商。中韩合资企业致力于医疗卓越和创新。',
+    enterYourEmail: '输入您的电子邮件',
+    thankYouSubscribe: '感谢您订阅我们的新闻通讯！',
+    failedToSubscribe: '订阅失败。请重试。',
+    medicalGloves: '医用手套',
+    faceMasks: '口罩',
+    disposableMaterials: '一次性材料',
+    medicalSupplies: '医疗用品',
+    dentalEquipment: '牙科设备',
+    dentalHandpieces: '牙科手机',
+    dentalImaging: '牙科成像',
+    
+    // Contact Form
+    thankYouContact: '感谢您与我们联系！我们将尽快回复您。',
+    failedToSubmit: '提交失败。请重试。',
+    
+    // Parallax Sections
+    precisionManufacturing: '精密制造卓越',
+    manufacturingDesc: '我们位于上海的10,000多平方米工厂结合了尖端自动化、精密机器人技术和ISO认证的洁净室，生产超越国际质量标准的医疗设备。',
+    worldClassFacility: '世界级制造工厂',
+    facilityDesc: '我们位于中国上海的最先进的10,000平方米工厂，采用先进技术和严格的质量控制，生产优质医疗和牙科设备。',
+    exploreOurFacility2: '探索我们的工厂'
   },
   
   ko: {
