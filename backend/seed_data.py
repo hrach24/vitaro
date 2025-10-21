@@ -104,9 +104,7 @@ products_data = [
             "packaging": "Individually blister packed"
         },
         "certifications": ["CE", "ISO 7886", "ISO 13485"]
-    }
-]
-
+    },
     {
         "name": "Dental Chair",
         "category": "Dental Equipment",
