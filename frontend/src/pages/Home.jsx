@@ -94,10 +94,10 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { value: '15+', label: 'Years Experience' },
-              { value: '45+', label: 'Countries Served' },
-              { value: '500+', label: 'Healthcare Partners' },
-              { value: '100%', label: 'Quality Guaranteed' }
+              { value: '23+', label: t('yearsExperience2') },
+              { value: '45+', label: t('countriesServed2') },
+              { value: '500+', label: t('healthcarePartners2') },
+              { value: '100%', label: t('qualityGuaranteed2') }
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <p className="text-4xl lg:text-5xl font-bold text-orange-600 mb-2">{stat.value}</p>
