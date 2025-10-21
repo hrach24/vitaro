@@ -274,20 +274,20 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Dental Handpiece Manufacturing Parallax Section */}
+      {/* Manufacturing Building Parallax Section */}
       <ParallaxSection
-        imageUrl="https://images.unsplash.com/photo-1747999060057-89b7a533f347"
+        imageUrl="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/2rb9vcpa_IMG_3131.jpeg"
         height="450px"
         speed={0.6}
       >
         <div className="container mx-auto px-4 h-full flex items-center justify-center">
           <div className="max-w-4xl text-center text-white">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
-              Advanced Dental Equipment Production
+              World-Class Manufacturing Facility
             </h2>
             <p className="text-xl mb-8 drop-shadow-lg leading-relaxed">
-              From precision dental handpieces to advanced imaging systems, our manufacturing 
-              facility delivers innovative dental equipment trusted by professionals worldwide.
+              Located in Shanghai, China, our state-of-the-art 10,000 sqm facility produces 
+              premium medical and dental equipment with advanced technology and rigorous quality control.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
               <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
