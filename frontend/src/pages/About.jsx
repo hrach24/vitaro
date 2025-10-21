@@ -35,23 +35,20 @@ const About = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('ourStory')}</h2>
               <div className="bg-orange-50 border-l-4 border-orange-500 p-4 mb-6 rounded-r-lg">
                 <p className="text-orange-900 font-semibold">
-                  🇨🇳🇰🇷 VITARO Medical is a <strong>Chinese-Korean joint venture</strong>, combining advanced manufacturing expertise from both nations to deliver world-class medical and dental equipment.
+                  🇨🇳🇰🇷 {t('chineseKoreanJointVenture')}
                 </p>
               </div>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Founded in <strong>2002</strong>, VITARO Medical has evolved from a dedicated medical supplies manufacturer to a globally recognized leader in premium medical and dental device production. For over two decades, our state-of-the-art manufacturing facility in Shanghai, China has been at the forefront of medical innovation and quality excellence.
+                {t('companyStory')}
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Our 10,000+ square meter facility combines cutting-edge manufacturing technology with stringent quality control systems. We specialize in producing high-quality medical gloves, syringes, dental equipment, handpieces, and essential medical supplies that meet the demanding standards of healthcare professionals worldwide.
-              </p>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                Today, we serve healthcare facilities in over {companyInfo.countries} countries, employing {companyInfo.employees} dedicated professionals who share our vision of advancing healthcare through superior medical products. Our commitment to research and development ensures that every product bearing the VITARO name represents the pinnacle of safety, reliability, and performance.
+                {t('facilityDescription')}
               </p>
               <p className="text-gray-600 leading-relaxed">
-                From our ISO-certified cleanrooms to our advanced testing laboratories, every stage of our manufacturing process adheres to the highest international standards. We don't just meet regulatory requirements—we exceed them, because we understand that healthcare professionals and patients depend on the quality and consistency of our products every single day.
+                {t('qualityCommitment')}
               </p>
             </div>
           </div>
