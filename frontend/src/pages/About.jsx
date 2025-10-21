@@ -4,6 +4,8 @@ import { companyInfo } from '../mock';
 import { useLanguage } from '../i18n/LanguageContext';
 
 const About = () => {
+  const { t } = useLanguage();
+  
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
