@@ -316,22 +316,22 @@ const Home = () => {
       <section className="py-20 bg-gradient-to-r from-orange-500 to-orange-600">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center text-white">
-            <h2 className="text-4xl font-bold mb-6">Ready to Partner With Us?</h2>
+            <h2 className="text-4xl font-bold mb-6">{t('readyToPartner')}</h2>
             <p className="text-xl mb-8 opacity-95">
-              Get in touch with our team to discuss your medical supply needs and discover how VITARO can support your healthcare facility.
+              {t('readyToPartnerDesc')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/contact"
                 className="px-8 py-4 bg-white text-orange-600 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-300 hover:shadow-2xl hover:-translate-y-0.5"
               >
-                Contact Sales Team
+                {t('contactSalesTeam')}
               </Link>
               <Link
                 to="/products"
                 className="px-8 py-4 bg-orange-700 text-white font-semibold rounded-lg hover:bg-orange-800 transition-all duration-300 border-2 border-white/20"
               >
-                Browse Catalog
+                {t('browseCatalog')}
               </Link>
             </div>
           </div>
