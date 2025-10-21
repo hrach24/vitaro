@@ -335,6 +335,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Catalog Download Modal */}
+      <CatalogDownloadModal 
+        isOpen={isCatalogModalOpen} 
+        onClose={() => setIsCatalogModalOpen(false)} 
+      />
     </div>
   );
 };
