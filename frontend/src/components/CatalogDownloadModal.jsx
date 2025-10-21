@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { X, Download, CheckCircle } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from './ui/button';
+import { catalogAPI } from '../api';
 
 const CatalogDownloadModal = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
