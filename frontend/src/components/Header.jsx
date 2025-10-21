@@ -38,7 +38,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="bg-blue-200 px-3 py-2 rounded">
               <img
-                src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/etcyq21f_IMG_3124.jpeg"
+                src="https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/dvtojdqy_photo_6278288193371180170_y%20%281%29.jpg"
                 alt="VITARO Medical"
                 className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
               />
