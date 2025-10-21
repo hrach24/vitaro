@@ -98,7 +98,7 @@ const ProductCarousel = ({ products }) => {
                     to="/products"
                     className="text-orange-600 font-semibold flex items-center gap-1 hover:gap-2 transition-all"
                   >
-                    View Details
+                    {t('viewDetails')}
                     <ArrowRight size={16} />
                   </Link>
                 </div>
