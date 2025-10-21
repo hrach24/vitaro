@@ -14,6 +14,7 @@ const News = () => {
   const [selectedArticle, setSelectedArticle] = useState(null);
   const [selectedFilter, setSelectedFilter] = useState('All');
   const [loading, setLoading] = useState(true);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const fetchNews = async () => {
