@@ -139,7 +139,7 @@ const Home = () => {
 
       {/* VITARO Factory Manufacturing Parallax Section */}
       <ParallaxSection
-        imageUrl="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/sa0gse2e_factory.jpg"
+        imageUrl="https://images.unsplash.com/photo-1655393001768-d946c97d6fd1"
         height="500px"
         speed={0.5}
       >
