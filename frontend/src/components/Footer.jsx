@@ -40,7 +40,7 @@ const Footer = () => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email"
+                  placeholder={t('enterYourEmail')}
                   className="w-full pl-11 pr-4 py-3 rounded-lg bg-slate-800 border border-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
                   required
                 />
@@ -50,7 +50,7 @@ const Footer = () => {
                 className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 flex items-center gap-2 hover:shadow-lg hover:shadow-orange-500/30"
               >
                 <Send size={18} />
-                Subscribe
+                {t('subscribe')}
               </button>
             </form>
           </div>
