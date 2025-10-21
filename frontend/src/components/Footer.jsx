@@ -114,7 +114,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
+            <h4 className="text-lg font-semibold mb-4">{t('contactUs')}</h4>
             <ul className="space-y-3 text-slate-300 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin size={18} className="text-orange-400 flex-shrink-0 mt-0.5" />
