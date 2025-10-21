@@ -158,7 +158,7 @@ const Home = () => {
               to="/products"
               className="inline-flex items-center gap-2 px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30"
             >
-              View All Products
+              {t('viewAllProducts')}
               <ArrowRight size={20} />
             </Link>
           </div>
