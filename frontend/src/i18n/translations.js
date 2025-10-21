@@ -479,6 +479,30 @@ export const translations = {
     
     // Product Search
     searchProducts: '제품 검색...',
-    noProductsFound: '기준과 일치하는 제품을 찾을 수 없습니다'
+    noProductsFound: '기준과 일치하는 제품을 찾을 수 없습니다',
+    
+    // Footer Additional
+    leadingManufacturer: '고품질 의료 및 치과 제품의 선도적인 제조업체. 헬스케어 우수성과 혁신에 전념하는 중국-한국 합작 투자.',
+    enterYourEmail: '이메일을 입력하세요',
+    thankYouSubscribe: '뉴스레터 구독 감사합니다!',
+    failedToSubscribe: '구독에 실패했습니다. 다시 시도하세요.',
+    medicalGloves: '의료용 장갑',
+    faceMasks: '마스크',
+    disposableMaterials: '일회용 재료',
+    medicalSupplies: '의료 용품',
+    dentalEquipment: '치과 장비',
+    dentalHandpieces: '치과 핸드피스',
+    dentalImaging: '치과 이미징',
+    
+    // Contact Form
+    thankYouContact: '문의해 주셔서 감사합니다! 곧 연락드리겠습니다.',
+    failedToSubmit: '제출에 실패했습니다. 다시 시도하세요.',
+    
+    // Parallax Sections
+    precisionManufacturing: '정밀 제조 우수성',
+    manufacturingDesc: '상하이에 있는 10,000평방미터 이상의 시설은 최첨단 자동화, 정밀 로봇 공학 및 ISO 인증 클린룸을 결합하여 국제 품질 표준을 초과하는 의료 기기를 생산합니다.',
+    worldClassFacility: '세계적 수준의 제조 시설',
+    facilityDesc: '중국 상하이에 위치한 최첨단 10,000평방미터 시설은 첨단 기술과 엄격한 품질 관리로 프리미엄 의료 및 치과 장비를 생산합니다.',
+    exploreOurFacility2: '시설 탐색'
   }
 };
