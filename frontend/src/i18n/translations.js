@@ -62,7 +62,34 @@ export const translations = {
     privacyPolicy: 'Privacy Policy',
     termsOfService: 'Terms of Service',
     cookiePolicy: 'Cookie Policy',
-    allRightsReserved: 'All rights reserved'
+    allRightsReserved: 'All rights reserved',
+    
+    // Common
+    loading: 'Loading...',
+    search: 'Search',
+    filter: 'Filter',
+    download: 'Download',
+    submit: 'Submit',
+    close: 'Close',
+    
+    // News Page
+    newsAndUpdates: 'News & Updates',
+    latestNews: 'Stay informed with the latest news, product launches, and industry insights',
+    readMore: 'Read More',
+    readFullArticle: 'Read Full Article',
+    featured: 'Featured',
+    
+    // About
+    chineseKoreanJV: 'Chinese-Korean Joint Venture',
+    facilitySizeText: 'square meter facility',
+    ourMission: 'Our Mission',
+    ourVision: 'Our Vision',
+    ourValues: 'Our Core Values',
+    certificationsCompliance: 'Certifications & Compliance',
+    
+    // Product Details
+    requestQuote: 'Request Quote',
+    downloadDatasheet: 'Download Datasheet'
   },
   
   zh: {
