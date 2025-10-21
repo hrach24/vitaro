@@ -29,9 +29,9 @@ const Footer = () => {
       <div className="border-b border-slate-700">
         <div className="container mx-auto px-4 py-12">
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-2xl font-bold mb-3">Stay Updated</h3>
+            <h3 className="text-2xl font-bold mb-3">{t('stayUpdated')}</h3>
             <p className="text-slate-300 mb-6">
-              Subscribe to our newsletter for the latest news and product updates
+              {t('newsletterDescription')}
             </p>
             <form onSubmit={handleNewsletterSubmit} className="flex gap-3 max-w-md mx-auto">
               <div className="flex-1 relative">
