@@ -379,6 +379,58 @@ export const translations = {
     
     // Product Details
     requestQuote: '견적 요청',
-    downloadDatasheet: '데이터시트 다운로드'
+    downloadDatasheet: '데이터시트 다운로드',
+    
+    // Stats
+    yearsExperience2: '년 경험',
+    countriesServed2: '서비스 국가',
+    healthcarePartners2: '헬스케어 파트너',
+    qualityGuaranteed2: '품질 보증',
+    
+    // Featured Products Section
+    featuredProducts: '주요 제품',
+    featuredProductsDesc: '전문 의료 환경을 위해 설계된 고품질 의료 제품 범위를 탐색하세요',
+    viewAllProducts: '모든 제품 보기',
+    
+    // Why Choose Us
+    whyChooseVitaro: 'VITARO를 선택하는 이유',
+    whyChooseDesc: '의료 제품 제조의 모든 측면에서 우수성에 전념',
+    qualityAssurance: '품질 보증',
+    qualityAssuranceDesc: '모든 제품은 ISO 13485, CE 및 FDA 승인을 포함한 국제 표준 및 인증을 충족합니다.',
+    globalReach: '글로벌 도달',
+    globalReachDesc: '신뢰할 수 있는 공급망 및 물류로 45개 이상의 국가에서 의료 시설을 제공합니다.',
+    innovationFocus: '혁신 중심',
+    innovationFocusDesc: '최첨단 의료 제품을 시장에 출시하기 위한 지속적인 연구 개발.',
+    
+    // Certifications Section
+    certificationsStandards: '인증 및 표준',
+    certificationsDesc: '품질에 대한 우리의 약속은 인증에 반영됩니다',
+    
+    // CTA Section
+    readyToPartner: '파트너 준비가 되셨나요?',
+    readyToPartnerDesc: '의료 공급 요구 사항을 논의하고 VITARO가 의료 시설을 어떻게 지원할 수 있는지 알아보려면 팀에 문의하세요.',
+    contactSalesTeam: '영업팀 문의',
+    browseCatalog: '카탈로그 찾아보기',
+    
+    // About Page
+    companyHistory: '회사 연혁',
+    companyStory: '2002년에 설립된 VITARO Medical은 전문 의료 용품 제조업체에서 프리미엄 의료 및 치과 장비 생산의 세계적으로 인정받는 리더로 발전했습니다. 20년 이상 중국 상하이에 있는 최첨단 제조 시설은 의료 혁신과 품질 우수성의 최전선에 있었습니다.',
+    facilityDescription: '10,000평방미터 이상의 시설은 최첨단 제조 기술과 엄격한 품질 관리 시스템을 결합합니다. 우리는 전 세계 의료 전문가의 까다로운 표준을 충족하는 고품질 의료 장갑, 주사기, 치과 장비, 핸드피스 및 필수 의료 용품 생산을 전문으로 합니다.',
+    qualityCommitment: 'ISO 인증 클린룸에서 첨단 테스트 실험실에 이르기까지 제조 공정의 모든 단계는 최고의 국제 표준을 준수합니다. 의료 전문가와 환자가 매일 제품의 품질과 일관성에 의존한다는 것을 이해하기 때문에 규정 요구 사항을 충족할 뿐만 아니라 초과합니다.',
+    ourTeam: '우리 팀',
+    ourTeamDesc: '500명 이상의 전문가가 함께 헬스케어 솔루션의 우수성을 제공합니다',
+    teamDescription: '우리 팀은 경험이 풍부한 의료 전문가, 품질 보증 전문가, 엔지니어 및 고객 서비스 전문가로 구성되어 있으며 모두 의료 전문가가 신뢰할 수 있는 제품을 제조하는 데 전념하고 있습니다.',
+    
+    // Contact Page
+    getInTouchDesc: '문의, 지원 또는 파트너십 기회에 대해 팀에 문의하세요',
+    fillFormDesc: '아래 양식을 작성하시면 팀이 24시간 이내에 응답합니다',
+    companyNameLabel: '회사 이름',
+    jobTitleLabel: '직위',
+    messageLabel: '메시지',
+    messagePlaceholder: '문의에 대한 세부 정보를 제공하세요...',
+    
+    // Product Search
+    searchProducts: '제품 검색...',
+    noProductsFound: '기준과 일치하는 제품을 찾을 수 없습니다'
   }
 };
