@@ -17,7 +17,7 @@ const Home = () => {
     const fetchProducts = async () => {
       try {
         const data = await productsAPI.getAll();
-        setFeaturedProducts(data.slice(0, 4));
+        setFeaturedProducts(data); // Get all products for carousel
       } catch (error) {
         console.error('Error fetching products:', error);
       } finally {
