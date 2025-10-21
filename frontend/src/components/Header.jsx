@@ -36,13 +36,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="bg-white px-3 py-1 rounded">
-              <img
-                src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/etcyq21f_IMG_3124.jpeg"
-                alt="VITARO Medical"
-                className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
-              />
-            </div>
+            <img
+              src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/etcyq21f_IMG_3124.jpeg"
+              alt="VITARO Medical"
+              className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
+            />
           </Link>
 
           {/* Desktop Navigation */}
