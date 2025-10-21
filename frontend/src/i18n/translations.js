@@ -165,7 +165,26 @@ export const translations = {
     manufacturingDesc: 'Our 10,000+ square meter facility in Shanghai combines cutting-edge automation, precision robotics, and ISO-certified cleanrooms to produce medical devices that exceed international quality standards.',
     worldClassFacility: 'World-Class Manufacturing Facility',
     facilityDesc: 'Located in Shanghai, China, our state-of-the-art 10,000 sqm facility produces premium medical and dental equipment with advanced technology and rigorous quality control.',
-    exploreOurFacility2: 'Explore Our Facility'
+    exploreOurFacility2: 'Explore Our Facility',
+    
+    // Product Modal
+    description: 'Description',
+    keySpecifications: 'Key Specifications',
+    material: 'Material',
+    sizes: 'Sizes',
+    packaging: 'Packaging',
+    
+    // About Additional
+    coreValues: 'Our Core Values',
+    coreValuesDesc: 'The principles that guide everything we do',
+    qualityFirst: 'Quality First',
+    qualityFirstDesc: 'Uncompromising standards in every product',
+    innovation: 'Innovation',
+    innovationDesc: 'Continuous improvement and advancement',
+    integrity: 'Integrity',
+    integrityDesc: 'Transparency and ethical business practices',
+    customerFocus: 'Customer Focus',
+    customerFocusDesc: 'Meeting and exceeding expectations'
   },
   
   zh: {
