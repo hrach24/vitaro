@@ -68,26 +68,8 @@ const Footer = () => {
               className="h-12 w-auto mb-4 brightness-0 invert"
             />
             <p className="text-slate-300 text-sm mb-4">
-              Leading manufacturer of high-quality medical products, committed to healthcare excellence and innovation.
+              Leading manufacturer of high-quality medical and dental products. Chinese-Korean joint venture committed to healthcare excellence and innovation.
             </p>
-            <div className="flex gap-3">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 bg-slate-800 rounded-lg hover:bg-orange-500 transition-colors"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 bg-slate-800 rounded-lg hover:bg-orange-500 transition-colors"
-              >
-                <Linkedin size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
