@@ -1,6 +1,7 @@
 import React from 'react';
 import { Award, Users, Target, TrendingUp, CheckCircle } from 'lucide-react';
 import { companyInfo } from '../mock';
+import { useLanguage } from '../i18n/LanguageContext';
 
 const About = () => {
   return (
