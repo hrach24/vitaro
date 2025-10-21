@@ -137,14 +137,14 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-400">
             <p>© 2025 VITARO Medical. All rights reserved.</p>
             <div className="flex gap-6">
-              <Link to="#" className="hover:text-orange-400 transition-colors">
-                Privacy Policy
+              <Link to="/privacy-policy" className="hover:text-orange-400 transition-colors">
+                {t('privacyPolicy')}
               </Link>
-              <Link to="#" className="hover:text-orange-400 transition-colors">
-                Terms of Service
+              <Link to="/terms-of-service" className="hover:text-orange-400 transition-colors">
+                {t('termsOfService')}
               </Link>
-              <Link to="#" className="hover:text-orange-400 transition-colors">
-                Cookie Policy
+              <Link to="/cookie-policy" className="hover:text-orange-400 transition-colors">
+                {t('cookiePolicy')}
               </Link>
             </div>
           </div>
