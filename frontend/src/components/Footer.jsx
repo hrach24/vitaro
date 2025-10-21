@@ -62,11 +62,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <img
-              src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/etcyq21f_IMG_3124.jpeg"
-              alt="VITARO Medical"
-              className="h-12 w-auto mb-4 brightness-0 invert"
-            />
+            <div className="bg-white px-3 py-2 rounded inline-block mb-4">
+              <img
+                src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/etcyq21f_IMG_3124.jpeg"
+                alt="VITARO Medical"
+                className="h-10 w-auto"
+              />
+            </div>
             <p className="text-slate-300 text-sm mb-4">
               Leading manufacturer of high-quality medical and dental products. Chinese-Korean joint venture committed to healthcare excellence and innovation.
             </p>
