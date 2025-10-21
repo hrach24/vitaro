@@ -4,6 +4,7 @@ import { ArrowRight, Shield, Award, Globe, CheckCircle, Download } from 'lucide-
 import { productsAPI } from '../api';
 import ParallaxSection from '../components/ParallaxSection';
 import CatalogDownloadModal from '../components/CatalogDownloadModal';
+import ProductCarousel from '../components/ProductCarousel';
 import { useLanguage } from '../i18n/LanguageContext';
 
 const Home = () => {
