@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-white'
+        isScrolled ? 'bg-blue-600/95 backdrop-blur-md shadow-lg' : 'bg-blue-600'
       }`}
     >
       <div className="container mx-auto px-4">
@@ -53,8 +53,8 @@ const Header = () => {
                 to={link.path}
                 className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 ${
                   location.pathname === link.path
-                    ? 'text-orange-600 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-600 hover:bg-orange-50'
+                    ? 'text-white bg-blue-700'
+                    : 'text-blue-50 hover:text-white hover:bg-blue-700'
                 }`}
               >
                 {link.label}
