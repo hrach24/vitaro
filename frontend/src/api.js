@@ -48,3 +48,11 @@ export const newsletterAPI = {
     return response.data;
   }
 };
+
+// Catalog API
+export const catalogAPI = {
+  register: async (registrationData) => {
+    const response = await axios.post(`${API}/catalog/register`, registrationData);
+    return response.data;
+  }
+};
