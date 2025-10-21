@@ -4,7 +4,7 @@ from datetime import datetime
 from database import db
 import uuid
 
-router = APIRouter()
+router = APIRouter(prefix="/api/catalog", tags=["catalog"])
 
 class CatalogRegistration(BaseModel):
     fullName: str
