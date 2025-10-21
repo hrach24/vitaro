@@ -103,12 +103,12 @@ const Footer = () => {
 
           {/* Products */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Product Categories</h4>
+            <h4 className="text-lg font-semibold mb-4">{t('productCategories')}</h4>
             <ul className="space-y-2 text-slate-300 text-sm">
-              <li className="hover:text-orange-400 transition-colors cursor-pointer">Medical Gloves</li>
-              <li className="hover:text-orange-400 transition-colors cursor-pointer">Face Masks</li>
-              <li className="hover:text-orange-400 transition-colors cursor-pointer">Disposable Materials</li>
-              <li className="hover:text-orange-400 transition-colors cursor-pointer">Medical Supplies</li>
+              <li className="hover:text-orange-400 transition-colors cursor-pointer">{t('medicalGloves')}</li>
+              <li className="hover:text-orange-400 transition-colors cursor-pointer">{t('faceMasks')}</li>
+              <li className="hover:text-orange-400 transition-colors cursor-pointer">{t('disposableMaterials')}</li>
+              <li className="hover:text-orange-400 transition-colors cursor-pointer">{t('dentalEquipment')}</li>
             </ul>
           </div>
 
