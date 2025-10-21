@@ -62,13 +62,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <div className="bg-slate-800 px-3 py-2 rounded inline-block mb-4">
-              <img
-                src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/etcyq21f_IMG_3124.jpeg"
-                alt="VITARO Medical"
-                className="h-10 w-auto"
-              />
-            </div>
+            <img
+              src="https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/sn5vj0hl_photo_6278288193371180170_y%20%282%29.jpg"
+              alt="VITARO Medical"
+              className="h-10 w-auto mb-4"
+            />
             <p className="text-slate-300 text-sm mb-4">
               {t('leadingManufacturer')}
             </p>
