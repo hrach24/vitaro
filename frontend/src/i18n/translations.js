@@ -141,7 +141,31 @@ export const translations = {
     
     // Product Search
     searchProducts: 'Search products...',
-    noProductsFound: 'No products found matching your criteria'
+    noProductsFound: 'No products found matching your criteria',
+    
+    // Footer Additional
+    leadingManufacturer: 'Leading manufacturer of high-quality medical and dental products. Chinese-Korean joint venture committed to healthcare excellence and innovation.',
+    enterYourEmail: 'Enter your email',
+    thankYouSubscribe: 'Thank you for subscribing to our newsletter!',
+    failedToSubscribe: 'Failed to subscribe. Please try again.',
+    medicalGloves: 'Medical Gloves',
+    faceMasks: 'Face Masks',
+    disposableMaterials: 'Disposable Materials',
+    medicalSupplies: 'Medical Supplies',
+    dentalEquipment: 'Dental Equipment',
+    dentalHandpieces: 'Dental Handpieces',
+    dentalImaging: 'Dental Imaging',
+    
+    // Contact Form
+    thankYouContact: 'Thank you for contacting us! We will get back to you soon.',
+    failedToSubmit: 'Failed to submit your message. Please try again.',
+    
+    // Parallax Sections
+    precisionManufacturing: 'Precision Manufacturing Excellence',
+    manufacturingDesc: 'Our 10,000+ square meter facility in Shanghai combines cutting-edge automation, precision robotics, and ISO-certified cleanrooms to produce medical devices that exceed international quality standards.',
+    worldClassFacility: 'World-Class Manufacturing Facility',
+    facilityDesc: 'Located in Shanghai, China, our state-of-the-art 10,000 sqm facility produces premium medical and dental equipment with advanced technology and rigorous quality control.',
+    exploreOurFacility2: 'Explore Our Facility'
   },
   
   zh: {
