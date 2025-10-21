@@ -54,13 +54,13 @@ const Home = () => {
                   Explore Products
                   <ArrowRight size={20} />
                 </Link>
-                <Link
-                  to="/contact"
+                <button
+                  onClick={() => setIsCatalogModalOpen(true)}
                   className="px-8 py-4 bg-white text-gray-700 font-semibold rounded-lg border-2 border-gray-200 hover:border-orange-500 hover:text-orange-600 transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   <Download size={20} />
                   Download Catalog
-                </Link>
+                </button>
               </div>
             </div>
             <div className="relative">
