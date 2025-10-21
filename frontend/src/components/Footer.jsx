@@ -7,6 +7,7 @@ import { useLanguage } from '../i18n/LanguageContext';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
+  const { t } = useLanguage();
 
   const handleNewsletterSubmit = async (e) => {
     e.preventDefault();
