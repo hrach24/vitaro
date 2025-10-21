@@ -180,14 +180,10 @@ metadata:
   run_ui: true
 
 test_plan:
-  current_focus:
-    - "Catalog Registration Endpoint"
-    - "Product Modal Translations"
-    - "Catalog Download Modal Integration"
-    - "First Parallax Image Update"
+  current_focus: []
   stuck_tasks: []
-  test_all: true
-  test_priority: "high_first"
+  test_all: false
+  test_priority: "completed"
 
 agent_communication:
   - agent: "main"
