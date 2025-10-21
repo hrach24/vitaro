@@ -146,12 +146,10 @@ const Home = () => {
         <div className="container mx-auto px-4 h-full flex items-center">
           <div className="max-w-3xl text-white">
             <h2 className="text-5xl font-bold mb-6 drop-shadow-lg">
-              Precision Insulin Syringe Manufacturing
+              {t('precisionManufacturing')}
             </h2>
             <p className="text-xl mb-8 drop-shadow-lg leading-relaxed">
-              Our 10,000+ square meter facility in Shanghai combines cutting-edge automation, 
-              precision robotics, and ISO-certified cleanrooms to produce medical devices 
-              that exceed international quality standards.
+              {t('manufacturingDesc')}
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               <div className="bg-white/10 backdrop-blur-md px-6 py-4 rounded-lg border border-white/20">
