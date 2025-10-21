@@ -169,7 +169,7 @@ const Home = () => {
               to="/about"
               className="inline-flex items-center gap-2 px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/50 hover:-translate-y-0.5"
             >
-              Explore Our Facility
+              {t('exploreOurFacility2')}
               <ArrowRight size={20} />
             </Link>
           </div>
