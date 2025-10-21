@@ -210,27 +210,27 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose VITARO</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('whyChooseVitaro')}</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Committed to excellence in every aspect of medical product manufacturing
+              {t('whyChooseDesc')}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 icon: Shield,
-                title: 'Quality Assurance',
-                description: 'All products meet international standards and certifications including ISO 13485, CE, and FDA approval.'
+                title: t('qualityAssurance'),
+                description: t('qualityAssuranceDesc')
               },
               {
                 icon: Globe,
-                title: 'Global Reach',
-                description: 'Serving healthcare facilities in over 45 countries with reliable supply chains and logistics.'
+                title: t('globalReach'),
+                description: t('globalReachDesc')
               },
               {
                 icon: Award,
-                title: 'Innovation Focus',
-                description: 'Continuous research and development to bring cutting-edge medical products to market.'
+                title: t('innovationFocus'),
+                description: t('innovationFocusDesc')
               }
             ].map((feature, index) => {
               const Icon = feature.icon;
