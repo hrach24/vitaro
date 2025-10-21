@@ -110,7 +110,7 @@ const Products = () => {
         <div className="container mx-auto px-4">
           {loading ? (
             <div className="text-center py-20">
-              <p className="text-xl text-gray-600">Loading products...</p>
+              <p className="text-xl text-gray-600">{t('loading')}</p>
             </div>
           ) : filteredProducts.length === 0 ? (
             <div className="text-center py-20">
