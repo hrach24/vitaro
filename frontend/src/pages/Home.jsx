@@ -163,16 +163,16 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Syringe Manufacturing Parallax Section */}
+      {/* Insulin Syringe Manufacturing Parallax Section */}
       <ParallaxSection
-        imageUrl="https://images.pexels.com/photos/5995162/pexels-photo-5995162.jpeg"
+        imageUrl="https://images.unsplash.com/photo-1651493803684-03a332c42014?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxpbnN1bGluJTIwc3lyaW5nZXxlbnwwfHx8fDE3NjEwMjk1NjB8MA&ixlib=rb-4.1.0&q=85"
         height="500px"
         speed={0.5}
       >
         <div className="container mx-auto px-4 h-full flex items-center">
           <div className="max-w-3xl text-white">
             <h2 className="text-5xl font-bold mb-6 drop-shadow-lg">
-              Precision Syringe Manufacturing
+              Precision Insulin Syringe Manufacturing
             </h2>
             <p className="text-xl mb-8 drop-shadow-lg leading-relaxed">
               Our 10,000+ square meter facility in Shanghai combines cutting-edge automation, 
