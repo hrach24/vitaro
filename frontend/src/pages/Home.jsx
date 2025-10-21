@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Shield, Award, Globe, CheckCircle, Download } from 'lucide-react';
 import { productsAPI } from '../api';
 import ParallaxSection from '../components/ParallaxSection';
+import CatalogDownloadModal from '../components/CatalogDownloadModal';
 
 const Home = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [isCatalogModalOpen, setIsCatalogModalOpen] = useState(false);
 
   useEffect(() => {
     const fetchProducts = async () => {
