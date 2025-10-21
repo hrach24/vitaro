@@ -37,9 +37,9 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <img
-              src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/etcyq21f_IMG_3124.jpeg"
+              src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/2rb9vcpa_IMG_3131.jpeg"
               alt="VITARO Medical"
-              className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
+              className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 
