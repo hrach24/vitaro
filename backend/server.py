@@ -32,6 +32,7 @@ app.include_router(products.router)
 app.include_router(news.router)
 app.include_router(contact.router)
 app.include_router(newsletter.router)
+app.include_router(catalog.router)
 app.include_router(api_router)
 
 app.add_middleware(
