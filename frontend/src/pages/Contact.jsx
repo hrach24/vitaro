@@ -20,6 +20,7 @@ const companyInfo = {
 };
 
 const Contact = () => {
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
