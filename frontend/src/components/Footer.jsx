@@ -137,7 +137,7 @@ const Footer = () => {
       <div className="border-t border-slate-700">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-400">
-            <p>© 2025 VITARO Medical. All rights reserved.</p>
+            <p>© 2025 VITARO Medical. {t('allRightsReserved')}</p>
             <div className="flex gap-6">
               <Link to="/privacy-policy" className="hover:text-orange-400 transition-colors">
                 {t('privacyPolicy')}
