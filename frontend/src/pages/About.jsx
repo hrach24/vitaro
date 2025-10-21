@@ -12,9 +12,9 @@ const About = () => {
       <section className="relative pt-32 pb-16 bg-gradient-to-br from-blue-50 via-white to-teal-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">About VITARO Medical</h1>
+            <h1 className="text-5xl font-bold text-gray-900 mb-6">{t('aboutVitaro')}</h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              {companyInfo.tagline}
+              {t('innovationInHealthcare')} {t('healthcareSolutions')}
             </p>
           </div>
         </div>
