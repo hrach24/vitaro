@@ -248,9 +248,9 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Manufacturing Building Parallax Section */}
+      {/* VITARO Factory Building Parallax Section */}
       <ParallaxSection
-        imageUrl="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/2rb9vcpa_IMG_3131.jpeg"
+        imageUrl="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/f25xm6yq_factory1.jpg"
         height="450px"
         speed={0.6}
       >
