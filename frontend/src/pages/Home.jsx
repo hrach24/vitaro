@@ -4,11 +4,13 @@ import { ArrowRight, Shield, Award, Globe, CheckCircle, Download } from 'lucide-
 import { productsAPI } from '../api';
 import ParallaxSection from '../components/ParallaxSection';
 import CatalogDownloadModal from '../components/CatalogDownloadModal';
+import { useLanguage } from '../i18n/LanguageContext';
 
 const Home = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [isCatalogModalOpen, setIsCatalogModalOpen] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const fetchProducts = async () => {
