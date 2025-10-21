@@ -161,25 +161,25 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Advanced Manufacturing Parallax Section */}
+      {/* Syringe Manufacturing Parallax Section */}
       <ParallaxSection
-        imageUrl="https://images.unsplash.com/photo-1752614671119-4868a91efc14?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxtYW51ZmFjdHVyaW5nJTIwYXV0b21hdGlvbnxlbnwwfHx8fDE3NTk5NTAzMjd8MA&ixlib=rb-4.1.0&q=85"
+        imageUrl="https://images.pexels.com/photos/5995162/pexels-photo-5995162.jpeg"
         height="500px"
         speed={0.5}
       >
         <div className="container mx-auto px-4 h-full flex items-center">
           <div className="max-w-3xl text-white">
             <h2 className="text-5xl font-bold mb-6 drop-shadow-lg">
-              State-of-the-Art Manufacturing
+              Precision Syringe Manufacturing
             </h2>
             <p className="text-xl mb-8 drop-shadow-lg leading-relaxed">
-              Our 50,000+ square meter facility in Shanghai combines cutting-edge automation, 
+              Our 10,000+ square meter facility in Shanghai combines cutting-edge automation, 
               precision robotics, and ISO-certified cleanrooms to produce medical devices 
               that exceed international quality standards.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               <div className="bg-white/10 backdrop-blur-md px-6 py-4 rounded-lg border border-white/20">
-                <p className="text-3xl font-bold">50,000+</p>
+                <p className="text-3xl font-bold">10,000+</p>
                 <p className="text-sm opacity-90">Sq. Meter Facility</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md px-6 py-4 rounded-lg border border-white/20">
