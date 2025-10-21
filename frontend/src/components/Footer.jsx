@@ -65,7 +65,8 @@ const Footer = () => {
             <img
               src="https://customer-assets.emergentagent.com/job_medpro-vitaro/artifacts/etcyq21f_IMG_3124.jpeg"
               alt="VITARO Medical"
-              className="h-10 w-auto mb-4"
+              className="h-10 w-auto mb-4 mix-blend-lighten"
+              style={{ filter: 'brightness(0) invert(1)' }}
             />
             <p className="text-slate-300 text-sm mb-4">
               {t('leadingManufacturer')}
