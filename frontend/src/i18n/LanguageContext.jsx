@@ -12,7 +12,16 @@ export const useLanguage = () => {
 };
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState(() => {
+    // Load from localStorage or default to 'en'
+    const saved = localStorage.getItem('vitaro_language');
+    return saved || 'en';
+  });
+
+  const changeLanguage = (newLang) => {
+    setLanguage(newLang);
+    localStorage.setItem('vitaro_language', newLang);
+  };
 
   const t = (key) => {
     return translations[language][key] || key;
@@ -20,7 +29,7 @@ export const LanguageProvider = ({ children }) => {
 
   const value = {
     language,
-    setLanguage,
+    setLanguage: changeLanguage,
     t
   };
 
