@@ -272,21 +272,20 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Technology & Innovation Parallax Section */}
+      {/* Dental Handpiece Manufacturing Parallax Section */}
       <ParallaxSection
-        imageUrl="https://images.unsplash.com/photo-1740362381367-09cb98b4e1c6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwZXF1aXBtZW50JTIwbWFudWZhY3R1cmluZ3xlbnwwfHx8fDE3NTk5NTAzMjB8MA&ixlib=rb-4.1.0&q=85"
+        imageUrl="https://images.unsplash.com/photo-1747999060057-89b7a533f347"
         height="450px"
         speed={0.6}
       >
         <div className="container mx-auto px-4 h-full flex items-center justify-center">
           <div className="max-w-4xl text-center text-white">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
-              Innovation Meets Precision
+              Advanced Dental Equipment Production
             </h2>
             <p className="text-xl mb-8 drop-shadow-lg leading-relaxed">
-              From advanced robotics to rigorous quality control, every step of our 
-              manufacturing process is designed to deliver medical products healthcare 
-              professionals can trust.
+              From precision dental handpieces to advanced imaging systems, our manufacturing 
+              facility delivers innovative dental equipment trusted by professionals worldwide.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
               <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
