@@ -224,6 +224,7 @@ class VitaroAPITester:
             "name": "John Smith",
             "email": "john.smith@testcompany.com",
             "company": "Test Medical Solutions",
+            "subject": "Product Inquiry",
             "message": "Interested in your surgical instruments catalog."
         }
         
