@@ -234,7 +234,59 @@ export const translations = {
     
     // Product Details
     requestQuote: '询价',
-    downloadDatasheet: '下载数据表'
+    downloadDatasheet: '下载数据表',
+    
+    // Stats
+    yearsExperience2: '年经验',
+    countriesServed2: '服务国家',
+    healthcarePartners2: '医疗合作伙伴',
+    qualityGuaranteed2: '质量保证',
+    
+    // Featured Products Section
+    featuredProducts: '精选产品',
+    featuredProductsDesc: '探索我们为专业医疗环境设计的高质量医疗产品系列',
+    viewAllProducts: '查看所有产品',
+    
+    // Why Choose Us
+    whyChooseVitaro: '为什么选择VITARO',
+    whyChooseDesc: '在医疗产品制造的各个方面致力于卓越',
+    qualityAssurance: '质量保证',
+    qualityAssuranceDesc: '所有产品均符合国际标准和认证，包括ISO 13485、CE和FDA批准。',
+    globalReach: '全球覆盖',
+    globalReachDesc: '为45多个国家的医疗机构提供可靠的供应链和物流服务。',
+    innovationFocus: '创新专注',
+    innovationFocusDesc: '持续研发，将尖端医疗产品推向市场。',
+    
+    // Certifications Section
+    certificationsStandards: '认证与标准',
+    certificationsDesc: '我们对质量的承诺体现在我们的认证中',
+    
+    // CTA Section
+    readyToPartner: '准备与我们合作？',
+    readyToPartnerDesc: '与我们的团队联系，讨论您的医疗用品需求，了解VITARO如何支持您的医疗机构。',
+    contactSalesTeam: '联系销售团队',
+    browseCatalog: '浏览目录',
+    
+    // About Page
+    companyHistory: '公司历史',
+    companyStory: '成立于2002年，VITARO Medical从专业的医疗用品制造商发展成为全球公认的高端医疗和牙科设备生产领导者。二十多年来，我们位于中国上海的最先进制造工厂一直处于医疗创新和质量卓越的前沿。',
+    facilityDescription: '我们的10,000多平方米工厂结合了尖端制造技术和严格的质量控制系统。我们专业生产高质量医用手套、注射器、牙科设备、手机和基本医疗用品，满足全球医疗专业人员的严格标准。',
+    qualityCommitment: '从我们的ISO认证洁净室到先进的测试实验室，我们制造过程的每个阶段都遵守最高的国际标准。我们不仅满足监管要求，而且超越它们，因为我们知道医疗专业人员和患者每天都依赖我们产品的质量和一致性。',
+    ourTeam: '我们的团队',
+    ourTeamDesc: '500多名专业人员共同致力于提供卓越的医疗解决方案',
+    teamDescription: '我们的团队由经验丰富的医疗专业人员、质量保证专家、工程师和客户服务专家组成，都致力于制造医疗专业人员可以信赖的产品。',
+    
+    // Contact Page
+    getInTouchDesc: '与我们的团队联系以获取咨询、支持或合作机会',
+    fillFormDesc: '填写下面的表格，我们的团队将在24小时内回复',
+    companyNameLabel: '公司名称',
+    jobTitleLabel: '职位',
+    messageLabel: '消息',
+    messagePlaceholder: '请提供有关您询问的详细信息...',
+    
+    // Product Search
+    searchProducts: '搜索产品...',
+    noProductsFound: '未找到符合您条件的产品'
   },
   
   ko: {
