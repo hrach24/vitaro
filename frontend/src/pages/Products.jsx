@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Filter, Download, Shield } from 'lucide-react';
 import { productsAPI } from '../api';
+import { useLanguage } from '../i18n/LanguageContext';
 import { Button } from '../components/ui/button';
 import {
   Dialog,
