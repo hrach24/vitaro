@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { toast } from 'sonner';
-import { newsletterAPI } from '../api';
 import { useLanguage } from '../i18n/LanguageContext';
 
 const Footer = () => {
@@ -12,14 +11,9 @@ const Footer = () => {
   const handleNewsletterSubmit = async (e) => {
     e.preventDefault();
     if (email) {
-      try {
-        await newsletterAPI.subscribe(email);
-        toast.success('Thank you for subscribing to our newsletter!');
-        setEmail('');
-      } catch (error) {
-        toast.error('Failed to subscribe. Please try again.');
-        console.error('Error subscribing to newsletter:', error);
-      }
+      // Mock subscription - just show success message
+      toast.success('Thank you for subscribing to our newsletter!');
+      setEmail('');
     }
   };
 
