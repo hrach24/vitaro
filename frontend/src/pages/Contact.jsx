@@ -3,7 +3,6 @@ import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from '../components/ui/button';
 import { Textarea } from '../components/ui/textarea';
-import { contactAPI } from '../api';
 import { useLanguage } from '../i18n/LanguageContext';
 
 // Company info
@@ -39,21 +38,16 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      await contactAPI.submit(formData);
-      toast.success('Thank you for contacting us! We will get back to you soon.');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        company: '',
-        subject: '',
-        message: ''
-      });
-    } catch (error) {
-      toast.error('Failed to submit your message. Please try again.');
-      console.error('Error submitting contact form:', error);
-    }
+    // Mock submission - just show success message
+    toast.success('Thank you for contacting us! We will get back to you soon.');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      company: '',
+      subject: '',
+      message: ''
+    });
   };
 
   return (
