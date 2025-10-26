@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { X, Download, CheckCircle } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from './ui/button';
-import { catalogAPI } from '../api';
 
 const CatalogDownloadModal = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
@@ -27,27 +26,24 @@ const CatalogDownloadModal = ({ isOpen, onClose }) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    try {
-      // Submit registration to backend
-      await catalogAPI.register(formData);
-      
-      setIsSuccess(true);
+    // Mock submission
+    setIsSuccess(true);
 
-      // Generate and download catalog
+    // Generate and download catalog
+    setTimeout(() => {
+      generateCatalogPDF();
+      toast.success('Catalog downloaded successfully!');
       setTimeout(() => {
-        generateCatalogPDF();
-        toast.success('Catalog downloaded successfully!');
-        setTimeout(() => {
-          onClose();
-          setIsSuccess(false);
-          setFormData({
-            fullName: '',
-            email: '',
-            phone: '',
-            company: '',
-            country: '',
-            jobTitle: ''
-          });
+        onClose();
+        setIsSuccess(false);
+        setFormData({
+          fullName: '',
+          email: '',
+          phone: '',
+          company: '',
+          country: '',
+          jobTitle: ''
+        });
         }, 2000);
       }, 500);
     } catch (error) {
