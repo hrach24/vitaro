@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Shield, Award, Globe, CheckCircle, Download } from 'lucide-react';
-import { productsAPI } from '../api';
+import { mockProducts } from '../data/mockData';
 import ParallaxSection from '../components/ParallaxSection';
 import CatalogDownloadModal from '../components/CatalogDownloadModal';
 import ProductCarousel from '../components/ProductCarousel';
@@ -14,17 +14,9 @@ const Home = () => {
   const { t } = useLanguage();
 
   useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const data = await productsAPI.getAll();
-        setFeaturedProducts(data); // Get all products for carousel
-      } catch (error) {
-        console.error('Error fetching products:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchProducts();
+    // Load mock data
+    setFeaturedProducts(mockProducts.slice(0, 10)); // Get first 10 products for carousel
+    setLoading(false);
   }, []);
 
   return (
