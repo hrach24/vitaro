@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Tag, ArrowRight } from 'lucide-react';
-import { newsAPI } from '../api';
+import { mockNews } from '../data/mockData';
 import { useLanguage } from '../i18n/LanguageContext';
 import {
   Dialog,
@@ -17,17 +17,9 @@ const News = () => {
   const { t } = useLanguage();
 
   useEffect(() => {
-    const fetchNews = async () => {
-      try {
-        const data = await newsAPI.getAll();
-        setNewsArticles(data);
-      } catch (error) {
-        console.error('Error fetching news:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchNews();
+    // Load mock data
+    setNewsArticles(mockNews);
+    setLoading(false);
   }, []);
 
   const categories = ['All', ...new Set(newsArticles.map(article => article.category))];
