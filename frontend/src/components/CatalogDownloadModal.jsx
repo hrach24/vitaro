@@ -44,14 +44,9 @@ const CatalogDownloadModal = ({ isOpen, onClose }) => {
           country: '',
           jobTitle: ''
         });
-        }, 2000);
-      }, 500);
-    } catch (error) {
-      console.error('Registration error:', error);
-      toast.error('Failed to register. Please try again.');
-    } finally {
-      setIsSubmitting(false);
-    }
+        setIsSubmitting(false);
+      }, 2000);
+    }, 500);
   };
 
   const generateCatalogPDF = () => {
