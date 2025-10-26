@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Filter, Download, Shield } from 'lucide-react';
-import { productsAPI } from '../api';
+import { mockProducts, categories as mockCategories } from '../data/mockData';
 import { useLanguage } from '../i18n/LanguageContext';
 import { Button } from '../components/ui/button';
 import {
@@ -22,21 +22,10 @@ const Products = () => {
   const { t } = useLanguage();
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [productsData, categoriesData] = await Promise.all([
-          productsAPI.getAll(),
-          productsAPI.getCategories()
-        ]);
-        setProducts(productsData);
-        setCategories(categoriesData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchData();
+    // Load mock data
+    setProducts(mockProducts);
+    setCategories([{ id: 'all', name: 'All', count: mockProducts.length }, ...mockCategories]);
+    setLoading(false);
   }, []);
 
   const filteredProducts = products.filter((product) => {
