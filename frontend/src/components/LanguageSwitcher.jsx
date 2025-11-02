@@ -22,7 +22,7 @@ const LanguageSwitcher = () => {
       >
         <Globe size={20} className="text-blue-800" />
         <span className="text-2xl">{currentLanguage.flag}</span>
-        <span className="text-sm font-medium text-blue-800">{currentLanguage.name}</span>
+        {/*<span className="text-sm font-medium text-blue-800">{currentLanguage.name}</span>*/}
       </button>
 
       {isOpen && (
