@@ -59,31 +59,34 @@ const Header = () => {
               </Link>
             ))}
           </nav>
-
           {/* Language Switcher & CTA Button */}
-          <div className="hidden lg:flex items-center gap-3">
+          <div className='flex'>
             <LanguageSwitcher />
-            <Link
-              to="/contact"
-              className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30 hover:-translate-y-0.5 whitespace-nowrap"
-            >
-              {t('getInTouch')}
-            </Link>
-          </div>
+            <div className="hidden lg:flex items-center gap-3">
+
+              <Link
+                  to="/contact"
+                  className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30 hover:-translate-y-0.5 whitespace-nowrap"
+              >
+                {t('getInTouch')}
+              </Link>
+            </div>
 
           {/* Mobile Menu Button */}
           <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden p-2 text-blue-800 hover:text-blue-900 transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="lg:hidden p-2 text-blue-800 hover:text-blue-900 transition-colors"
           >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMobileMenuOpen ? <X size={24}/> : <Menu size={24}/>}
           </button>
+          </div>
+
         </div>
       </div>
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden overflow-hidden transition-all duration-300 ${
+          className={`lg:hidden overflow-hidden transition-all duration-300 ${
           isMobileMenuOpen ? 'max-h-96 border-t border-blue-300' : 'max-h-0'
         }`}
       >
