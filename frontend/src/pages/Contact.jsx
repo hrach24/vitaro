@@ -1,52 +1,58 @@
-import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
-import { toast } from 'sonner';
-import { Button } from '../components/ui/button';
-import { Textarea } from '../components/ui/textarea';
-import { useLanguage } from '../i18n/LanguageContext';
+import React, { useState } from "react";
+import { Mail, Phone, MapPin, Clock, Send } from "lucide-react";
+import { toast } from "sonner";
+import { Button } from "../components/ui/button";
+import { Textarea } from "../components/ui/textarea";
+import { useLanguage } from "../i18n/LanguageContext";
 
 // Company info
 const companyInfo = {
   contact: {
-    address: 'Plot 12, Unit A, North Ridge Industrial Park',
-    addressLine2: 'No. 3 Hengshan Road, Jiading District',
-    city: 'Shanghai 201800, China',
-    phone: '+86 21 6798 1203',
-    email: 'info@myvitaro.com',
-    website: 'www.myvitaro.com',
-    hours: 'Monday - Friday: 9:00 AM - 6:00 PM (CST)'
-  }
+    address: "Plot 12, Unit A, North Ridge Industrial Park",
+    address2: "Incheon Factory Zone 145 Namdong Industrial Complex",
+    addressLine: "No. 3 Hengshan Road, Jiading District",
+    addressLine2:
+      "Namdong-gu, Incheon 21632\n" +
+      "Vitaro Manufacturing Co., Ltd.\n" +
+      "Republic of Korea",
+    city: "Shanghai 201800, China",
+    phone: "+86 21 6798 1203",
+    secondPhone: "+82-32-821-4570",
+    email: "info@myvitaro.com",
+    website: "www.myvitaro.com",
+    hours: "Monday - Friday: 9:00 AM - 6:00 PM (CST)",
+  },
 };
 
 const Contact = () => {
   const { t } = useLanguage();
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    company: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    company: "",
+    subject: "",
+    message: "",
   });
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Mock submission - just show success message
-    toast.success('Thank you for contacting us! We will get back to you soon.');
+    toast.success("Thank you for contacting us! We will get back to you soon.");
     setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      company: '',
-      subject: '',
-      message: ''
+      name: "",
+      email: "",
+      phone: "",
+      company: "",
+      subject: "",
+      message: "",
     });
   };
 
@@ -56,9 +62,11 @@ const Contact = () => {
       <section className="relative pt-32 pb-16 bg-gradient-to-br from-blue-50 via-white to-teal-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">{t('contactUs')}</h1>
+            <h1 className="text-5xl font-bold text-gray-900 mb-6">
+              {t("contactUs")}
+            </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              {t('getInTouchDesc')}
+              {t("getInTouchDesc")}
             </p>
           </div>
         </div>
@@ -71,24 +79,30 @@ const Contact = () => {
             {[
               {
                 icon: MapPin,
-                title: 'Address',
-                info: `${companyInfo.contact.address}, ${companyInfo.contact.addressLine2}, ${companyInfo.contact.city}`
+                title: "Address",
+                info: `${companyInfo.contact.address}, ${companyInfo.contact.addressLine}, ${companyInfo.contact.city}`,
+              },
+              {
+                icon: MapPin,
+                title: "Address",
+                info: `${companyInfo.contact.address2}, ${companyInfo.contact.addressLine2}`,
               },
               {
                 icon: Phone,
-                title: 'Phone',
-                info: companyInfo.contact.phone
+                title: "Phone",
+                info: companyInfo.contact.phone,
+                secondPhone: companyInfo.contact.secondPhone,
               },
               {
                 icon: Mail,
-                title: 'Email',
-                info: companyInfo.contact.email
+                title: "Email",
+                info: companyInfo.contact.email,
               },
               {
                 icon: Clock,
-                title: 'Business Hours',
-                info: companyInfo.contact.hours
-              }
+                title: "Business Hours",
+                info: companyInfo.contact.hours,
+              },
             ].map((item, index) => {
               const Icon = item.icon;
               return (
@@ -97,10 +111,16 @@ const Contact = () => {
                   className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-100 hover:border-orange-200 hover:shadow-lg transition-all duration-300 text-center group"
                 >
                   <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500 transition-colors">
-                    <Icon className="text-orange-600 group-hover:text-white transition-colors" size={24} />
+                    <Icon
+                      className="text-orange-600 group-hover:text-white transition-colors"
+                      size={24}
+                    />
                   </div>
                   <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
                   <p className="text-sm text-gray-600">{item.info}</p>
+                  {item.secondPhone && (
+                    <p className="text-sm text-gray-600">{item.secondPhone}</p>
+                  )}
                 </div>
               );
             })}
@@ -115,9 +135,12 @@ const Contact = () => {
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <div className="p-8 lg:p-12">
                 <div className="text-center mb-8">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-3">Send Us a Message</h2>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-3">
+                    Send Us a Message
+                  </h2>
                   <p className="text-gray-600">
-                    Fill out the form below and our team will respond within 24 hours
+                    Fill out the form below and our team will respond within 24
+                    hours
                   </p>
                 </div>
                 <form onSubmit={handleSubmit} className="space-y-6">
