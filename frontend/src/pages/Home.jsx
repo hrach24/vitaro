@@ -273,7 +273,7 @@ const Home = () => {
         height="450px"
         speed={0.6}
       >
-        <div className="container mx-auto px-4 h-full flex items-center justify-center">
+        <div className="container mx-auto  px-4 py-2 md:py-8 h-full flex items-center justify-center">
           <div className="max-w-4xl text-center text-white">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
               {t("worldClassFacility")}
