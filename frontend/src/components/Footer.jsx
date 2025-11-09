@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { toast } from "sonner";
 import { useLanguage } from "../i18n/LanguageContext";
+import logo from "@/images/logo/logo.webp";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -60,11 +61,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <img
-              src="https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/sn5vj0hl_photo_6278288193371180170_y%20%282%29.jpg"
-              alt="VITARO Medical"
-              className="h-10 w-auto mb-4"
-            />
+            <img src={logo} alt="VITARO Medical" className="h-10 w-auto mb-4" />
             <p className="text-slate-300 text-sm mb-4">
               {t("leadingManufacturer")}
             </p>

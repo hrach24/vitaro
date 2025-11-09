@@ -1,11 +1,11 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 
-const ParallaxSection = ({ 
-  imageUrl, 
-  children, 
-  height = '600px',
+const ParallaxSection = ({
+  imageUrl,
+  children,
+  height = "600px",
   speed = 0.5,
-  className = ''
+  className = "",
 }) => {
   const parallaxRef = useRef(null);
   const [offset, setOffset] = useState(0);
@@ -13,41 +13,43 @@ const ParallaxSection = ({
   useEffect(() => {
     const handleScroll = () => {
       if (!parallaxRef.current) return;
-      
+
       const scrolled = window.pageYOffset;
       const rect = parallaxRef.current.getBoundingClientRect();
       const elementTop = rect.top + scrolled;
       const elementHeight = rect.height;
-      
+
       // Check if element is in viewport
-      if (scrolled + window.innerHeight > elementTop && scrolled < elementTop + elementHeight) {
+      if (
+        scrolled + window.innerHeight > elementTop &&
+        scrolled < elementTop + elementHeight
+      ) {
         const parallaxOffset = (scrolled - elementTop) * speed;
         setOffset(parallaxOffset);
       }
     };
 
     // Add scroll listener
-    window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll(); // Initial call
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [speed]);
 
   return (
     <div
       ref={parallaxRef}
-      className={`relative overflow-hidden ${className}`}
-      style={{ height }}
+      className={`relative overflow-hidden ${className} ${height}`}
     >
       {/* Parallax Background Image - iOS Compatible */}
       <div
         className="absolute inset-0 w-full h-full"
         style={{
           transform: `translate3d(0, ${offset}px, 0)`,
-          willChange: 'transform',
-          transition: 'transform 0.1s ease-out'
+          willChange: "transform",
+          transition: "transform 0.1s ease-out",
         }}
       >
         <div
@@ -55,9 +57,9 @@ const ParallaxSection = ({
           style={{
             height: `calc(100% + 200px)`,
             backgroundImage: `url(${imageUrl})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat'
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
         />
         {/* Dark overlay for better text readability */}
@@ -65,9 +67,7 @@ const ParallaxSection = ({
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full">
-        {children}
-      </div>
+      <div className="relative z-10 h-full">{children}</div>
     </div>
   );
 };

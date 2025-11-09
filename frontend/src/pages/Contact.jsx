@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Mail, Phone, MapPin, Clock, Send } from "lucide-react";
 import { toast } from "sonner";
-import { Button } from "../components/ui/button";
-import { Textarea } from "../components/ui/textarea";
-import { useLanguage } from "../i18n/LanguageContext";
+import { Button } from "@/components/ui/button";
+import { Textarea } from "@/components/ui/textarea";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 // Company info
 const companyInfo = {
