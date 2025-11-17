@@ -455,6 +455,78 @@ export const mockProducts = [
       model: 'EXP-001CE series'
     },
     certifications: ['CE', 'ISO 13485', 'EN 455']
+  },
+  {
+    id: '26',
+    name: 'APEX Digital Apex Locator',
+    category: 'Dental Equipment',
+    description: 'Advanced electronic apex locator with large touchscreen display for precise root canal length measurement. Features intuitive interface with visual and audible feedback for accurate endodontic procedures.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/dwco7wiv_photo_1_2025-11-17_22-48-57.jpg',
+    specifications: {
+      display: 'Large color touchscreen',
+      measurement_accuracy: '±0.5mm',
+      interface: 'Touch-based navigation',
+      controls: 'Settings menu and directional controls',
+      feedback: 'Visual display and audible alerts',
+      design: 'Portable standalone unit',
+      applications: 'Root canal therapy, endodontics',
+      connectivity: 'USB port for charging/data'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '27',
+    name: 'Propex Pixi Apex Locator (Dentsply)',
+    category: 'Dental Equipment',
+    description: 'Dentsply Maillefer Propex Pixi electronic apex locator with multi-segment digital display. Provides precise canal length measurements with color-coded visual feedback and numerical scale for successful endodontic treatment.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/wj5a1zc3_photo_2_2025-11-17_22-48-57.jpg',
+    specifications: {
+      manufacturer: 'Dentsply Maillefer',
+      display_type: 'Multi-segment digital with color bars',
+      measurement_scale: '0.0 - 2.0mm gradients',
+      visual_indicators: 'Yellow to blue progression bars',
+      audio_feedback: 'Integrated speaker alerts',
+      accuracy: 'High precision impedance measurement',
+      design: 'Compact handheld unit',
+      battery: 'Rechargeable with charging port'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '28',
+    name: 'ALLADIN LED Curing Light',
+    category: 'Dental Equipment',
+    description: 'Cordless LED dental curing light for polymerizing composite resins and bonding materials. Features digital display, multiple curing modes, adjustable timer, and ergonomic handheld design for efficient restorative procedures.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/d79xuy6v_photo_3_2025-11-17_22-48-57.jpg',
+    specifications: {
+      light_type: 'High-intensity LED',
+      wavelength: '420-480nm',
+      intensity: 'Adjustable power modes',
+      display: 'Digital LCD screen',
+      controls: 'Mode (M) and Timer (T) buttons',
+      design: 'Cordless handheld pen-style',
+      battery: 'Rechargeable lithium-ion',
+      applications: 'Composite curing, bonding, sealants'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '29',
+    name: 'NSK S-Max M25 Contra-Angle Handpiece',
+    category: 'Dental Handpieces',
+    description: 'Professional NSK contra-angle handpiece with 1:1 direct drive ratio. Features precision engineering for restorative procedures, cavity preparation, polishing, and implant work. Durable stainless steel construction with ergonomic design.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ezutwl1t_photo_4_2025-11-17_22-48-57.jpg',
+    specifications: {
+      manufacturer: 'NSK Dental',
+      model_series: 'S-Max M25',
+      gear_ratio: '1:1 (direct drive)',
+      material: 'Surgical grade stainless steel',
+      bur_type: 'Standard latch-type',
+      head_design: 'Angled for posterior access',
+      sterilization: 'Autoclavable 135°C',
+      applications: 'Restorative, prosthetic, implantology'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
