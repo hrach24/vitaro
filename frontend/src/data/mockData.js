@@ -383,6 +383,78 @@ export const mockProducts = [
       display: 'LCD touchscreen with cycle logs'
     },
     certifications: ['CE', 'EN 13060', 'ISO 13485']
+  },
+  {
+    id: '22',
+    name: 'Dental Headlight with Magnification Loupes',
+    category: 'Dental Equipment',
+    description: 'Professional head-mounted LED illumination system with integrated magnification loupes for enhanced visualization during dental procedures. Features adjustable headband, dual LED lights, and interchangeable magnifying lenses for optimal precision.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/7pgo77wk_photo_1_2025-11-17_22-37-11.jpg',
+    specifications: {
+      led_lights: 'Dual LED adjustable lights',
+      magnification: '2.5x, 3.5x, 4.5x (interchangeable)',
+      working_distance: '340mm - 520mm',
+      battery: 'Rechargeable lithium 5000mAh',
+      led_brightness: 'High-intensity white LED',
+      headband: 'Adjustable padded headband',
+      weight: '250g complete system',
+      lenses: 'Multiple magnification options included'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '23',
+    name: 'ZEISS EXTARO 300 Surgical Microscope',
+    category: 'Dental Imaging',
+    description: 'Premium wall-mounted dental surgical microscope with superior Carl Zeiss optics. Binocular design with advanced magnification and co-axial illumination for endodontics, periodontics, and precision dental surgery.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/71taoc7t_photo_2_2025-11-17_22-37-11.jpg',
+    specifications: {
+      manufacturer: 'Carl Zeiss',
+      magnification_range: '3x to 20x variable',
+      binocular: 'Stereoscopic viewing',
+      mounting: 'Wall-mounted articulated arm',
+      illumination: 'Integrated LED co-axial light',
+      working_distance: '200mm - 400mm adjustable',
+      controls: 'Manual zoom and focus controls',
+      applications: 'Endodontics, surgery, implantology'
+    },
+    certifications: ['CE', 'FDA', 'ISO 13485']
+  },
+  {
+    id: '24',
+    name: 'Professional Dental Loupes Set',
+    category: 'Dental Equipment',
+    description: 'German-engineered precision dental loupes with multiple mounting options. Available with integrated LED illumination for shadow-free visibility. Perfect for restorative dentistry, surgery, and detailed examination work.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/a9en07dq_photo_3_2025-11-17_22-37-11.jpg',
+    specifications: {
+      origin: 'Made in Germany',
+      magnification: '2.5x, 3.5x, 4.5x, 5.5x options',
+      mounting: 'Spectacle frame or headband mount',
+      illumination: 'Optional integrated LED system',
+      optics: 'High-quality German optical glass',
+      adjustment: 'Fully adjustable angle and distance',
+      weight: '85g - 150g depending on model',
+      field_of_view: '80mm - 120mm'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '25',
+    name: 'Dental Surgical Instruments Set (MCT)',
+    category: 'Dental Instruments',
+    description: 'Comprehensive stainless steel surgical instrument set for tooth extraction and oral surgery. Includes specialized forceps, elevators, and examination tools. Precision-manufactured with ergonomic textured handles for optimal control.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ejuryu0e_photo_4_2025-11-17_22-37-11.jpg',
+    specifications: {
+      material: 'Surgical grade stainless steel',
+      set_includes: 'Extraction forceps, elevators, mouth mirror',
+      handle_design: 'Cross-hatched textured grip',
+      sterilization: 'Autoclavable up to 134°C',
+      finish: 'Brushed matte surgical finish',
+      forceps_types: 'Upper/lower molars, incisors, premolars',
+      brand: 'MCT',
+      model: 'EXP-001CE series'
+    },
+    certifications: ['CE', 'ISO 13485', 'EN 455']
   }
 ];
 
