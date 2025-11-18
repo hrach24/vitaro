@@ -779,6 +779,78 @@ export const mockProducts = [
       features: 'Precision filling, temperature controlled'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '44',
+    name: 'EASYDOC Cordless Warm Vertical Condensation Device',
+    category: 'Dental Equipment',
+    description: 'Advanced EASYDOC cordless obturation device for warm vertical condensation and continuous wave root canal filling. Features contra-angle design with fine heated applicator tip, battery operation, and precision temperature control for optimal gutta-percha delivery.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/gxw396ru_IMAGE%202025-11-18%2018%3A37%3A13.jpg',
+    specifications: {
+      manufacturer: 'EASYDOC',
+      technique: 'Warm vertical condensation',
+      power: 'Cordless rechargeable',
+      head_design: 'Contra-angle with fine applicator',
+      tip_color: 'Green heated carrier/plugger',
+      controls: 'Temperature and mode selection',
+      applications: 'Root canal obturation, gutta-percha delivery',
+      design: 'Ergonomic white body with control buttons'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '45',
+    name: 'KAVO PROPHYflex 4 Air Polishing Handpiece',
+    category: 'Dental Equipment',
+    description: 'Premium KAVO PROPHYflex 4 dental air polishing system for professional teeth cleaning. Features ergonomic pistol-grip design, transparent powder reservoir for easy monitoring, detachable angled nozzle, and high-efficiency stain and plaque removal technology.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/47klintj_IMAGE%202025-11-18%2018%3A37%3A14.jpg',
+    specifications: {
+      manufacturer: 'KAVO',
+      model: 'PROPHYflex 4',
+      design: 'Ergonomic pistol-grip',
+      reservoir: 'Transparent for powder level monitoring',
+      nozzle: 'Angled, detachable for sterilization',
+      powder_types: 'Sodium bicarbonate, glycine, calcium carbonate',
+      applications: 'Stain removal, plaque removal, biofilm removal',
+      color: 'Dark blue body with silver accents'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '46',
+    name: 'DTE Endo R+ Woodpecker Endodontic Motor System',
+    category: 'Dental Equipment',
+    description: 'Advanced DTE Endo R+ W3-Pro WOODPECKER endodontic motor with integrated apex locator. Features color digital display, programmable speed/torque control, cordless handpiece with contra-angle attachment, and real-time root canal length measurement for precise treatment.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/jeqnur7j_IMAGE%202025-11-18%2018%3A37%3A20.jpg',
+    specifications: {
+      manufacturer: 'DTE / Woodpecker',
+      model: 'Endo R+ W3-Pro',
+      display: 'Color digital LCD with visual indicators',
+      apex_locator: 'Integrated real-time measurement',
+      handpiece: 'Cordless with contra-angle attachment',
+      controls: 'Speed, torque, direction, file settings',
+      charging: 'Wireless docking station',
+      connectivity: 'USB ports for data/updates'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '47',
+    name: 'VDW.GOLD RECIPROC Endodontic Motor System',
+    category: 'Dental Equipment',
+    description: 'Professional VDW.GOLD RECIPROC motorized endodontic system for reciprocating single-file root canal preparation. Features digital LCD display with RECIPROC ALL mode, apex locator integration, motorized handpiece, and advanced control panel for efficient and safe treatment.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ort32rki_IMAGE%202025-11-18%2018%3A37%3A21.jpg',
+    specifications: {
+      manufacturer: 'VDW',
+      model: 'VDW.GOLD RECIPROC',
+      mode: 'RECIPROCATION / RECIPROC ALL',
+      display: 'Digital LCD with canal visualization',
+      handpiece: 'Motorized with RECIPROC branding',
+      apex_locator: 'Integrated with separate probe',
+      controls: 'rpm, memory (MEMO), calibration (CAL), analysis',
+      technique: 'Reciprocating single-file system'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
