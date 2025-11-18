@@ -10,9 +10,9 @@ export const mockProducts = [
 
   {
     id: '22',
-    name: 'Dental Headlight with Magnification Loupes',
+    nameKey: 'product22Name',
     category: 'Dental Equipment',
-    description: 'Professional head-mounted LED illumination system with integrated magnification loupes for enhanced visualization during dental procedures. Features adjustable headband, dual LED lights, and interchangeable magnifying lenses for optimal precision.',
+    descriptionKey: 'product22Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/7pgo77wk_photo_1_2025-11-17_22-37-11.jpg',
     specifications: {
       led_lights: 'Dual LED adjustable lights',
@@ -29,9 +29,9 @@ export const mockProducts = [
 ,
   {
     id: '23',
-    name: 'ZEISS EXTARO 300 Surgical Microscope',
+    nameKey: 'product23Name',
     category: 'Dental Imaging',
-    description: 'Premium wall-mounted dental surgical microscope with superior Carl Zeiss optics. Binocular design with advanced magnification and co-axial illumination for endodontics, periodontics, and precision dental surgery.',
+    descriptionKey: 'product23Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/71taoc7t_photo_2_2025-11-17_22-37-11.jpg',
     specifications: {
       manufacturer: 'Carl Zeiss',
@@ -48,9 +48,9 @@ export const mockProducts = [
 ,
   {
     id: '24',
-    name: 'Professional Dental Loupes Set',
+    nameKey: 'product24Name',
     category: 'Dental Equipment',
-    description: 'German-engineered precision dental loupes with multiple mounting options. Available with integrated LED illumination for shadow-free visibility. Perfect for restorative dentistry, surgery, and detailed examination work.',
+    descriptionKey: 'product24Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/a9en07dq_photo_3_2025-11-17_22-37-11.jpg',
     specifications: {
       origin: 'Made in Germany',
@@ -67,9 +67,9 @@ export const mockProducts = [
 ,
   {
     id: '25',
-    name: 'Dental Surgical Instruments Set (MCT)',
+    nameKey: 'product25Name',
     category: 'Dental Instruments',
-    description: 'Comprehensive stainless steel surgical instrument set for tooth extraction and oral surgery. Includes specialized forceps, elevators, and examination tools. Precision-manufactured with ergonomic textured handles for optimal control.',
+    descriptionKey: 'product25Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ejuryu0e_photo_4_2025-11-17_22-37-11.jpg',
     specifications: {
       material: 'Surgical grade stainless steel',
@@ -86,9 +86,9 @@ export const mockProducts = [
 ,
   {
     id: '26',
-    name: 'APEX Digital Apex Locator',
+    nameKey: 'product26Name',
     category: 'Dental Equipment',
-    description: 'Advanced electronic apex locator with large touchscreen display for precise root canal length measurement. Features intuitive interface with visual and audible feedback for accurate endodontic procedures.',
+    descriptionKey: 'product26Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/dwco7wiv_photo_1_2025-11-17_22-48-57.jpg',
     specifications: {
       display: 'Large color touchscreen',
@@ -105,9 +105,9 @@ export const mockProducts = [
 ,
   {
     id: '27',
-    name: 'Propex Pixi Apex Locator (Dentsply)',
+    nameKey: 'product27Name',
     category: 'Dental Equipment',
-    description: 'Dentsply Maillefer Propex Pixi electronic apex locator with multi-segment digital display. Provides precise canal length measurements with color-coded visual feedback and numerical scale for successful endodontic treatment.',
+    descriptionKey: 'product27Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/wj5a1zc3_photo_2_2025-11-17_22-48-57.jpg',
     specifications: {
       manufacturer: 'Dentsply Maillefer',
@@ -124,9 +124,9 @@ export const mockProducts = [
 ,
   {
     id: '28',
-    name: 'ALLADIN LED Curing Light',
+    nameKey: 'product28Name',
     category: 'Dental Equipment',
-    description: 'Cordless LED dental curing light for polymerizing composite resins and bonding materials. Features digital display, multiple curing modes, adjustable timer, and ergonomic handheld design for efficient restorative procedures.',
+    descriptionKey: 'product28Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/d79xuy6v_photo_3_2025-11-17_22-48-57.jpg',
     specifications: {
       light_type: 'High-intensity LED',
@@ -143,9 +143,9 @@ export const mockProducts = [
 ,
   {
     id: '29',
-    name: 'NSK S-Max M25 Contra-Angle Handpiece',
+    nameKey: 'product29Name',
     category: 'Dental Handpieces',
-    description: 'Professional NSK contra-angle handpiece with 1:1 direct drive ratio. Features precision engineering for restorative procedures, cavity preparation, polishing, and implant work. Durable stainless steel construction with ergonomic design.',
+    descriptionKey: 'product29Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ezutwl1t_photo_4_2025-11-17_22-48-57.jpg',
     specifications: {
       manufacturer: 'NSK Dental',
@@ -162,9 +162,9 @@ export const mockProducts = [
 ,
   {
     id: '30',
-    name: 'High-Speed Dental Turbine Handpiece (Japan)',
+    nameKey: 'product30Name',
     category: 'Dental Handpieces',
-    description: 'Premium Japanese-manufactured high-speed dental handpiece with integrated water spray system. Model A21Z0145 features precision-engineered titanium construction, compact head design, and multi-port cooling for efficient cutting and shaping procedures.',
+    descriptionKey: 'product30Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/4vnj9l91_IMAGE%202025-11-18%2017%3A46%3A34.jpg',
     specifications: {
       model: 'A21Z0145',
@@ -181,9 +181,9 @@ export const mockProducts = [
 ,
   {
     id: '31',
-    name: 'Dental Implant Abutment Screw Set',
+    nameKey: 'product31Name',
     category: 'Dental Implants',
-    description: 'Precision dental implant abutment screws for connecting implant fixtures to prosthetic restorations. Manufactured from biocompatible titanium with threaded design for secure attachment. Essential component for dental implantology procedures.',
+    descriptionKey: 'product31Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/32mgk6rf_IMAGE%202025-11-18%2017%3A46%3A35.jpg',
     specifications: {
       material: 'Medical grade titanium alloy',
@@ -200,9 +200,9 @@ export const mockProducts = [
 ,
   {
     id: '32',
-    name: 'Complete Dental Treatment Unit with LED Light',
+    nameKey: 'product32Name',
     category: 'Dental Equipment',
-    description: 'Integrated dental workstation featuring patient chair with multi-segment positioning, articulated LED operating light, instrument delivery system with multiple handpiece connections, digital control panel, and ergonomic design for comprehensive dental procedures.',
+    descriptionKey: 'product32Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/l6tp7bsy_IMAGE%202025-11-18%2017%3A46%3A39.jpg',
     specifications: {
       chair: 'Multi-position reclining with headrest',
@@ -219,9 +219,9 @@ export const mockProducts = [
 ,
   {
     id: '33',
-    name: 'DAC Professional Dental Treatment Unit',
+    nameKey: 'product33Name',
     category: 'Dental Equipment',
-    description: 'High-end DAC dental treatment unit with complete operatory setup. Features ergonomic patient chair, advanced LED lighting, multiple handpiece delivery system, digital control panel, assistant station, and professional stool. Designed for comprehensive dental practice.',
+    descriptionKey: 'product33Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/hd7a4bcp_IMAGE%202025-11-18%2017%3A46%3A40.jpg',
     specifications: {
       manufacturer: 'DAC/DCI',
@@ -238,9 +238,9 @@ export const mockProducts = [
 ,
   {
     id: '34',
-    name: 'Integrated Dental Operatory with Patient Monitoring',
+    nameKey: 'product34Name',
     category: 'Dental Equipment',
-    description: 'Advanced integrated dental operatory unit with patient chair, multi-LED surgical light, mobile instrument delivery cart, and integrated vital signs monitor. Features digital display for real-time monitoring of heart rate, blood pressure, and oxygen saturation during procedures.',
+    descriptionKey: 'product34Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/hnf79sqp_IMAGE%202025-11-18%2017%3A48%3A02.jpg',
     specifications: {
       chair: 'Electric with programmable positions',
@@ -257,9 +257,9 @@ export const mockProducts = [
 ,
   {
     id: '35',
-    name: 'Modern Dental Treatment Chair Unit (Premium Black)',
+    nameKey: 'product35Name',
     category: 'Dental Equipment',
-    description: 'Comprehensive dental treatment unit with sleek black upholstery. Includes fully adjustable patient chair, integrated instrument delivery console with digital controls, articulated examination light, ceramic spittoon with faucet, and ergonomic dentist stool. All-in-one modern operatory solution.',
+    descriptionKey: 'product35Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/m251eer0_IMAGE%202025-11-18%2017%3A48%3A04.jpg',
     specifications: {
       upholstery: 'Black medical-grade leather/vinyl',
@@ -276,9 +276,9 @@ export const mockProducts = [
 ,
   {
     id: '36',
-    name: 'Wireless Intraoral Camera System with Touch Monitor',
+    nameKey: 'product36Name',
     category: 'Dental Imaging',
-    description: 'Advanced wireless intraoral camera system with integrated Wi-Fi and Bluetooth connectivity. Features ergonomic handheld camera with LED illumination, large touch-screen monitor on articulated arm (Ø45mm clamp), and real-time image display. Perfect for diagnosis and patient education.',
+    descriptionKey: 'product36Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/m0xnggcc_IMAGE%202025-11-18%2017%3A48%3A06.jpg',
     specifications: {
       connectivity: 'Wi-Fi and Bluetooth wireless',
@@ -295,9 +295,9 @@ export const mockProducts = [
 ,
   {
     id: '37',
-    name: 'Wireless Endodontic Rotary System',
+    nameKey: 'product37Name',
     category: 'Dental Equipment',
-    description: 'Professional wireless motor-driven endodontic handpiece system for root canal procedures. Features angled handpiece with rotary file mechanism, separate control unit with speed/torque settings, and foot pedal operation. Designed for precision endodontic treatment with minimal cable clutter.',
+    descriptionKey: 'product37Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/v0gfh7og_IMAGE%202025-11-18%2017%3A48%3A08.jpg',
     specifications: {
       handpiece: 'Angled metallic with ergonomic grip',
@@ -314,9 +314,9 @@ export const mockProducts = [
 ,
   {
     id: '38',
-    name: 'Dental Intraoral Camera with Computer Workstation',
+    nameKey: 'product38Name',
     category: 'Dental Imaging',
-    description: 'Complete dental imaging workstation with intraoral camera, widescreen computer monitor, keyboard, mouse, and articulated mounting arm. Features Wi-Fi and Bluetooth connectivity for seamless integration with practice management software. Ideal for digital diagnostics and patient records.',
+    descriptionKey: 'product38Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/fhfxkrw7_IMAGE%202025-11-18%2017%3A48%3A10.jpg',
     specifications: {
       camera: 'Ergonomic handheld with LED illumination',
@@ -333,9 +333,9 @@ export const mockProducts = [
 ,
   {
     id: '39',
-    name: 'High-Speed Dental Turbine Handpiece with Blue Ring',
+    nameKey: 'product39Name',
     category: 'Dental Handpieces',
-    description: 'Premium high-speed dental turbine handpiece with distinctive blue color-coding ring. Features textured ergonomic grip, precision-machined nozzle for bur retention, and cooling water spray system. Designed for cavity preparation, tooth shaping, and general restorative procedures.',
+    descriptionKey: 'product39Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/p0spicl4_IMAGE%202025-11-18%2018%3A18%3A57.jpg',
     specifications: {
       speed: '300,000-450,000 RPM',
@@ -352,9 +352,9 @@ export const mockProducts = [
 ,
   {
     id: '40',
-    name: 'Fiber Optic Contra-Angle Handpiece (CE Certified)',
+    nameKey: 'product40Name',
     category: 'Dental Handpieces',
-    description: 'High-speed fiber optic contra-angle dental handpiece with integrated LED illumination and push-button bur release. Features CE marking for European compliance, ergonomic design, and multi-port water spray. Perfect for precise restorative work in posterior teeth.',
+    descriptionKey: 'product40Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/tfp89b1j_IMAGE%202025-11-18%2018%3A18%3A59.jpg',
     specifications: {
       illumination: 'Fiber optic LED light',
@@ -371,9 +371,9 @@ export const mockProducts = [
 ,
   {
     id: '41',
-    name: 'Dental Turbine Rotor Assembly Kit',
+    nameKey: 'product41Name',
     category: 'Dental Parts & Accessories',
-    description: 'Professional replacement rotor assembly for dental turbine handpieces. Complete kit includes air-driven impeller rotor, high-precision ball bearings, O-ring seals, and spacers. Designed for high-speed performance with minimal vibration and friction.',
+    descriptionKey: 'product41Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/n7tx4ice_IMAGE%202025-11-18%2018%3A19%3A01.jpg',
     specifications: {
       components: 'Rotor, 2x ball bearings, O-ring, spacers',
@@ -390,9 +390,9 @@ export const mockProducts = [
 ,
   {
     id: '42',
-    name: 'High-Speed Dental Handpiece with Quad Spray',
+    nameKey: 'product42Name',
     category: 'Dental Handpieces',
-    description: 'Professional high-speed dental handpiece featuring angled head with quad-port water/air spray system. Ergonomic diamond-textured grip, precise bur retention, and optimized cooling for extended procedures. Ideal for cavity preparation, polishing, and restorative dentistry.',
+    descriptionKey: 'product42Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/2qcoeda1_IMAGE%202025-11-18%2018%3A19%3A02.jpg',
     specifications: {
       spray_system: '4-5 port water/air cooling',
@@ -409,9 +409,9 @@ export const mockProducts = [
 ,
   {
     id: '43',
-    name: 'EASYDENT Cordless Endodontic Obturation Gun',
+    nameKey: 'product43Name',
     category: 'Dental Equipment',
-    description: 'Professional cordless obturation gun for root canal therapy by EASYDENT. Features ergonomic design, angled delivery tip for posterior access, digital temperature control, and rechargeable battery. Delivers heated gutta-percha for precise canal filling and sealing.',
+    descriptionKey: 'product43Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/01yptg2l_IMAGE%202025-11-18%2018%3A19%3A04.jpg',
     specifications: {
       manufacturer: 'EASYDENT',
@@ -428,9 +428,9 @@ export const mockProducts = [
 ,
   {
     id: '44',
-    name: 'EASYDOC Cordless Warm Vertical Condensation Device',
+    nameKey: 'product44Name',
     category: 'Dental Equipment',
-    description: 'Advanced EASYDOC cordless obturation device for warm vertical condensation and continuous wave root canal filling. Features contra-angle design with fine heated applicator tip, battery operation, and precision temperature control for optimal gutta-percha delivery.',
+    descriptionKey: 'product44Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/gxw396ru_IMAGE%202025-11-18%2018%3A37%3A13.jpg',
     specifications: {
       manufacturer: 'EASYDOC',
@@ -447,9 +447,9 @@ export const mockProducts = [
 ,
   {
     id: '45',
-    name: 'KAVO PROPHYflex 4 Air Polishing Handpiece',
+    nameKey: 'product45Name',
     category: 'Dental Equipment',
-    description: 'Premium KAVO PROPHYflex 4 dental air polishing system for professional teeth cleaning. Features ergonomic pistol-grip design, transparent powder reservoir for easy monitoring, detachable angled nozzle, and high-efficiency stain and plaque removal technology.',
+    descriptionKey: 'product45Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/47klintj_IMAGE%202025-11-18%2018%3A37%3A14.jpg',
     specifications: {
       manufacturer: 'KAVO',
@@ -466,9 +466,9 @@ export const mockProducts = [
 ,
   {
     id: '46',
-    name: 'DTE Endo R+ Woodpecker Endodontic Motor System',
+    nameKey: 'product46Name',
     category: 'Dental Equipment',
-    description: 'Advanced DTE Endo R+ W3-Pro WOODPECKER endodontic motor with integrated apex locator. Features color digital display, programmable speed/torque control, cordless handpiece with contra-angle attachment, and real-time root canal length measurement for precise treatment.',
+    descriptionKey: 'product46Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/jeqnur7j_IMAGE%202025-11-18%2018%3A37%3A20.jpg',
     specifications: {
       manufacturer: 'DTE / Woodpecker',
@@ -485,9 +485,9 @@ export const mockProducts = [
 ,
   {
     id: '47',
-    name: 'VDW.GOLD RECIPROC Endodontic Motor System',
+    nameKey: 'product47Name',
     category: 'Dental Equipment',
-    description: 'Professional VDW.GOLD RECIPROC motorized endodontic system for reciprocating single-file root canal preparation. Features digital LCD display with RECIPROC ALL mode, apex locator integration, motorized handpiece, and advanced control panel for efficient and safe treatment.',
+    descriptionKey: 'product47Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ort32rki_IMAGE%202025-11-18%2018%3A37%3A21.jpg',
     specifications: {
       manufacturer: 'VDW',
@@ -504,9 +504,9 @@ export const mockProducts = [
 ,
   {
     id: '48',
-    name: 'ASIGA Dental 3D Printer (DLP/SLA)',
+    nameKey: 'product48Name',
     category: 'Dental Lab Equipment',
-    description: 'Professional ASIGA desktop 3D printer with red translucent UV-filtering cover for high-resolution dental applications. Features touchscreen interface with Print, Control, Settings, and Maintenance menus. Ideal for fabricating dental models, surgical guides, crowns, bridges, and orthodontic appliances.',
+    descriptionKey: 'product48Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/2ipe79ex_photo_1_2025-11-18_21-43-44.jpg',
     specifications: {
       manufacturer: 'ASIGA',
@@ -523,9 +523,9 @@ export const mockProducts = [
 ,
   {
     id: '49',
-    name: 'Dental Aligner Vacuum Forming Machine',
+    nameKey: 'product49Name',
     category: 'Dental Lab Equipment',
-    description: 'Professional vacuum forming and pressing machine for fabricating custom clear dental aligners. Features red and black housing with heating element, removable clear forming tray, temperature/pressure controls, and white base unit. Essential for orthodontic aligner production.',
+    descriptionKey: 'product49Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/dswi5s85_photo_2_2025-11-18_21-43-44.jpg',
     specifications: {
       process: 'Vacuum forming/thermoforming',
@@ -542,9 +542,9 @@ export const mockProducts = [
 ,
   {
     id: '50',
-    name: 'DTE SANI-X Ultrasonic Scaler with Touchscreen',
+    nameKey: 'product50Name',
     category: 'Dental Equipment',
-    description: 'Advanced DTE SANI-X ultrasonic scaler with color touchscreen interface and multiple operational modes. Features Bone, Perio, Endo, and Clean modes with adjustable water and power settings. Includes detachable handpiece, irrigation system with suspended fluid bag, and ergonomic design.',
+    descriptionKey: 'product50Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/j3gbmw5g_photo_3_2025-11-18_21-43-44.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -561,9 +561,9 @@ export const mockProducts = [
 ,
   {
     id: '51',
-    name: 'DTE Piezo Bone Surgery Tips Kit',
+    nameKey: 'product51Name',
     category: 'Dental Parts & Accessories',
-    description: 'Comprehensive DTE piezo bone surgery tips kit with gold-coated titanium tips for ultrasonic bone cutting. Includes multiple curved tip configurations, stainless steel storage racks with silicone inserts, sterilization cassettes, and individual blister packaging for precise oral surgical procedures.',
+    descriptionKey: 'product51Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/t0398l5x_photo_4_2025-11-18_21-43-44.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -580,9 +580,9 @@ export const mockProducts = [
 ,
   {
     id: '52',
-    name: 'Ultrasonic Scaler & Endodontic Irrigator System',
+    nameKey: 'product52Name',
     category: 'Dental Equipment',
-    description: 'Dual-function ultrasonic scaler and endodontic irrigator with two handpieces, separate water and solution reservoirs (up to 1400ml), digital control panel with Scaling, P, E.G. (Endo), and Purge modes. Features adjustable water flow and power settings (0-12 scale) for versatile dental procedures.',
+    descriptionKey: 'product52Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/k3alss6r_photo_5_2025-11-18_21-43-44.jpg',
     specifications: {
       functions: 'Scaling and endodontic irrigation',
@@ -599,9 +599,9 @@ export const mockProducts = [
 ,
   {
     id: '53',
-    name: 'DTE i-SCAN Intraoral Scanner',
+    nameKey: 'product53Name',
     category: 'Dental Imaging',
-    description: 'Advanced DTE i-SCAN digital impression system with large color touchscreen interface. Features intuitive menu with Patient Card, Register, Settings, Images, and Scan functions. Captures high-resolution 3D digital models for restorative dentistry, orthodontics, and patient communication. Includes memory management and real-time scan display.',
+    descriptionKey: 'product53Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/1c29npzn_photo_1_2025-11-18_21-49-28.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -618,9 +618,9 @@ export const mockProducts = [
 ,
   {
     id: '54',
-    name: 'DTE Dental Ultrasonic Scaler with Irrigation',
+    nameKey: 'product54Name',
     category: 'Dental Equipment',
-    description: 'Professional DTE ultrasonic scaler with integrated fluid delivery system. Features digital LCD display with Tip, Mode, Freq, Power, Water, and Clean settings. Includes handpiece with gold-coated tip, suspended water bag irrigation, and adjustable controls for customized scaling and periodontal treatment.',
+    descriptionKey: 'product54Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/a1ezsrw1_photo_2_2025-11-18_21-49-28.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -637,9 +637,9 @@ export const mockProducts = [
 ,
   {
     id: '55',
-    name: 'DTE Fi-G Cordless Gutta-Percha Compactor',
+    nameKey: 'product55Name',
     category: 'Dental Equipment',
-    description: 'DTE Fi-G cordless thermoplastic gutta-percha compactor for endodontic obturation. Features ergonomic pistol-grip design, digital temperature display (adjustable), rechargeable battery, and fine heated needle tip. Perfect for warm vertical condensation and continuous wave root canal filling techniques.',
+    descriptionKey: 'product55Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/gnpw9lvl_photo_3_2025-11-18_21-49-28.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -656,9 +656,9 @@ export const mockProducts = [
 ,
   {
     id: '56',
-    name: 'Dental Autoclave with Handpiece Cleaner System',
+    nameKey: 'product56Name',
     category: 'Sterilization Equipment',
-    description: 'Modern dental autoclave with color touchscreen interface and integrated handpiece flushing system. Features front-loading stainless steel chamber with multiple racks, digital cycle control, water reservoir, and pre-sterilization cleaning attachment. Ensures comprehensive instrument sterilization and reprocessing.',
+    descriptionKey: 'product56Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/vp9wtzo6_photo_4_2025-11-18_21-49-28.jpg',
     specifications: {
       chamber: 'Stainless steel front-loading',
@@ -674,9 +674,9 @@ export const mockProducts = [
 ,
   {
     id: '57',
-    name: 'Runyes Dental Autoclave Sterilizer',
+    nameKey: 'product57Name',
     category: 'Sterilization Equipment',
-    description: 'Runyes brand tabletop dental autoclave with digital display and programmable controls. Features circular stainless steel chamber with multiple racks, hinged door with blue handle, USB connectivity, and power control. Provides reliable steam sterilization at 121°C or 134°C for surgical and dental instruments.',
+    descriptionKey: 'product57Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/2oz186f6_photo_5_2025-11-18_21-49-28.jpg',
     specifications: {
       manufacturer: 'Runyes',
@@ -693,9 +693,9 @@ export const mockProducts = [
 ,
   {
     id: '58',
-    name: 'WOSON Professional Dental Autoclave',
+    nameKey: 'product58Name',
     category: 'Sterilization Equipment',
-    description: 'WOSON brand Class B dental autoclave with advanced digital control panel. Features multiple sterilization programs (Unwrapped, Wrapped, Prion, Porous), adjustable temperatures (134°C, 121°C), vacuum and drying cycles, stainless steel chamber with multiple racks, and clear digital displays for temp, pressure, and time monitoring.',
+    descriptionKey: 'product58Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/7eaox13m_photo_1_2025-11-18_21-53-51.jpg',
     specifications: {
       manufacturer: 'WOSON',
@@ -712,9 +712,9 @@ export const mockProducts = [
 ,
   {
     id: '59',
-    name: 'COXO CX235 Dental Implant Motor System',
+    nameKey: 'product59Name',
     category: 'Dental Equipment',
-    description: 'Professional COXO CX235 implant motor with digital display showing torque (up to 50 Ncm), speed (up to 1200 rpm), and 20:1 contra-angle handpiece. Features programmable settings, foot pedal control with colored buttons, integrated irrigation system with fluid bag, calibration function, and CE marking for quality assurance.',
+    descriptionKey: 'product59Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ny71rqmq_photo_2_2025-11-18_21-53-51.jpg',
     specifications: {
       manufacturer: 'COXO',
@@ -731,9 +731,9 @@ export const mockProducts = [
 ,
   {
     id: '60',
-    name: 'Multi-Mode Ultrasonic Scaler System (4-in-1)',
+    nameKey: 'product60Name',
     category: 'Dental Equipment',
-    description: 'Advanced ultrasonic scaler with four specialized modes: BONE (surgery), PERIO (periodontal), ENDO (endodontic), and CLEAN (irrigation). Features color touchscreen interface, adjustable power and water flow controls, integrated fluid delivery system with suspended bag, and ergonomic handpiece with specialized tips for each mode.',
+    descriptionKey: 'product60Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/09e5ix91_photo_3_2025-11-18_21-53-51.jpg',
     specifications: {
       modes: '4 modes - Bone, Perio, Endo, Clean',
@@ -749,9 +749,9 @@ export const mockProducts = [
 ,
   {
     id: '61',
-    name: 'Dental Implant Motor with Touchscreen Display',
+    nameKey: 'product61Name',
     category: 'Dental Equipment',
-    description: 'Sophisticated dental implant motor featuring large touchscreen display with torque (55 N.cm) and speed (2000 r/min) control. Includes two contra-angle handpieces with 20:1 gear ratio, multi-colored foot pedal (green, blue, orange, yellow buttons), irrigation controls, and battery status indicator. Designed for precision implant placement and bone preparation.',
+    descriptionKey: 'product61Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/28etc275_photo_4_2025-11-18_21-53-51.jpg',
     specifications: {
       torque: '55 N.cm',
@@ -767,9 +767,9 @@ export const mockProducts = [
 ,
   {
     id: '62',
-    name: 'Portable Handheld Dental X-ray with Display',
+    nameKey: 'product62Name',
     category: 'Dental Imaging',
-    description: 'Innovative portable handheld dental X-ray unit with integrated digital display for immediate image visualization. Features adjustable exposure settings (60kV, 0.36s), comprehensive control panel with multiple imaging modes, collimator cone for beam direction, READY indicator, and ergonomic handle. Eliminates need for separate sensors and monitors.',
+    descriptionKey: 'product62Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/z6oen7re_photo_5_2025-11-18_21-53-51.jpg',
     specifications: {
       design: 'Portable handheld with integrated display',
@@ -785,9 +785,9 @@ export const mockProducts = [
 ,
   {
     id: '63',
-    name: 'RAYIMAGING Digital Dental Sensor with Touchscreen',
+    nameKey: 'product63Name',
     category: 'Dental Imaging',
-    description: 'Advanced RAYIMAGING digital dental sensor/detector with color touchscreen interface. Features exposure time display (0.160s), calibrated for 70kV 3mA X-ray parameters, multiple imaging modes with Chinese/English interface, and patient/tooth-specific settings. Combines radiation measurement and digital image capture for quality assurance and diagnosis.',
+    descriptionKey: 'product63Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/99fzh60o_photo_3_2025-11-18_21-59-28.jpg',
     specifications: {
       manufacturer: 'RAYIMAGING',
@@ -803,9 +803,9 @@ export const mockProducts = [
 ,
   {
     id: '64',
-    name: 'Mayar Med Portable Digital X-ray Imaging System',
+    nameKey: 'product64Name',
     category: 'Dental Imaging',
-    description: 'Complete portable digital X-ray system by Mayar Med with generator, digital detector plate, and laptop display. Features adjustable collimator with control knobs, comprehensive button panel for exposure settings, immediate digital output for chest and body imaging. Ideal for point-of-care diagnostics in emergency rooms, ICUs, mobile units, and veterinary applications.',
+    descriptionKey: 'product64Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/0ydkmfjo_photo_4_2025-11-18_21-59-28.jpg',
     specifications: {
       manufacturer: 'Mayar Med',
@@ -821,9 +821,9 @@ export const mockProducts = [
 ,
   {
     id: '65',
-    name: 'Professional Dental Intraoral Scanner (Blue)',
+    nameKey: 'product65Name',
     category: 'Dental Imaging',
-    description: 'Modern blue and white intraoral scanner with integrated orthodontic software. Features ergonomic pen-like handpiece design, wired connectivity with docking station, software with 3D tooth rendering and color-coded accuracy mapping. Ideal for digital impressions, orthodontic treatment planning, clear aligner fabrication, and treatment monitoring.',
+    descriptionKey: 'product65Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/rb79y2bh_photo_5_2025-11-18_21-59-28.jpg',
     specifications: {
       design: 'Ergonomic pen-like handpiece',
@@ -839,9 +839,9 @@ export const mockProducts = [
 ,
   {
     id: '66',
-    name: 'VITARO Portable Dental X-ray Unit (Made in Korea)',
+    nameKey: 'product66Name',
     category: 'Dental Imaging',
-    description: 'VITARO brand portable dental X-ray unit manufactured in Korea. Features digital display with 60kV and 2mA settings, 0.35s exposure time, battery-powered operation, tooth and patient positioning icons, radiation safety indicator, and intuitive button controls. Compact design for intraoral radiography, caries detection, and dental diagnostics.',
+    descriptionKey: 'product66Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/e1oj9oi5_photo_6_2025-11-18_21-59-28.jpg',
     specifications: {
       manufacturer: 'VITARO',
@@ -858,9 +858,9 @@ export const mockProducts = [
 ,
   {
     id: '67',
-    name: 'Professional Dental Implant Motor with Touchscreen',
+    nameKey: 'product67Name',
     category: 'Dental Equipment',
-    description: 'Advanced dental implant motor system with large touchscreen control interface. Features 1000 r/min speed, 36 Nm torque capacity, 20:1 gear ratio contra-angle handpiece, multi-button foot pedal control, integrated irrigation system with IV bag and stand. Designed for precise bone preparation and implant placement with programmable protocols.',
+    descriptionKey: 'product67Desc',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/gx6ah2gl_photo_7_2025-11-18_21-59-28.jpg',
     specifications: {
       speed: '1000 r/min',
@@ -877,9 +877,9 @@ export const mockProducts = [
 ,
   {
     id: '68',
-    name: 'Portable Dental X-ray Unit with Digital Display',
+    nameKey: 'product68Name',
     category: 'Dental Imaging',
-    description: 'Compact and lightweight portable dental X-ray unit designed for exceptional mobility and ease of use. Features a vibrant digital display showing adjustable voltage (60kV), precise exposure times (adjustable to 2.00s), and intuitive control panel with pre-set imaging modes for various dental applications. The integrated carrying strap enhances portability, making it ideal for multi-operatory practices and mobile dental services. Battery-powered for cordless freedom and versatile deployment.',
+    descriptionKey: 'product68Desc',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/ns4z5bth_photo_1_2025-11-18_22-11-53.jpg',
     specifications: {
       voltage: '60kV',
@@ -896,9 +896,9 @@ export const mockProducts = [
 ,
   {
     id: '69',
-    name: 'Handheld Intraoral Dental X-Ray Unit',
+    nameKey: 'product69Name',
     category: 'Dental Imaging',
-    description: 'Ergonomic handheld intraoral dental X-ray unit with portable design for comfortable operation and precise positioning. Features digital LCD screen with user-friendly button interface for quick selection of optimal exposure settings. The lightweight, compact, and fully integrated design makes it exceptionally portable and easy to maneuver. Ideal for intraoral imaging applications including caries detection, periodontal assessment, endodontic evaluations, and pre-implant diagnostics.',
+    descriptionKey: 'product69Desc',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/ixvic8yl_photo_2_2025-11-18_22-11-53.jpg',
     specifications: {
       design: 'Handheld portable unit',
@@ -915,9 +915,9 @@ export const mockProducts = [
 ,
   {
     id: '70',
-    name: 'SonoScape Portable Ultrasound System with Doppler',
+    nameKey: 'product70Name',
     category: 'Medical Imaging',
-    description: 'State-of-the-art portable ultrasound system by SonoScape featuring advanced Doppler imaging capabilities for superior blood flow visualization and analysis. The compact laptop-like design with integrated keyboard and high-definition display provides exceptional portability and user-friendly operation. Suitable for vascular imaging, cardiology, emergency medicine, and general diagnostics. Features Color Doppler overlay and detailed spectral Doppler waveforms with velocity measurements for comprehensive hemodynamic assessment.',
+    descriptionKey: 'product70Desc',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/r9frnips_photo_3_2025-11-18_22-11-53.jpg',
     specifications: {
       brand: 'SonoScape',
@@ -935,9 +935,9 @@ export const mockProducts = [
 ,
   {
     id: '71',
-    name: 'Automated Blood Pressure Monitoring Station',
+    nameKey: 'product71Name',
     category: 'Medical Equipment',
-    description: 'Sophisticated automated blood pressure monitoring station designed for precision, mobility, and ease of use in modern healthcare settings. Features state-of-the-art automated cuff system utilizing advanced oscillometric technology for accurate systolic and diastolic readings. The intuitive high-definition touchscreen display serves as the command center for effortless operation. Mounted on a sturdy mobile pedestal base with smooth-gliding casters for maximum flexibility. Ideal for clinics, hospitals, pharmacies, and health screening centers.',
+    descriptionKey: 'product71Desc',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/oqjzd2ji_photo_4_2025-11-18_22-11-53.jpg',
     specifications: {
       measurement: 'Automated oscillometric blood pressure',
@@ -954,9 +954,9 @@ export const mockProducts = [
 ,
   {
     id: '72',
-    name: 'Advanced 3D Dental CBCT Imaging System',
+    nameKey: 'product72Name',
     category: 'Dental Imaging',
-    description: 'Premium cone-beam computed tomography (CBCT) scanner delivering exceptional 3D diagnostic imaging for comprehensive oral and maxillofacial diagnostics. Features a robust C-arm structure for detailed volumetric data capture, ergonomic patient positioning system with chin rest and forehead support, and intuitive touchscreen interface. Provides high-resolution 3D reconstructions crucial for implantology, endodontics, orthodontics, and surgical planning. Modern design with clean lines and professional aesthetic that integrates seamlessly into contemporary dental practices.',
+    descriptionKey: 'product72Desc',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/d2zlwxd3_photo_5_2025-11-18_22-11-53.jpg',
     specifications: {
       imaging_type: 'Cone-Beam Computed Tomography (CBCT)',
@@ -974,9 +974,9 @@ export const mockProducts = [
 ,
   {
     id: '73',
-    name: 'Multi-Modal Dental Imaging Suite with CBCT & Panoramic',
+    nameKey: 'product73Name',
     category: 'Dental Imaging',
-    description: 'Comprehensive dental imaging solution integrating Cone Beam Computed Tomography (CBCT) and Panoramic Radiography for complete diagnostic capabilities. Features high-resolution CBCT imaging with cross-sectional views (axial, sagittal, coronal) and stunning 3D volumetric reconstruction. Includes advanced visualization software with measurement tools, annotation capabilities, and rendering options. The panoramic mode captures the entire dentition and TMJs in a single view. Ideal for implant planning, orthodontic evaluation, surgical guides, endodontic assessment, and TMJ diagnostics.',
+    descriptionKey: 'product73Desc',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/hyk107e9_photo_1_2025-11-18_22-22-45.jpg',
     specifications: {
       imaging_modes: 'CBCT and Panoramic Radiography',
