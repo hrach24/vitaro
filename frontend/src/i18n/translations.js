@@ -479,7 +479,7 @@ export const translations = {
     integrity: '诚信',
     integrityDesc: '透明和道德的商业实践',
     customerFocus: '客户至上',
-    customerFocusDesc: '满足并超越期望'
+    customerFocusDesc: '满足并超越期望',
 
     // Product Translations (TODO: Get proper Chinese translations)
     product22Name: 'Dental Headlight with Magnification Loupes',
