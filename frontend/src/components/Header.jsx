@@ -37,11 +37,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <img
-<<<<<<< HEAD
-              src="/images/logo.webp"
-=======
               src={logo}
->>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
               alt="VITARO Medical"
               className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
             />
@@ -112,7 +108,7 @@ const Header = () => {
             onClick={() => setIsMobileMenuOpen(false)}
             className="block mt-4 px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all text-center"
           >
-            {t('getInTouch')}
+            Get in Touch
           </Link>
         </nav>
       </div>
