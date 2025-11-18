@@ -27,26 +27,32 @@ const Header = () => {
   ];
 
   return (
-    <header className={`header ${isScrolled ? 'header--scrolled' : ''}`}>
-      <div className="header__container">
-        <div className="header__content">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-blue-200/95 backdrop-blur-md shadow-lg' : 'bg-blue-200'
+      }`}
+    >
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="header__logo-link">
+          <Link to="/" className="flex items-center space-x-3 group">
             <img
               src="/images/logo.webp"
               alt="VITARO Medical"
-              className="header__logo-img"
+              className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="header__nav">
+          <nav className="hidden lg:flex items-center space-x-1">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`header__nav-link ${
-                  location.pathname === link.path ? 'header__nav-link--active' : ''
+                className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 ${
+                  location.pathname === link.path
+                    ? 'text-blue-900 bg-blue-300'
+                    : 'text-blue-800 hover:text-blue-900 hover:bg-blue-300'
                 }`}
               >
                 {link.label}
@@ -55,9 +61,12 @@ const Header = () => {
           </nav>
 
           {/* Language Switcher & CTA Button */}
-          <div className="header__actions">
+          <div className="hidden lg:flex items-center gap-3">
             <LanguageSwitcher />
-            <Link to="/contact" className="header__cta-button">
+            <Link
+              to="/contact"
+              className="px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30 hover:-translate-y-0.5 whitespace-nowrap"
+            >
               {t('getInTouch')}
             </Link>
           </div>
@@ -65,7 +74,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="header__mobile-toggle"
+            className="lg:hidden p-2 text-blue-800 hover:text-blue-900 transition-colors"
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -73,15 +82,21 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`header__mobile-menu ${isMobileMenuOpen ? 'header__mobile-menu--open' : ''}`}>
-        <nav className="header__mobile-nav">
+      <div
+        className={`lg:hidden overflow-hidden transition-all duration-300 ${
+          isMobileMenuOpen ? 'max-h-96 border-t border-blue-300' : 'max-h-0'
+        }`}
+      >
+        <nav className="container mx-auto px-4 py-4 bg-blue-200">
           {navLinks.map((link) => (
             <Link
               key={link.path}
               to={link.path}
               onClick={() => setIsMobileMenuOpen(false)}
-              className={`header__mobile-link ${
-                location.pathname === link.path ? 'header__mobile-link--active' : ''
+              className={`block px-4 py-3 rounded-lg font-medium transition-all mb-1 ${
+                location.pathname === link.path
+                  ? 'text-blue-900 bg-blue-300'
+                  : 'text-blue-800 hover:text-blue-900 hover:bg-blue-300'
               }`}
             >
               {link.label}
@@ -90,7 +105,7 @@ const Header = () => {
           <Link
             to="/contact"
             onClick={() => setIsMobileMenuOpen(false)}
-            className="header__mobile-cta"
+            className="block mt-4 px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all text-center"
           >
             {t('getInTouch')}
           </Link>
