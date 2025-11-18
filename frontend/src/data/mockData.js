@@ -527,6 +527,78 @@ export const mockProducts = [
       applications: 'Restorative, prosthetic, implantology'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '30',
+    name: 'High-Speed Dental Turbine Handpiece (Japan)',
+    category: 'Dental Handpieces',
+    description: 'Premium Japanese-manufactured high-speed dental handpiece with integrated water spray system. Model A21Z0145 features precision-engineered titanium construction, compact head design, and multi-port cooling for efficient cutting and shaping procedures.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/4vnj9l91_IMAGE%202025-11-18%2017%3A46%3A34.jpg',
+    specifications: {
+      model: 'A21Z0145',
+      origin: 'Made in Japan',
+      speed: '300,000-500,000 RPM',
+      material: 'Titanium alloy / Stainless steel',
+      spray_system: 'Multi-port water/air cooling',
+      head_design: 'Compact ergonomic head',
+      bur_retention: 'Push-button chuck mechanism',
+      sterilization: 'Full autoclavable'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '31',
+    name: 'Dental Implant Abutment Screw Set',
+    category: 'Dental Implants',
+    description: 'Precision dental implant abutment screws for connecting implant fixtures to prosthetic restorations. Manufactured from biocompatible titanium with threaded design for secure attachment. Essential component for dental implantology procedures.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/32mgk6rf_IMAGE%202025-11-18%2017%3A46%3A35.jpg',
+    specifications: {
+      material: 'Medical grade titanium alloy',
+      design: 'Threaded shaft with retention head',
+      compatibility: 'Universal implant platforms',
+      surface: 'Precision machined finish',
+      seal: 'Integrated O-ring sealing',
+      applications: 'Crown, bridge, denture attachment',
+      packaging: 'Sterile individual packaging',
+      sizes: 'Multiple lengths and diameters available'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '32',
+    name: 'Complete Dental Treatment Unit with LED Light',
+    category: 'Dental Equipment',
+    description: 'Integrated dental workstation featuring patient chair with multi-segment positioning, articulated LED operating light, instrument delivery system with multiple handpiece connections, digital control panel, and ergonomic design for comprehensive dental procedures.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/l6tp7bsy_IMAGE%202025-11-18%2017%3A46%3A39.jpg',
+    specifications: {
+      chair: 'Multi-position reclining with headrest',
+      light: 'Multi-LED shadowless illumination',
+      delivery_system: 'Articulated arm with handpiece holders',
+      control_panel: 'Digital touchscreen interface',
+      spittoon: 'Integrated cuspidor with suction',
+      foot_control: 'Pneumatic foot pedal included',
+      upholstery: 'Medical-grade leather',
+      design: 'Ergonomic modular system'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '33',
+    name: 'DAC Professional Dental Treatment Unit',
+    category: 'Dental Equipment',
+    description: 'High-end DAC dental treatment unit with complete operatory setup. Features ergonomic patient chair, advanced LED lighting, multiple handpiece delivery system, digital control panel, assistant station, and professional stool. Designed for comprehensive dental practice.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/hd7a4bcp_IMAGE%202025-11-18%2017%3A46%3A40.jpg',
+    specifications: {
+      manufacturer: 'DAC/DCI',
+      chair_type: 'Fully adjustable patient chair',
+      lighting: 'Articulated LED surgical light',
+      handpieces: 'Multiple connection ports',
+      control_system: 'Digital display with presets',
+      suction: 'HVE and SE integrated',
+      stool: 'Height-adjustable professional stool',
+      finish: 'Premium upholstery and chrome accents'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
