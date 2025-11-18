@@ -689,6 +689,96 @@ export const mockProducts = [
       applications: 'Diagnosis, documentation, patient education'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '39',
+    name: 'High-Speed Dental Turbine Handpiece with Blue Ring',
+    category: 'Dental Handpieces',
+    description: 'Premium high-speed dental turbine handpiece with distinctive blue color-coding ring. Features textured ergonomic grip, precision-machined nozzle for bur retention, and cooling water spray system. Designed for cavity preparation, tooth shaping, and general restorative procedures.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/p0spicl4_IMAGE%202025-11-18%2018%3A18%3A57.jpg',
+    specifications: {
+      speed: '300,000-450,000 RPM',
+      material: 'Stainless steel/aluminum alloy',
+      grip: 'Textured non-slip surface',
+      color_coding: 'Blue identification ring',
+      cooling: 'Multi-port water spray system',
+      bur_retention: 'Push-button or friction grip',
+      sterilization: 'Full autoclavable',
+      applications: 'Cavity prep, crown prep, tooth shaping'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '40',
+    name: 'Fiber Optic Contra-Angle Handpiece (CE Certified)',
+    category: 'Dental Handpieces',
+    description: 'High-speed fiber optic contra-angle dental handpiece with integrated LED illumination and push-button bur release. Features CE marking for European compliance, ergonomic design, and multi-port water spray. Perfect for precise restorative work in posterior teeth.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/tfp89b1j_IMAGE%202025-11-18%2018%3A18%3A59.jpg',
+    specifications: {
+      illumination: 'Fiber optic LED light',
+      head_design: 'Contra-angle for posterior access',
+      bur_release: 'Push-button quick-connect',
+      spray_system: 'Multi-port water cooling',
+      certification: 'CE marked (European compliance)',
+      material: 'High-grade stainless steel',
+      grip: 'Ergonomic contoured body',
+      speed: 'High-speed rotation capability'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '41',
+    name: 'Dental Turbine Rotor Assembly Kit',
+    category: 'Dental Parts & Accessories',
+    description: 'Professional replacement rotor assembly for dental turbine handpieces. Complete kit includes air-driven impeller rotor, high-precision ball bearings, O-ring seals, and spacers. Designed for high-speed performance with minimal vibration and friction.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/n7tx4ice_IMAGE%202025-11-18%2018%3A19%3A01.jpg',
+    specifications: {
+      components: 'Rotor, 2x ball bearings, O-ring, spacers',
+      rotor_design: 'Multi-blade air impeller',
+      bearings: 'High-precision high-speed rated',
+      material: 'Stainless steel/metal alloy',
+      sealing: 'O-ring and gasket system',
+      compatibility: 'Standard dental turbine handpieces',
+      rpm_rating: 'Suitable for 300,000+ RPM',
+      applications: 'Turbine maintenance and repair'
+    },
+    certifications: ['ISO 13485']
+  },
+  {
+    id: '42',
+    name: 'High-Speed Dental Handpiece with Quad Spray',
+    category: 'Dental Handpieces',
+    description: 'Professional high-speed dental handpiece featuring angled head with quad-port water/air spray system. Ergonomic diamond-textured grip, precise bur retention, and optimized cooling for extended procedures. Ideal for cavity preparation, polishing, and restorative dentistry.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/2qcoeda1_IMAGE%202025-11-18%2018%3A19%3A02.jpg',
+    specifications: {
+      spray_system: '4-5 port water/air cooling',
+      head_angle: 'Angled for posterior access',
+      grip: 'Diamond-pattern textured surface',
+      material: 'Polished stainless steel',
+      head_size: 'Compact for precision work',
+      cooling: 'Continuous irrigation during operation',
+      sterilization: 'Autoclavable design',
+      applications: 'Cavity prep, polishing, restoration'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '43',
+    name: 'EASYDENT Cordless Endodontic Obturation Gun',
+    category: 'Dental Equipment',
+    description: 'Professional cordless obturation gun for root canal therapy by EASYDENT. Features ergonomic design, angled delivery tip for posterior access, digital temperature control, and rechargeable battery. Delivers heated gutta-percha for precise canal filling and sealing.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/01yptg2l_IMAGE%202025-11-18%2018%3A19%3A04.jpg',
+    specifications: {
+      manufacturer: 'EASYDENT',
+      power: 'Cordless rechargeable battery',
+      tip_design: 'Angled for posterior access',
+      tip_color: 'Green disposable/replaceable',
+      controls: 'Digital temperature and flow control',
+      applications: 'Root canal obturation with gutta-percha',
+      design: 'Ergonomic cylindrical handle',
+      features: 'Precision filling, temperature controlled'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
