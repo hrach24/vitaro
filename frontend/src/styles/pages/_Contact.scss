@@ -1,0 +1,135 @@
+.contact {
+  min-height: 100vh;
+  padding-top: 6rem;
+  padding-bottom: $spacing-4xl;
+  background-color: $bg-secondary;
+
+  &__container {
+    @include container;
+  }
+
+  &__header {
+    text-align: center;
+    padding: $spacing-3xl 0;
+  }
+
+  &__title {
+    font-size: $font-size-4xl;
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-md;
+  }
+
+  &__description {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-3xl;
+  }
+
+  &__form-wrapper {
+    flex: 1;
+    min-width: 300px;
+    background-color: $bg-primary;
+    padding: $spacing-2xl;
+    border-radius: $radius-xl;
+    box-shadow: $shadow-md;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__form-group {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xs;
+  }
+
+  &__label {
+    font-weight: $font-weight-medium;
+    color: $text-primary;
+  }
+
+  &__input {
+    padding: $spacing-md;
+    border: 1px solid $border-color;
+    border-radius: $radius-md;
+    font-size: $font-size-base;
+    @include transition(border-color, $transition-fast);
+
+    &:focus {
+      outline: none;
+      border-color: $primary-color;
+      box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
+    }
+  }
+
+  &__textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+
+  &__submit-button {
+    padding: $spacing-md $spacing-2xl;
+    background-color: $primary-color;
+    color: $text-white;
+    font-weight: $font-weight-semibold;
+    border-radius: $radius-lg;
+    @include transition(all, $transition-base);
+
+    &:hover {
+      background-color: $primary-hover;
+      transform: translateY(-2px);
+      box-shadow: $shadow-md;
+    }
+  }
+
+  &__info-wrapper {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  &__info-card {
+    background-color: $bg-primary;
+    padding: $spacing-2xl;
+    border-radius: $radius-xl;
+    box-shadow: $shadow-md;
+    margin-bottom: $spacing-xl;
+  }
+
+  &__info-title {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-semibold;
+    margin-bottom: $spacing-lg;
+  }
+
+  &__info-list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: $spacing-md;
+  }
+
+  &__info-icon {
+    flex-shrink: 0;
+    color: $primary-color;
+    margin-top: 2px;
+  }
+
+  &__info-text {
+    color: $text-secondary;
+  }
+}

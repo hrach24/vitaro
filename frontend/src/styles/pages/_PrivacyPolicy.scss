@@ -1,0 +1,65 @@
+.policy-page {
+  min-height: 100vh;
+  padding-top: 6rem;
+  padding-bottom: $spacing-4xl;
+  background-color: $bg-secondary;
+
+  &__container {
+    @include container;
+    max-width: 800px;
+  }
+
+  &__header {
+    text-align: center;
+    padding: $spacing-3xl 0;
+  }
+
+  &__title {
+    font-size: $font-size-4xl;
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-md;
+  }
+
+  &__date {
+    color: $text-secondary;
+    font-size: $font-size-base;
+  }
+
+  &__content {
+    background-color: $bg-primary;
+    padding: $spacing-2xl;
+    border-radius: $radius-xl;
+    box-shadow: $shadow-md;
+  }
+
+  &__section {
+    margin-bottom: $spacing-2xl;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__section-title {
+    font-size: $font-size-2xl;
+    font-weight: $font-weight-semibold;
+    margin-bottom: $spacing-md;
+  }
+
+  &__text {
+    color: $text-secondary;
+    line-height: $line-height-relaxed;
+    margin-bottom: $spacing-md;
+  }
+
+  &__list {
+    list-style: disc;
+    padding-left: $spacing-xl;
+    color: $text-secondary;
+    line-height: $line-height-relaxed;
+
+    li {
+      margin-bottom: $spacing-sm;
+    }
+  }
+}

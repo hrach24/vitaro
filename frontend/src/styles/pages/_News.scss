@@ -1,0 +1,123 @@
+.news {
+  min-height: 100vh;
+  padding-top: 6rem;
+  padding-bottom: $spacing-4xl;
+  background-color: $bg-secondary;
+
+  &__container {
+    @include container;
+  }
+
+  &__header {
+    text-align: center;
+    padding: $spacing-3xl 0;
+  }
+
+  &__title {
+    font-size: $font-size-4xl;
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-md;
+  }
+
+  &__description {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+  }
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-xl;
+  }
+
+  &__card {
+    flex: 1;
+    min-width: 300px;
+    background-color: $bg-primary;
+    border-radius: $radius-xl;
+    overflow: hidden;
+    box-shadow: $shadow-md;
+    @include transition(transform, $transition-base);
+
+    @media (min-width: $breakpoint-md) {
+      flex-basis: calc(50% - #{$spacing-xl / 2});
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      flex-basis: calc(33.333% - #{$spacing-xl * 2 / 3});
+    }
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: $shadow-xl;
+    }
+  }
+
+  &__card-image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+    overflow: hidden;
+  }
+
+  &__card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__card-content {
+    padding: $spacing-lg;
+  }
+
+  &__card-meta {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+    margin-bottom: $spacing-md;
+  }
+
+  &__card-category {
+    padding: $spacing-xs $spacing-sm;
+    background-color: #dbeafe;
+    color: #1e40af;
+    border-radius: $radius-md;
+    font-size: $font-size-xs;
+    font-weight: $font-weight-medium;
+  }
+
+  &__card-date {
+    color: $text-secondary;
+    font-size: $font-size-sm;
+  }
+
+  &__card-title {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-semibold;
+    margin-bottom: $spacing-sm;
+    @include line-clamp(2);
+  }
+
+  &__card-excerpt {
+    color: $text-secondary;
+    line-height: $line-height-relaxed;
+    @include line-clamp(3);
+    margin-bottom: $spacing-md;
+  }
+
+  &__card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: $spacing-xs;
+    color: $primary-color;
+    font-weight: $font-weight-medium;
+    @include transition(gap, $transition-fast);
+
+    &:hover {
+      gap: $spacing-sm;
+    }
+  }
+}
