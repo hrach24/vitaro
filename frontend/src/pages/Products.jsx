@@ -30,8 +30,10 @@ const Products = () => {
 
   const filteredProducts = products.filter((product) => {
     const matchesCategory = selectedCategory === 'All' || product.category === selectedCategory;
-    const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                          product.description.toLowerCase().includes(searchQuery.toLowerCase());
+    const productName = product.nameKey ? t(product.nameKey) : product.name;
+    const productDesc = product.descriptionKey ? t(product.descriptionKey) : product.description;
+    const matchesSearch = productName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                          productDesc.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
