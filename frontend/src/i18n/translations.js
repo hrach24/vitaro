@@ -774,7 +774,7 @@ export const translations = {
     integrity: '성실',
     integrityDesc: '투명하고 윤리적인 비즈니스 관행',
     customerFocus: '고객 중심',
-    customerFocusDesc: '기대를 충족하고 초과'
+    customerFocusDesc: '기대를 충족하고 초과',
 
     // Product Translations (TODO: Get proper Korean translations)
     product22Name: 'Dental Headlight with Magnification Loupes',
