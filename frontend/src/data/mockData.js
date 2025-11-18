@@ -851,6 +851,96 @@ export const mockProducts = [
       technique: 'Reciprocating single-file system'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '48',
+    name: 'ASIGA Dental 3D Printer (DLP/SLA)',
+    category: 'Dental Lab Equipment',
+    description: 'Professional ASIGA desktop 3D printer with red translucent UV-filtering cover for high-resolution dental applications. Features touchscreen interface with Print, Control, Settings, and Maintenance menus. Ideal for fabricating dental models, surgical guides, crowns, bridges, and orthodontic appliances.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/2ipe79ex_photo_1_2025-11-18_21-43-44.jpg',
+    specifications: {
+      manufacturer: 'ASIGA',
+      technology: 'DLP/SLA resin-based 3D printing',
+      cover: 'Red UV-filtering translucent enclosure',
+      interface: 'Color touchscreen with Main Menu',
+      build_chamber: 'Enclosed with visible build platform',
+      connectivity: 'USB port for data transfer',
+      applications: 'Models, guides, crowns, aligners, dentures',
+      form_factor: 'Compact desktop unit'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '49',
+    name: 'Dental Aligner Vacuum Forming Machine',
+    category: 'Dental Lab Equipment',
+    description: 'Professional vacuum forming and pressing machine for fabricating custom clear dental aligners. Features red and black housing with heating element, removable clear forming tray, temperature/pressure controls, and white base unit. Essential for orthodontic aligner production.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/dswi5s85_photo_2_2025-11-18_21-43-44.jpg',
+    specifications: {
+      process: 'Vacuum forming/thermoforming',
+      chamber: 'Removable clear tray with handles',
+      heating: 'Top-mounted heating element',
+      controls: 'Temperature and pressure dial',
+      materials: 'Thermoplastic aligner sheets',
+      applications: 'Clear aligners, retainers, mouthguards',
+      design: 'Red/black professional housing',
+      base_unit: 'White with motor and controls'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '50',
+    name: 'DTE SANI-X Ultrasonic Scaler with Touchscreen',
+    category: 'Dental Equipment',
+    description: 'Advanced DTE SANI-X ultrasonic scaler with color touchscreen interface and multiple operational modes. Features Bone, Perio, Endo, and Clean modes with adjustable water and power settings. Includes detachable handpiece, irrigation system with suspended fluid bag, and ergonomic design.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/j3gbmw5g_photo_3_2025-11-18_21-43-44.jpg',
+    specifications: {
+      manufacturer: 'DTE',
+      model: 'SANI-X',
+      display: 'Color touchscreen',
+      modes: 'Bone (B), Perio (P), Endo (E), Clean (C)',
+      controls: 'WATER + and POWER + adjustable',
+      handpiece: 'Detachable with integrated holder',
+      irrigation: 'Suspended fluid bag system',
+      applications: 'Scaling, periodontal treatment, endodontics, bone surgery'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '51',
+    name: 'DTE Piezo Bone Surgery Tips Kit',
+    category: 'Dental Parts & Accessories',
+    description: 'Comprehensive DTE piezo bone surgery tips kit with gold-coated titanium tips for ultrasonic bone cutting. Includes multiple curved tip configurations, stainless steel storage racks with silicone inserts, sterilization cassettes, and individual blister packaging for precise oral surgical procedures.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/t0398l5x_photo_4_2025-11-18_21-43-44.jpg',
+    specifications: {
+      manufacturer: 'DTE',
+      coating: 'Gold (likely titanium nitride)',
+      material: 'Stainless steel with TiN coating',
+      tip_designs: 'Various curved configurations',
+      storage: 'Stainless racks with blue silicone inserts',
+      sterilization: 'Autoclavable cassettes included',
+      packaging: 'Individual blister packs',
+      applications: 'Bone grafting, sinus lifts, ridge augmentation, extractions'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '52',
+    name: 'Ultrasonic Scaler & Endodontic Irrigator System',
+    category: 'Dental Equipment',
+    description: 'Dual-function ultrasonic scaler and endodontic irrigator with two handpieces, separate water and solution reservoirs (up to 1400ml), digital control panel with Scaling, P, E.G. (Endo), and Purge modes. Features adjustable water flow and power settings (0-12 scale) for versatile dental procedures.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/k3alss6r_photo_5_2025-11-18_21-43-44.jpg',
+    specifications: {
+      functions: 'Scaling and endodontic irrigation',
+      handpieces: 'Two detachable (scaling + endo)',
+      reservoirs: 'Dual: 1400ml water + solution reservoir',
+      modes: 'Scaling, P, E.G. (Endo), Purge',
+      water_control: '0-12 scale adjustable',
+      power_control: '0-12 scale adjustable',
+      display: 'Digital control panel',
+      applications: 'Scaling, plaque removal, root canal irrigation'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
