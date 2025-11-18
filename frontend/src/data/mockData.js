@@ -1296,6 +1296,25 @@ export const mockProducts = [
       construction: 'Robust and durable frame'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '73',
+    name: 'Multi-Modal Dental Imaging Suite with CBCT & Panoramic',
+    category: 'Dental Imaging',
+    description: 'Comprehensive dental imaging solution integrating Cone Beam Computed Tomography (CBCT) and Panoramic Radiography for complete diagnostic capabilities. Features high-resolution CBCT imaging with cross-sectional views (axial, sagittal, coronal) and stunning 3D volumetric reconstruction. Includes advanced visualization software with measurement tools, annotation capabilities, and rendering options. The panoramic mode captures the entire dentition and TMJs in a single view. Ideal for implant planning, orthodontic evaluation, surgical guides, endodontic assessment, and TMJ diagnostics.',
+    image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/hyk107e9_photo_1_2025-11-18_22-22-45.jpg',
+    specifications: {
+      imaging_modes: 'CBCT and Panoramic Radiography',
+      cbct_views: 'Axial, Sagittal, Coronal cross-sections',
+      reconstruction: '3D volumetric rendering',
+      panoramic: 'Full arch view including TMJs',
+      software: 'Intuitive visualization with measurement tools',
+      applications: 'Implantology, orthodontics, endodontics, surgery, TMJ',
+      resolution: 'Ultra-high-resolution imaging',
+      workflow: 'Integrated acquisition to report generation',
+      visualization: 'Interactive 3D models with manipulation'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
