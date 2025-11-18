@@ -184,7 +184,7 @@ export const translations = {
     integrity: 'Integrity',
     integrityDesc: 'Transparency and ethical business practices',
     customerFocus: 'Customer Focus',
-    customerFocusDesc: 'Meeting and exceeding expectations'
+    customerFocusDesc: 'Meeting and exceeding expectations',
 
     // Product Translations
     product22Name: 'Dental Headlight with Magnification Loupes',
