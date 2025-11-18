@@ -992,3 +992,41 @@ export const mockProducts = [
     certifications: ['CE', 'ISO 13485', 'FDA']
   }
 
+];
+
+export const mockNews = [
+  {
+    id: '1',
+    title: 'VITARO Expands Product Line with Advanced Dental Imaging Solutions',
+    date: '2024-10-15',
+    excerpt: 'We are excited to announce the launch of our new line of digital X-ray sensors and intraoral cameras.',
+    content: 'VITARO Medical continues its commitment to innovation with the introduction of cutting-edge dental imaging solutions. Our new CMOS-based X-ray sensors offer superior image quality with up to 80% reduction in radiation exposure.',
+    image: dentalSolutions,
+    category: 'Product Launch'
+  },
+  {
+    id: '2',
+    title: 'ISO 13485:2016 Certification Renewed for 2024',
+    date: '2024-09-20',
+    excerpt: 'VITARO Medical successfully renews its ISO 13485:2016 certification, demonstrating continued commitment to quality.',
+    content: 'Following a comprehensive audit of our quality management systems, VITARO Medical has successfully renewed its ISO 13485:2016 certification for medical device manufacturing.',
+    image: iso,
+    category: 'Certifications'
+  },
+];
+
+export const categories = [
+  { id: 'all', name: 'All Products', count: mockProducts.length },
+  { id: 'dental-equipment', name: 'Dental Equipment', count: mockProducts.filter(p => p.category === 'Dental Equipment').length },
+  { id: 'dental-handpieces', name: 'Dental Handpieces', count: mockProducts.filter(p => p.category === 'Dental Handpieces').length },
+  { id: 'dental-imaging', name: 'Dental Imaging', count: mockProducts.filter(p => p.category === 'Dental Imaging').length },
+  { id: 'dental-instruments', name: 'Dental Instruments', count: mockProducts.filter(p => p.category === 'Dental Instruments').length },
+  { id: 'dental-implants', name: 'Dental Implants', count: mockProducts.filter(p => p.category === 'Dental Implants').length },
+  { id: 'dental-lab-equipment', name: 'Dental Lab Equipment', count: mockProducts.filter(p => p.category === 'Dental Lab Equipment').length },
+  { id: 'dental-parts', name: 'Dental Parts & Accessories', count: mockProducts.filter(p => p.category === 'Dental Parts & Accessories').length },
+  { id: 'medical-equipment', name: 'Medical Equipment', count: mockProducts.filter(p => p.category === 'Medical Equipment').length },
+  { id: 'medical-imaging', name: 'Medical Imaging', count: mockProducts.filter(p => p.category === 'Medical Imaging').length },
+  { id: 'medical-supplies', name: 'Medical Supplies', count: mockProducts.filter(p => p.category === 'Medical Supplies').length },
+  { id: 'orthodontic', name: 'Orthodontic Products', count: mockProducts.filter(p => p.category === 'Orthodontic Products').length },
+  { id: 'sterilization', name: 'Sterilization Equipment', count: mockProducts.filter(p => p.category === 'Sterilization Equipment').length }
+];
