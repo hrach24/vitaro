@@ -3,7 +3,7 @@
 
 export const mockProducts = [
   {
-    id: '1',
+    id: '22',
     name: 'Dental Chair',
     category: 'Dental Equipment',
     description: 'Premium electric dental chair with memory foam cushioning, programmable positioning, and integrated control system for optimal patient comfort and dentist ergonomics.',
