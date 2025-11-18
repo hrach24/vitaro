@@ -42,3 +42,15 @@ html {
 .animate-fade-in {
     animation: fadeIn 0.6s ease-out;
 }
+
+/* Main app wrapper */
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__main {
+    flex: 1;
+    padding-top: 5rem;
+}
