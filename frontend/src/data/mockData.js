@@ -1030,6 +1030,93 @@ export const mockProducts = [
       design: 'Benchtop model with ventilation grilles'
     },
     certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '58',
+    name: 'WOSON Professional Dental Autoclave',
+    category: 'Sterilization Equipment',
+    description: 'WOSON brand Class B dental autoclave with advanced digital control panel. Features multiple sterilization programs (Unwrapped, Wrapped, Prion, Porous), adjustable temperatures (134°C, 121°C), vacuum and drying cycles, stainless steel chamber with multiple racks, and clear digital displays for temp, pressure, and time monitoring.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/7eaox13m_photo_1_2025-11-18_21-53-51.jpg',
+    specifications: {
+      manufacturer: 'WOSON',
+      class: 'Class B',
+      programs: 'Unwrapped, Wrapped, Prion, Porous',
+      temperatures: '121°C, 134°C selectable',
+      cycles: 'Vacuum, Sterilization, Drying',
+      display: 'Digital temp, pressure, time readouts',
+      chamber: 'Stainless steel with multiple racks',
+      safety: 'Hot surface warning, secure door lock'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '59',
+    name: 'COXO CX235 Dental Implant Motor System',
+    category: 'Dental Equipment',
+    description: 'Professional COXO CX235 implant motor with digital display showing torque (up to 50 Ncm), speed (up to 1200 rpm), and 20:1 contra-angle handpiece. Features programmable settings, foot pedal control with colored buttons, integrated irrigation system with fluid bag, calibration function, and CE marking for quality assurance.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ny71rqmq_photo_2_2025-11-18_21-53-51.jpg',
+    specifications: {
+      manufacturer: 'COXO',
+      model: 'CX235',
+      torque: 'Up to 50 Ncm',
+      speed: 'Up to 1200 rpm',
+      gear_ratio: '20:1 contra-angle',
+      control: 'Multi-button foot pedal',
+      irrigation: 'Integrated fluid delivery system',
+      programs: 'Multiple programmable presets (P1, P2, etc.)'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '60',
+    name: 'Multi-Mode Ultrasonic Scaler System (4-in-1)',
+    category: 'Dental Equipment',
+    description: 'Advanced ultrasonic scaler with four specialized modes: BONE (surgery), PERIO (periodontal), ENDO (endodontic), and CLEAN (irrigation). Features color touchscreen interface, adjustable power and water flow controls, integrated fluid delivery system with suspended bag, and ergonomic handpiece with specialized tips for each mode.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/09e5ix91_photo_3_2025-11-18_21-53-51.jpg',
+    specifications: {
+      modes: '4 modes - Bone, Perio, Endo, Clean',
+      interface: 'Color touchscreen display',
+      power_control: 'Adjustable graphical scale',
+      water_control: 'Adjustable flow with dial',
+      irrigation: 'Integrated fluid bag system',
+      handpiece: 'Ergonomic with tip holder',
+      program: 'E0 and customizable settings'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '61',
+    name: 'Dental Implant Motor with Touchscreen Display',
+    category: 'Dental Equipment',
+    description: 'Sophisticated dental implant motor featuring large touchscreen display with torque (55 N.cm) and speed (2000 r/min) control. Includes two contra-angle handpieces with 20:1 gear ratio, multi-colored foot pedal (green, blue, orange, yellow buttons), irrigation controls, and battery status indicator. Designed for precision implant placement and bone preparation.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/28etc275_photo_4_2025-11-18_21-53-51.jpg',
+    specifications: {
+      torque: '55 N.cm',
+      speed: '2000 r/min',
+      gear_ratio: '20:1',
+      display: 'Large color touchscreen',
+      handpieces: 'Two contra-angle included',
+      foot_pedal: '4-button multicolor control',
+      features: 'Calibration, light, irrigation, pump control'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '62',
+    name: 'Portable Handheld Dental X-ray with Display',
+    category: 'Dental Imaging',
+    description: 'Innovative portable handheld dental X-ray unit with integrated digital display for immediate image visualization. Features adjustable exposure settings (60kV, 0.36s), comprehensive control panel with multiple imaging modes, collimator cone for beam direction, READY indicator, and ergonomic handle. Eliminates need for separate sensors and monitors.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/z6oen7re_photo_5_2025-11-18_21-53-51.jpg',
+    specifications: {
+      design: 'Portable handheld with integrated display',
+      kilovoltage: '60kV (adjustable)',
+      exposure_time: '0.36s (adjustable)',
+      display: 'Digital screen for real-time imaging',
+      controls: 'Comprehensive button panel',
+      collimator: 'Cylindrical cone for beam direction',
+      applications: 'Intraoral radiography, caries detection'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
