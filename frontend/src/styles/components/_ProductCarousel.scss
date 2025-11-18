@@ -1,0 +1,115 @@
+.product-carousel {
+  position: relative;
+  padding: $spacing-2xl 0;
+
+  &__container {
+    @include container;
+  }
+
+  &__header {
+    text-align: center;
+    margin-bottom: $spacing-2xl;
+  }
+
+  &__title {
+    font-size: $font-size-3xl;
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-md;
+  }
+
+  &__description {
+    color: $text-secondary;
+    font-size: $font-size-lg;
+  }
+
+  &__track {
+    display: flex;
+    gap: $spacing-xl;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: $spacing-md;
+    
+    // Hide scrollbar
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  &__card {
+    flex: 0 0 280px;
+    background-color: $bg-primary;
+    border-radius: $radius-xl;
+    overflow: hidden;
+    box-shadow: $shadow-md;
+    @include transition(transform, $transition-base);
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: $shadow-xl;
+    }
+  }
+
+  &__image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; // 4:3 aspect ratio
+    overflow: hidden;
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__content {
+    padding: $spacing-lg;
+  }
+
+  &__card-title {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    margin-bottom: $spacing-sm;
+    @include line-clamp(2);
+  }
+
+  &__card-description {
+    color: $text-secondary;
+    font-size: $font-size-sm;
+    @include line-clamp(3);
+  }
+
+  &__controls {
+    display: flex;
+    justify-content: center;
+    gap: $spacing-md;
+    margin-top: $spacing-xl;
+  }
+
+  &__button {
+    padding: $spacing-md;
+    background-color: $primary-color;
+    color: $text-white;
+    border-radius: $radius-full;
+    @include transition(all, $transition-base);
+
+    &:hover {
+      background-color: $primary-hover;
+      transform: scale(1.1);
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+}
