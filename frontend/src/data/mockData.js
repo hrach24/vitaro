@@ -1,17 +1,233 @@
 // Mock data for VITARO Medical Website
 // This file contains all mock data for products, news, etc.
 
+import dentalChair from '@/images/products/dentalChair.webp'
+import dentalEndomtor from '@/images/products/dentalEndomtor.webp'
+import equipment from '@/images/products/equipment.webp'
+import contraAngel from '@/images/products/contraAngel.webp'
+import turbine from '@/images/products/turbine.webp'
+import insuline from '@/images/products/insulin.webp'
+import gloves from '@/images/products/gloves.webp'
+import lamp from '@/images/products/lamp.webp'
+import dentalLaboratory from '@/images/products/dentalLaboratory.webp'
+import floss from '@/images/products/floss.webp'
+import binocular from '@/images/products/binocular.webp'
+import clinicProducts from '@/images/products/clinicProducts.webp'
+import dentalBraces from '@/images/products/dentalBraces.webp'
+import air from '@/images/products/air.webp'
+import xRay from '@/images/products/xRay.webp'
+import machine from '@/images/products/machine.webp'
+import cameraSet from '@/images/products/cameraSet.webp'
+import dental from '@/images/products/dental.webp'
+import ultrasonic from '@/images/products/ultrasonic.webp'
+import autoClave from '@/images/products/autoclave.webp'
+import dentalSolutions from '@/images/news/dentalSolutions.webp'
+import iso from '@/images/news/iso.webp'
+
+
+
 export const mockProducts = [
   {
     id: '22',
     name: 'Dental Headlight with Magnification Loupes',
     category: 'Dental Equipment',
+<<<<<<< HEAD
     description: 'Professional head-mounted LED illumination system with integrated magnification loupes for enhanced visualization during dental procedures. Features adjustable headband, dual LED lights, and interchangeable magnifying lenses for optimal precision.',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/7pgo77wk_photo_1_2025-11-17_22-37-11.jpg',
     specifications: {
       led_lights: 'Dual LED adjustable lights',
       magnification: '2.5x, 3.5x, 4.5x (interchangeable)',
       working_distance: '340mm - 520mm',
+=======
+    description: 'Premium electric dental chair with memory foam cushioning, programmable positioning, and integrated control system for optimal patient comfort and dentist ergonomics.',
+    image: dentalChair,
+    specifications: {
+      type: 'Electric Hydraulic Chair',
+      movement: '4-way programmable positioning',
+      weight_capacity: '180 kg',
+      upholstery: 'Medical grade leather, 9 colors available',
+      base: 'Heavy-duty cast iron base',
+      dimensions: '1800mm x 650mm x 600mm',
+      voltage: '220V/110V, 50/60Hz',
+      features: 'LED operating light, instrument tray, spittoon unit'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '2',
+    name: 'Dental Endomotor',
+    category: 'Dental Equipment',
+    description: 'Advanced endodontic motor with precise torque control and apex locator integration for safe and efficient root canal treatment.',
+    image: dentalEndomtor,
+    specifications: {
+      speed_range: '100-2000 RPM',
+      torque_range: '0.4-5.0 N.cm',
+      gear_ratio: '16:1, 64:1',
+      apex_locator: 'Built-in multi-frequency',
+      display: '4.5 inch LCD touchscreen',
+      file_systems: 'Compatible with all major file systems',
+      battery: 'Rechargeable lithium 2200mAh',
+      autoclavable: 'Handpiece up to 135°C'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '3',
+    name: 'Air Micro Motor (Dental)',
+    category: 'Dental Equipment',
+    description: 'High-performance pneumatic micromotor with exceptional torque and speed control for precise dental procedures.',
+    image: equipment,
+    specifications: {
+      speed: '0-40,000 RPM',
+      air_pressure: '0.28-0.30 MPa',
+      noise_level: '< 70 dB',
+      coupling: 'ISO standard E-type',
+      weight: '185g',
+      spray: '4-hole water spray system',
+      sterilization: 'Autoclavable 135°C',
+      connection: 'Standard 4-hole coupling'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '4',
+    name: 'Dental Contra-Angle Handpiece',
+    category: 'Dental Handpieces',
+    description: 'Premium 1:1 ratio contra-angle handpiece with push-button chuck system and triple water spray for optimal cooling.',
+    image: contraAngel,
+    specifications: {
+      gear_ratio: '1:1',
+      speed: 'Up to 40,000 RPM',
+      chuck_type: 'Push button',
+      bur_compatibility: '2.35mm',
+      head_size: 'Mini head 11.5mm',
+      spray_system: 'Triple water spray',
+      bearing: 'Ceramic ball bearings',
+      sterilization: 'Autoclavable 135°C, 200 cycles'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '5',
+    name: 'Dental Turbine Handpiece',
+    category: 'Dental Handpieces',
+    description: 'High-speed turbine handpiece with ceramic bearings, quad water spray, and superior torque for efficient cutting.',
+    image: turbine,
+    specifications: {
+      speed: '350,000-420,000 RPM',
+      torque: '16-18 W',
+      chuck_type: 'Push button',
+      bur_size: '1.6mm',
+      head_height: '12.5mm',
+      noise_level: '< 70 dB',
+      spray_holes: '4-hole quad spray',
+      bearing_type: 'Ceramic ball bearings',
+      coupling: 'ISO standard 4-hole'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '6',
+    name: 'Insulin Syringes 1ml U-100',
+    category: 'Medical Supplies',
+    description: 'Sterile single-use insulin syringes with ultra-fine needles for comfortable insulin injection. Available in multiple gauge sizes.',
+    image: insuline,
+    specifications: {
+      capacity: '1ml (100 units)',
+      scale: 'U-100 insulin scale',
+      needle_gauge: '29G, 30G, 31G',
+      needle_length: '8mm, 13mm',
+      material: 'Medical grade PP barrel',
+      needle_type: 'Ultra-thin wall, tri-bevel tip',
+      packaging: 'Individually blister packed, sterile',
+      shelf_life: '5 years'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA 510(k)', 'ISO 7886']
+  },
+  {
+    id: '7',
+    name: 'Nitrile Gloves',
+    category: 'Medical Supplies',
+    description: 'Powder-free nitrile examination gloves offering superior puncture resistance and chemical protection. Latex-free alternative.',
+    image: gloves,
+    specifications: {
+      material: 'Nitrile (acrylonitrile-butadiene)',
+      thickness: '0.12mm palm, 0.10mm finger',
+      sizes: 'XS, S, M, L, XL',
+      length: '240mm minimum',
+      aql: '1.5 (critical defects)',
+      tensile_strength: '14 MPa minimum',
+      elongation: '500% minimum',
+      packaging: '100 pieces per box, 10 boxes per carton'
+    },
+    certifications: ['CE', 'EN 455', 'ISO 13485', 'FDA', 'ASTM D6319']
+  },
+  {
+    id: '8',
+    name: 'Dental Lamp',
+    category: 'Dental Equipment',
+    description: 'LED dental operating light with adjustable color temperature, shadow-free illumination, and touchless sensor control.',
+    image: lamp,
+    specifications: {
+      light_type: 'LED array',
+      illumination: '20,000-40,000 Lux',
+      color_temperature: '4000-5000K adjustable',
+      lamp_head_diameter: '180mm',
+      depth_of_focus: '700-1200mm',
+      control: 'Touchless sensor + manual',
+      led_lifespan: '50,000 hours',
+      power_consumption: '35W'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '9',
+    name: 'Dental Laboratory Electro-Spatula',
+    category: 'Dental Lab Equipment',
+    description: 'Electric wax spatula for precise wax modeling and dental lab work with adjustable temperature control.',
+    image: dentalLaboratory,
+    specifications: {
+      temperature_range: '50-450°C',
+      heating_time: '15 seconds to working temp',
+      tip_types: '6 interchangeable tips included',
+      power: '50W',
+      voltage: '220V/110V',
+      handle: 'Heat-resistant ergonomic design',
+      cord_length: '1.5 meters',
+      weight: '120g'
+    },
+    certifications: ['CE']
+  },
+  {
+    id: '10',
+    name: 'Dental Floss Picks',
+    category: 'Dental Consumables',
+    description: 'Premium dental floss picks with high-strength UHMWPE fiber and ergonomic handle design for effective plaque removal.',
+    image: floss,
+    specifications: {
+      floss_material: 'UHMWPE (Ultra-high molecular weight polyethylene)',
+      floss_strength: 'Shred resistant',
+      handle_material: 'Food-grade PP plastic',
+      pick_design: 'Textured tip for interdental cleaning',
+      flavor: 'Mint / Unflavored options',
+      sterilization: 'Gamma irradiated',
+      packaging: '50 pieces per bag, individual sealed',
+      dimensions: '75mm length'
+    },
+    certifications: ['ISO 13485', 'FDA']
+  },
+  {
+    id: '11',
+    name: 'Dental Binocular Loupes Set',
+    category: 'Dental Equipment',
+    description: 'Surgical loupes with adjustable magnification and integrated LED illumination for enhanced precision during procedures.',
+    image: binocular,
+    specifications: {
+      magnification: '2.5x, 3.5x, 4.5x (selectable)',
+      working_distance: '340mm, 420mm, 520mm',
+      field_of_view: '80-100mm',
+      led_light: 'Integrated 5W LED headlight',
+>>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
       battery: 'Rechargeable lithium 5000mAh',
       led_brightness: 'High-intensity white LED',
       headband: 'Adjustable padded headband',
@@ -21,11 +237,19 @@ export const mockProducts = [
     certifications: ['CE', 'ISO 13485']
   },
   {
+<<<<<<< HEAD
     id: '23',
     name: 'ZEISS EXTARO 300 Surgical Microscope',
     category: 'Dental Imaging',
     description: 'Premium wall-mounted dental surgical microscope with superior Carl Zeiss optics. Binocular design with advanced magnification and co-axial illumination for endodontics, periodontics, and precision dental surgery.',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/71taoc7t_photo_2_2025-11-17_22-37-11.jpg',
+=======
+    id: '12',
+    name: 'Clinic Disinfection Products',
+    category: 'Medical Supplies',
+    description: 'Comprehensive disinfection solution for medical and dental clinics. Hospital-grade broad-spectrum disinfectant.',
+    image: clinicProducts,
+>>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
     specifications: {
       manufacturer: 'Carl Zeiss',
       magnification_range: '3x to 20x variable',
@@ -39,11 +263,37 @@ export const mockProducts = [
     certifications: ['CE', 'FDA', 'ISO 13485']
   },
   {
+<<<<<<< HEAD
     id: '24',
     name: 'Professional Dental Loupes Set',
     category: 'Dental Equipment',
     description: 'German-engineered precision dental loupes with multiple mounting options. Available with integrated LED illumination for shadow-free visibility. Perfect for restorative dentistry, surgery, and detailed examination work.',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/a9en07dq_photo_3_2025-11-17_22-37-11.jpg',
+=======
+    id: '13',
+    name: 'Dental Braces',
+    category: 'Orthodontic Products',
+    description: 'Metal and ceramic orthodontic brackets with advanced bonding system and low-friction design for efficient tooth movement.',
+    image: dentalBraces,
+    specifications: {
+      material: 'Stainless steel 316L / Ceramic (zirconia)',
+      slot_size: '0.018", 0.022"',
+      prescription: 'Roth, MBT available',
+      base_design: 'Mesh base with retention grooves',
+      torque_angle: 'Pre-programmed angulation',
+      hook: 'Integral tie wings',
+      packaging: '20 pieces per kit (5-5 configuration)',
+      sterilization: 'Pre-sterilized, single-use'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '14',
+    name: 'Air Prophy (Dental Air Polisher)',
+    category: 'Dental Equipment',
+    description: 'Air polishing system for effective biofilm removal and stain removal using fine powder particles.',
+    image: air,
+>>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
     specifications: {
       origin: 'Made in Germany',
       magnification: '2.5x, 3.5x, 4.5x, 5.5x options',
@@ -93,6 +343,7 @@ export const mockProducts = [
     certifications: ['CE', 'ISO 13485', 'FDA']
   },
   {
+<<<<<<< HEAD
     id: '27',
     name: 'Propex Pixi Apex Locator (Dentsply)',
     category: 'Dental Equipment',
@@ -152,6 +403,13 @@ export const mockProducts = [
     category: 'Dental Handpieces',
     description: 'Premium Japanese-manufactured high-speed dental handpiece with integrated water spray system. Model A21Z0145 features precision-engineered titanium construction, compact head design, and multi-port cooling for efficient cutting and shaping procedures.',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/4vnj9l91_IMAGE%202025-11-18%2017%3A46%3A34.jpg',
+=======
+    id: '15',
+    name: 'X-Ray Sensor',
+    category: 'Dental Imaging',
+    description: 'Digital intraoral X-ray sensor with high resolution CMOS technology for instant digital radiography.',
+    image: xRay,
+>>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
     specifications: {
       model: 'A21Z0145',
       origin: 'Made in Japan',
@@ -165,11 +423,19 @@ export const mockProducts = [
     certifications: ['CE', 'ISO 13485']
   },
   {
+<<<<<<< HEAD
     id: '31',
     name: 'Dental Implant Abutment Screw Set',
     category: 'Dental Implants',
     description: 'Precision dental implant abutment screws for connecting implant fixtures to prosthetic restorations. Manufactured from biocompatible titanium with threaded design for secure attachment. Essential component for dental implantology procedures.',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/32mgk6rf_IMAGE%202025-11-18%2017%3A46%3A35.jpg',
+=======
+    id: '17',
+    name: 'Dental X-Ray Machine',
+    category: 'Dental Imaging',
+    description: 'Wall-mounted dental X-ray unit with DC technology for precise imaging and reduced radiation exposure.',
+    image: machine,
+>>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
     specifications: {
       material: 'Medical grade titanium alloy',
       design: 'Threaded shaft with retention head',
@@ -183,11 +449,57 @@ export const mockProducts = [
     certifications: ['CE', 'ISO 13485', 'FDA']
   },
   {
+<<<<<<< HEAD
     id: '32',
     name: 'Complete Dental Treatment Unit with LED Light',
     category: 'Dental Equipment',
     description: 'Integrated dental workstation featuring patient chair with multi-segment positioning, articulated LED operating light, instrument delivery system with multiple handpiece connections, digital control panel, and ergonomic design for comprehensive dental procedures.',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/l6tp7bsy_IMAGE%202025-11-18%2017%3A46%3A39.jpg',
+=======
+    id: '18',
+    name: 'Intraoral Camera Set',
+    category: 'Dental Imaging',
+    description: 'HD intraoral camera with autofocus, freeze-frame capture, and integrated software for patient education.',
+    image: cameraSet,
+    specifications: {
+      sensor: '1/4 inch Sony CMOS',
+      resolution: '1920 x 1080 Full HD',
+      frame_rate: '30 fps',
+      focus: 'Auto-focus 5-50mm',
+      led_illumination: '6 high-brightness LEDs',
+      connection: 'USB 2.0',
+      software: 'Image capture & management software',
+      dimensions: '230mm x 28mm diameter',
+      weight: '140g'
+    },
+    certifications: ['CE', 'FDA', 'ISO 13485']
+  },
+  {
+    id: '19',
+    name: 'Gun-Type Dental X-Ray Machine',
+    category: 'Dental Imaging',
+    description: 'Portable handheld X-ray unit with backscatter shield for safe mobile radiography in dental practice.',
+    image: dental,
+    specifications: {
+      type: 'Handheld portable',
+      tube_voltage: '60 kV',
+      tube_current: '2.5 mA',
+      exposure_time: '0.2-0.8 seconds',
+      battery: 'Lithium-ion rechargeable',
+      battery_life: '200+ exposures',
+      backscatter_shield: 'Integrated lead shield',
+      weight: '2.5 kg',
+      charging_time: '3 hours'
+    },
+    certifications: ['CE', 'FDA 21 CFR 1020.30', 'ISO 13485']
+  },
+  {
+    id: '20',
+    name: 'Dental Ultrasonic Scaler',
+    category: 'Dental Equipment',
+    description: 'Piezoelectric ultrasonic scaler for effective calculus removal and periodontal therapy with minimal discomfort.',
+    image: ultrasonic,
+>>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
     specifications: {
       chair: 'Multi-position reclining with headrest',
       light: 'Multi-LED shadowless illumination',
@@ -219,11 +531,19 @@ export const mockProducts = [
     certifications: ['CE', 'ISO 13485', 'FDA']
   },
   {
+<<<<<<< HEAD
     id: '34',
     name: 'Integrated Dental Operatory with Patient Monitoring',
     category: 'Dental Equipment',
     description: 'Advanced integrated dental operatory unit with patient chair, multi-LED surgical light, mobile instrument delivery cart, and integrated vital signs monitor. Features digital display for real-time monitoring of heart rate, blood pressure, and oxygen saturation during procedures.',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/hnf79sqp_IMAGE%202025-11-18%2017%3A48%3A02.jpg',
+=======
+    id: '21',
+    name: 'Dental Autoclave Sterilizer',
+    category: 'Sterilization Equipment',
+    description: 'Class B autoclave with pre-vacuum cycles for complete sterilization of dental instruments and handpieces.',
+    image: autoClave,
+>>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
     specifications: {
       chair: 'Electric with programmable positions',
       monitor: 'Vital signs display (HR, BP, SpO2)',
@@ -943,7 +1263,7 @@ export const mockNews = [
     date: '2024-10-15',
     excerpt: 'We are excited to announce the launch of our new line of digital X-ray sensors and intraoral cameras.',
     content: 'VITARO Medical continues its commitment to innovation with the introduction of cutting-edge dental imaging solutions. Our new CMOS-based X-ray sensors offer superior image quality with up to 80% reduction in radiation exposure.',
-    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800',
+    image: dentalSolutions,
     category: 'Product Launch'
   },
   {
@@ -952,22 +1272,13 @@ export const mockNews = [
     date: '2024-09-20',
     excerpt: 'VITARO Medical successfully renews its ISO 13485:2016 certification, demonstrating continued commitment to quality.',
     content: 'Following a comprehensive audit of our quality management systems, VITARO Medical has successfully renewed its ISO 13485:2016 certification for medical device manufacturing.',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800',
+    image: iso,
     category: 'Certifications'
   },
-  {
-    id: '3',
-    title: 'New Partnership with Leading European Dental Distributors',
-    date: '2024-08-10',
-    excerpt: 'VITARO expands its global reach through strategic partnerships in the European market.',
-    content: 'We are pleased to announce new distribution agreements with leading dental equipment distributors across Germany, France, and Italy, strengthening our presence in the European market.',
-    image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800',
-    category: 'Business'
-  }
 ];
 
 export const categories = [
-  { id: 'all', name: 'All Products', count: mockProducts.length },
+  // { id: 'all', name: 'All Products', count: mockProducts.length },
   { id: 'dental-equipment', name: 'Dental Equipment', count: mockProducts.filter(p => p.category === 'Dental Equipment').length },
   { id: 'dental-handpieces', name: 'Dental Handpieces', count: mockProducts.filter(p => p.category === 'Dental Handpieces').length },
   { id: 'dental-imaging', name: 'Dental Imaging', count: mockProducts.filter(p => p.category === 'Dental Imaging').length },
