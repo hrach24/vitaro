@@ -1,26 +1,6 @@
 // Mock data for VITARO Medical Website
 // This file contains all mock data for products, news, etc.
 
-import dentalChair from '@/images/products/dentalChair.webp'
-import dentalEndomtor from '@/images/products/dentalEndomtor.webp'
-import equipment from '@/images/products/equipment.webp'
-import contraAngel from '@/images/products/contraAngel.webp'
-import turbine from '@/images/products/turbine.webp'
-import insuline from '@/images/products/insulin.webp'
-import gloves from '@/images/products/gloves.webp'
-import lamp from '@/images/products/lamp.webp'
-import dentalLaboratory from '@/images/products/dentalLaboratory.webp'
-import floss from '@/images/products/floss.webp'
-import binocular from '@/images/products/binocular.webp'
-import clinicProducts from '@/images/products/clinicProducts.webp'
-import dentalBraces from '@/images/products/dentalBraces.webp'
-import air from '@/images/products/air.webp'
-import xRay from '@/images/products/xRay.webp'
-import machine from '@/images/products/machine.webp'
-import cameraSet from '@/images/products/cameraSet.webp'
-import dental from '@/images/products/dental.webp'
-import ultrasonic from '@/images/products/ultrasonic.webp'
-import autoClave from '@/images/products/autoclave.webp'
 import dentalSolutions from '@/images/news/dentalSolutions.webp'
 import iso from '@/images/news/iso.webp'
 
