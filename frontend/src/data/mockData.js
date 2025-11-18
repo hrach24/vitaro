@@ -599,6 +599,96 @@ export const mockProducts = [
       finish: 'Premium upholstery and chrome accents'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '34',
+    name: 'Integrated Dental Operatory with Patient Monitoring',
+    category: 'Dental Equipment',
+    description: 'Advanced integrated dental operatory unit with patient chair, multi-LED surgical light, mobile instrument delivery cart, and integrated vital signs monitor. Features digital display for real-time monitoring of heart rate, blood pressure, and oxygen saturation during procedures.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/hnf79sqp_IMAGE%202025-11-18%2017%3A48%3A02.jpg',
+    specifications: {
+      chair: 'Electric with programmable positions',
+      monitor: 'Vital signs display (HR, BP, SpO2)',
+      lighting: 'Multi-faceted LED with brightness control',
+      delivery_cart: 'Mobile with multiple handpiece holders',
+      control_panel: 'Digital with preset programs',
+      mounting: 'Articulated arms for monitor and light',
+      footpedal: 'Pneumatic control included',
+      features: 'Real-time patient monitoring integration'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '35',
+    name: 'Modern Dental Treatment Chair Unit (Premium Black)',
+    category: 'Dental Equipment',
+    description: 'Comprehensive dental treatment unit with sleek black upholstery. Includes fully adjustable patient chair, integrated instrument delivery console with digital controls, articulated examination light, ceramic spittoon with faucet, and ergonomic dentist stool. All-in-one modern operatory solution.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/m251eer0_IMAGE%202025-11-18%2017%3A48%3A04.jpg',
+    specifications: {
+      upholstery: 'Black medical-grade leather/vinyl',
+      chair_adjustment: 'Multi-position reclining with headrest',
+      handpiece_holders: '5+ instrument connections',
+      control_panel: 'Digital touchscreen interface',
+      bowl: 'Ceramic with integrated faucet',
+      light: 'Multi-LED articulated examination light',
+      stool: 'Mobile with five-star base',
+      design: 'Contemporary streamlined aesthetic'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '36',
+    name: 'Wireless Intraoral Camera System with Touch Monitor',
+    category: 'Dental Imaging',
+    description: 'Advanced wireless intraoral camera system with integrated Wi-Fi and Bluetooth connectivity. Features ergonomic handheld camera with LED illumination, large touch-screen monitor on articulated arm (Ø45mm clamp), and real-time image display. Perfect for diagnosis and patient education.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/m0xnggcc_IMAGE%202025-11-18%2017%3A48%3A06.jpg',
+    specifications: {
+      connectivity: 'Wi-Fi and Bluetooth wireless',
+      camera: 'Handheld with integrated LED lighting',
+      display: 'Large touch-screen monitor',
+      mounting: 'Articulated arm with Ø45mm clamp',
+      interface: 'Touch-screen controls',
+      image_capture: 'High-resolution photos and video',
+      applications: 'Diagnosis, treatment planning, patient education',
+      power: 'Wireless operation with rechargeable battery'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '37',
+    name: 'Wireless Endodontic Rotary System',
+    category: 'Dental Equipment',
+    description: 'Professional wireless motor-driven endodontic handpiece system for root canal procedures. Features angled handpiece with rotary file mechanism, separate control unit with speed/torque settings, and foot pedal operation. Designed for precision endodontic treatment with minimal cable clutter.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/v0gfh7og_IMAGE%202025-11-18%2017%3A48%3A08.jpg',
+    specifications: {
+      handpiece: 'Angled metallic with ergonomic grip',
+      power: 'Wireless/battery-powered operation',
+      control_unit: 'Digital with speed and torque control',
+      foot_pedal: 'Hands-free activation included',
+      applications: 'Rotary endodontics, root canal shaping',
+      file_compatibility: 'Standard rotary endodontic files',
+      features: 'Auto-reverse, torque control',
+      design: 'Compact integrated system'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '38',
+    name: 'Dental Intraoral Camera with Computer Workstation',
+    category: 'Dental Imaging',
+    description: 'Complete dental imaging workstation with intraoral camera, widescreen computer monitor, keyboard, mouse, and articulated mounting arm. Features Wi-Fi and Bluetooth connectivity for seamless integration with practice management software. Ideal for digital diagnostics and patient records.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/fhfxkrw7_IMAGE%202025-11-18%2017%3A48%3A10.jpg',
+    specifications: {
+      camera: 'Ergonomic handheld with LED illumination',
+      connectivity: 'Wi-Fi and Bluetooth wireless',
+      monitor: 'Widescreen with Windows OS interface',
+      input_devices: 'Compact keyboard and mouse',
+      mounting_arm: 'Articulated arm with brand logo',
+      software: 'Image management and patient records',
+      resolution: 'High-definition imaging',
+      applications: 'Diagnosis, documentation, patient education'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
