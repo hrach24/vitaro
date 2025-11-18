@@ -1204,6 +1204,98 @@ export const mockProducts = [
       programs: 'Pre-programmed protocols and custom settings'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '68',
+    name: 'Portable Dental X-ray Unit with Digital Display',
+    category: 'Dental Imaging',
+    description: 'Compact and lightweight portable dental X-ray unit designed for exceptional mobility and ease of use. Features a vibrant digital display showing adjustable voltage (60kV), precise exposure times (adjustable to 2.00s), and intuitive control panel with pre-set imaging modes for various dental applications. The integrated carrying strap enhances portability, making it ideal for multi-operatory practices and mobile dental services. Battery-powered for cordless freedom and versatile deployment.',
+    image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/ns4z5bth_photo_1_2025-11-18_22-11-53.jpg',
+    specifications: {
+      voltage: '60kV',
+      exposure_time: 'Adjustable up to 2.00s',
+      display: 'Digital LCD with parameter display',
+      interface: 'Button control panel with mode icons',
+      portability: 'Integrated carrying strap',
+      power: 'Battery-powered operation',
+      imaging_modes: 'Pre-programmed for anterior, posterior, and bitewing',
+      indicators: 'READY and EXPOSURE status lights'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '69',
+    name: 'Handheld Intraoral Dental X-Ray Unit',
+    category: 'Dental Imaging',
+    description: 'Ergonomic handheld intraoral dental X-ray unit with portable design for comfortable operation and precise positioning. Features digital LCD screen with user-friendly button interface for quick selection of optimal exposure settings. The lightweight, compact, and fully integrated design makes it exceptionally portable and easy to maneuver. Ideal for intraoral imaging applications including caries detection, periodontal assessment, endodontic evaluations, and pre-implant diagnostics.',
+    image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/ixvic8yl_photo_2_2025-11-18_22-11-53.jpg',
+    specifications: {
+      design: 'Handheld portable unit',
+      display: 'Digital LCD screen',
+      controls: 'Tactile buttons for exposure settings',
+      indicators: 'READY and Exposure status',
+      power: 'Rechargeable battery',
+      ergonomics: 'Comfortable grip handle',
+      collimator: 'Focused X-ray beam emission',
+      applications: 'Caries, periodontal, endodontic, implant imaging'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '70',
+    name: 'SonoScape Portable Ultrasound System with Doppler',
+    category: 'Medical Imaging',
+    description: 'State-of-the-art portable ultrasound system by SonoScape featuring advanced Doppler imaging capabilities for superior blood flow visualization and analysis. The compact laptop-like design with integrated keyboard and high-definition display provides exceptional portability and user-friendly operation. Suitable for vascular imaging, cardiology, emergency medicine, and general diagnostics. Features Color Doppler overlay and detailed spectral Doppler waveforms with velocity measurements for comprehensive hemodynamic assessment.',
+    image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/r9frnips_photo_3_2025-11-18_22-11-53.jpg',
+    specifications: {
+      brand: 'SonoScape',
+      imaging_modes: 'B-mode, Color Doppler, Spectral Doppler',
+      display: 'High-definition screen with flip-up design',
+      interface: 'Integrated full-function keyboard',
+      portability: 'Laptop-style with carry handle',
+      applications: 'Vascular, cardiology, emergency, general diagnostics',
+      doppler: 'Real-time blood flow velocity and direction',
+      parameters: 'FPS, PRF, Gain, Depth adjustable',
+      design: 'Compact and mobile'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '71',
+    name: 'Automated Blood Pressure Monitoring Station',
+    category: 'Medical Equipment',
+    description: 'Sophisticated automated blood pressure monitoring station designed for precision, mobility, and ease of use in modern healthcare settings. Features state-of-the-art automated cuff system utilizing advanced oscillometric technology for accurate systolic and diastolic readings. The intuitive high-definition touchscreen display serves as the command center for effortless operation. Mounted on a sturdy mobile pedestal base with smooth-gliding casters for maximum flexibility. Ideal for clinics, hospitals, pharmacies, and health screening centers.',
+    image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/oqjzd2ji_photo_4_2025-11-18_22-11-53.jpg',
+    specifications: {
+      measurement: 'Automated oscillometric blood pressure',
+      display: 'High-definition touchscreen interface',
+      mobility: 'Wheeled pedestal base with casters',
+      cuff_system: 'Automatic inflation and deflation',
+      data_management: 'Digital storage and EHR integration capability',
+      ergonomics: 'Adjustable display and cuff positioning',
+      materials: 'Medical-grade, easy-to-clean surfaces',
+      applications: 'Clinics, hospitals, pharmacies, wellness programs'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '72',
+    name: 'Advanced 3D Dental CBCT Imaging System',
+    category: 'Dental Imaging',
+    description: 'Premium cone-beam computed tomography (CBCT) scanner delivering exceptional 3D diagnostic imaging for comprehensive oral and maxillofacial diagnostics. Features a robust C-arm structure for detailed volumetric data capture, ergonomic patient positioning system with chin rest and forehead support, and intuitive touchscreen interface. Provides high-resolution 3D reconstructions crucial for implantology, endodontics, orthodontics, and surgical planning. Modern design with clean lines and professional aesthetic that integrates seamlessly into contemporary dental practices.',
+    image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/d2zlwxd3_photo_5_2025-11-18_22-11-53.jpg',
+    specifications: {
+      imaging_type: 'Cone-Beam Computed Tomography (CBCT)',
+      reconstruction: '3D volumetric data',
+      resolution: 'High-resolution digital imaging',
+      patient_positioning: 'Chin rest, forehead support, head stabilizers',
+      interface: 'Color touchscreen control panel',
+      applications: 'Implantology, endodontics, orthodontics, oral surgery',
+      design: 'C-arm structure with stable base',
+      radiation: 'Low-dose technology',
+      construction: 'Robust and durable frame'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
