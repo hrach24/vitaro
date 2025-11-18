@@ -20,60 +20,59 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="min-h-screen">
+    <div className="home">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-teal-50 -z-10"></div>
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div className="inline-block">
-                <span className="px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-semibold">
+      <section className="home__hero">
+        <div className="home__hero-bg"></div>
+        <div className="home__hero-container">
+          <div className="home__hero-content">
+            <div className="home__hero-text">
+              <div className="home__hero-badge-wrapper">
+                <span className="home__hero-badge">
                   {t('trustedHealthcare')}
                 </span>
               </div>
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              <h1 className="home__hero-title">
                 {t('innovationInHealthcare')}{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-600">
+                <span className="home__hero-title-gradient">
                   {t('healthcareSolutions')}
                 </span>
               </h1>
-              <p className="text-xl text-gray-600 leading-relaxed">
+              <p className="home__hero-description">
                 {t('heroDescription')}
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="home__hero-actions">
                 <Link
                   to="/products"
-                  className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 flex items-center justify-center gap-2 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5"
+                  className="home__button home__button--primary"
                 >
                   {t('exploreProducts')}
                   <ArrowRight size={20} />
                 </Link>
                 <button
                   onClick={() => setIsCatalogModalOpen(true)}
-                  className="px-8 py-4 bg-white text-gray-700 font-semibold rounded-lg border-2 border-gray-200 hover:border-orange-500 hover:text-orange-600 transition-all duration-300 flex items-center justify-center gap-2"
+                  className="home__button home__button--secondary"
                 >
                   <Download size={20} />
                   {t('downloadCatalog')}
                 </button>
               </div>
             </div>
-            <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+            <div className="home__hero-image">
+              <div className="home__hero-image-wrapper">
                 <img
                   src="https://images.pexels.com/photos/4586711/pexels-photo-4586711.jpeg"
                   alt="Medical Professional"
-                  className="w-full h-auto"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl">
-                <div className="flex items-center gap-4">
-                  <div className="p-3 bg-orange-100 rounded-lg">
-                    <Shield className="text-orange-600" size={32} />
+              <div className="home__hero-badge-card">
+                <div className="home__hero-badge-card-content">
+                  <div className="home__hero-badge-icon">
+                    <Shield size={32} />
                   </div>
                   <div>
-                    <p className="text-2xl font-bold text-gray-900">ISO Certified</p>
-                    <p className="text-gray-600">Quality Assured</p>
+                    <p className="home__hero-badge-title">ISO Certified</p>
+                    <p className="home__hero-badge-text">Quality Assured</p>
                   </div>
                 </div>
               </div>
@@ -83,18 +82,18 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+      <section className="home__stats">
+        <div className="home__container">
+          <div className="home__stats-grid">
             {[
               { value: '23+', label: t('yearsExperience2') },
               { value: '45+', label: t('countriesServed2') },
               { value: '500+', label: t('healthcarePartners2') },
               { value: '100%', label: t('qualityGuaranteed2') }
             ].map((stat, index) => (
-              <div key={index} className="text-center">
-                <p className="text-4xl lg:text-5xl font-bold text-orange-600 mb-2">{stat.value}</p>
-                <p className="text-gray-600 font-medium">{stat.label}</p>
+              <div key={index} className="home__stat">
+                <p className="home__stat-value">{stat.value}</p>
+                <p className="home__stat-label">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -102,25 +101,25 @@ const Home = () => {
       </section>
 
       {/* Featured Products */}
-      <section className="py-20 bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('featuredProducts')}</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+      <section className="home__featured">
+        <div className="home__container">
+          <div className="home__section-header">
+            <h2 className="home__section-title">{t('featuredProducts')}</h2>
+            <p className="home__section-description">
               {t('featuredProductsDesc')}
             </p>
           </div>
           {loading ? (
-            <div className="text-center py-12">
-              <p className="text-gray-600">{t('loading')}</p>
+            <div className="home__loading">
+              <p>{t('loading')}</p>
             </div>
           ) : (
             <ProductCarousel products={featuredProducts} />
           )}
-          <div className="text-center mt-12">
+          <div className="home__section-cta">
             <Link
               to="/products"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30"
+              className="home__button home__button--primary"
             >
               {t('viewAllProducts')}
               <ArrowRight size={20} />
@@ -135,31 +134,31 @@ const Home = () => {
         height="500px"
         speed={0.5}
       >
-        <div className="container mx-auto px-4 h-full flex items-center">
-          <div className="max-w-3xl text-white">
-            <h2 className="text-5xl font-bold mb-6 drop-shadow-lg">
+        <div className="home__parallax-container">
+          <div className="home__parallax-content">
+            <h2 className="home__parallax-title">
               {t('precisionManufacturing')}
             </h2>
-            <p className="text-xl mb-8 drop-shadow-lg leading-relaxed">
+            <p className="home__parallax-text">
               {t('manufacturingDesc')}
             </p>
-            <div className="flex flex-wrap gap-6 mb-8">
-              <div className="bg-white/10 backdrop-blur-md px-6 py-4 rounded-lg border border-white/20">
-                <p className="text-3xl font-bold">10,000+</p>
-                <p className="text-sm opacity-90">Sq. Meter Facility</p>
+            <div className="home__parallax-stats">
+              <div className="home__parallax-stat">
+                <p className="home__parallax-stat-value">10,000+</p>
+                <p className="home__parallax-stat-label">Sq. Meter Facility</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-md px-6 py-4 rounded-lg border border-white/20">
-                <p className="text-3xl font-bold">23+</p>
-                <p className="text-sm opacity-90">Years Experience</p>
+              <div className="home__parallax-stat">
+                <p className="home__parallax-stat-value">23+</p>
+                <p className="home__parallax-stat-label">Years Experience</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-md px-6 py-4 rounded-lg border border-white/20">
-                <p className="text-3xl font-bold">100%</p>
-                <p className="text-sm opacity-90">Automated Quality</p>
+              <div className="home__parallax-stat">
+                <p className="home__parallax-stat-value">100%</p>
+                <p className="home__parallax-stat-label">Automated Quality</p>
               </div>
             </div>
             <Link
               to="/about"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/50 hover:-translate-y-0.5"
+              className="home__button home__button--primary home__button--shadow"
             >
               {t('exploreOurFacility2')}
               <ArrowRight size={20} />
@@ -169,15 +168,15 @@ const Home = () => {
       </ParallaxSection>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('whyChooseVitaro')}</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+      <section className="home__why-choose">
+        <div className="home__container">
+          <div className="home__section-header">
+            <h2 className="home__section-title">{t('whyChooseVitaro')}</h2>
+            <p className="home__section-description">
               {t('whyChooseDesc')}
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="home__features-grid">
             {[
               {
                 icon: Shield,
@@ -199,13 +198,13 @@ const Home = () => {
               return (
                 <div
                   key={index}
-                  className="p-8 rounded-xl bg-gradient-to-br from-gray-50 to-white border border-gray-100 hover:border-orange-200 transition-all duration-300 hover:shadow-xl group"
+                  className="home__feature-card"
                 >
-                  <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-orange-500 transition-colors">
-                    <Icon className="text-orange-600 group-hover:text-white transition-colors" size={32} />
+                  <div className="home__feature-icon">
+                    <Icon size={32} />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                  <h3 className="home__feature-title">{feature.title}</h3>
+                  <p className="home__feature-description">{feature.description}</p>
                 </div>
               );
             })}
@@ -214,24 +213,24 @@ const Home = () => {
       </section>
 
       {/* Certifications */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-teal-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">{t('certificationsStandards')}</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+      <section className="home__certifications">
+        <div className="home__container">
+          <div className="home__section-header">
+            <h2 className="home__section-title">{t('certificationsStandards')}</h2>
+            <p className="home__section-description">
               {t('certificationsDesc')}
             </p>
           </div>
-          <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          <div className="home__certifications-grid">
             {['ISO 13485:2016', 'CE Marking', 'FDA Registered', 'ISO 9001:2015'].map((cert, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                className="home__certification-card"
               >
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle className="text-orange-600" size={24} />
+                <div className="home__certification-icon">
+                  <CheckCircle size={24} />
                 </div>
-                <p className="font-bold text-gray-900">{cert}</p>
+                <p className="home__certification-text">{cert}</p>
               </div>
             ))}
           </div>
@@ -244,66 +243,56 @@ const Home = () => {
         height="450px"
         speed={0.6}
       >
-        <div className="container mx-auto px-4 h-full flex items-center justify-center">
-          <div className="max-w-4xl text-center text-white">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">
+        <div className="home__parallax-container home__parallax-container--center">
+          <div className="home__parallax-content home__parallax-content--centered">
+            <h2 className="home__parallax-title">
               {t('worldClassFacility')}
             </h2>
-            <p className="text-xl mb-8 drop-shadow-lg leading-relaxed">
-              {t('facilityDesc')}
+            <p className="home__parallax-text">
+              {t('worldClassFacilityDesc')}
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
-              <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
-                <Shield className="mx-auto mb-3 text-orange-400" size={40} />
-                <p className="font-semibold text-lg">ISO Certified</p>
-                <p className="text-sm opacity-90 mt-2">Multiple international certifications</p>
-              </div>
-              <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
-                <Award className="mx-auto mb-3 text-orange-400" size={40} />
-                <p className="font-semibold text-lg">Quality Assured</p>
-                <p className="text-sm opacity-90 mt-2">Rigorous testing at every stage</p>
-              </div>
-              <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
-                <Globe className="mx-auto mb-3 text-orange-400" size={40} />
-                <p className="font-semibold text-lg">Global Reach</p>
-                <p className="text-sm opacity-90 mt-2">Serving 45+ countries worldwide</p>
-              </div>
-            </div>
+            <Link
+              to="/about"
+              className="home__button home__button--primary home__button--shadow"
+            >
+              {t('aboutOurFacility')}
+              <ArrowRight size={20} />
+            </Link>
           </div>
         </div>
       </ParallaxSection>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-orange-500 to-orange-600">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center text-white">
-            <h2 className="text-4xl font-bold mb-6">{t('readyToPartner')}</h2>
-            <p className="text-xl mb-8 opacity-95">
+      <section className="home__cta">
+        <div className="home__container">
+          <div className="home__cta-content">
+            <h2 className="home__cta-title">{t('readyToPartner')}</h2>
+            <p className="home__cta-description">
               {t('readyToPartnerDesc')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="home__cta-actions">
               <Link
                 to="/contact"
-                className="px-8 py-4 bg-white text-orange-600 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-300 hover:shadow-2xl hover:-translate-y-0.5"
+                className="home__button home__button--white"
               >
-                {t('contactSalesTeam')}
+                {t('contactUs')}
+                <ArrowRight size={20} />
               </Link>
-              <Link
-                to="/products"
-                className="px-8 py-4 bg-orange-700 text-white font-semibold rounded-lg hover:bg-orange-800 transition-all duration-300 border-2 border-white/20"
+              <button
+                onClick={() => setIsCatalogModalOpen(true)}
+                className="home__button home__button--outline"
               >
-                {t('browseCatalog')}
-              </Link>
+                <Download size={20} />
+                {t('downloadCatalog')}
+              </button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Catalog Download Modal */}
-      <CatalogDownloadModal 
-        isOpen={isCatalogModalOpen} 
-        onClose={() => setIsCatalogModalOpen(false)} 
-      />
+      {isCatalogModalOpen && (
+        <CatalogDownloadModal onClose={() => setIsCatalogModalOpen(false)} />
+      )}
     </div>
   );
 };
