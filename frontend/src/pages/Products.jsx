@@ -119,7 +119,7 @@ const Products = () => {
                   <div className="relative h-56 overflow-hidden">
                     <img
                       src={product.image}
-                      alt={product.name}
+                      alt={product.nameKey ? t(product.nameKey) : product.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute top-3 right-3 px-3 py-1 bg-orange-500 text-white text-xs font-semibold rounded-full">
@@ -127,8 +127,12 @@ const Products = () => {
                     </div>
                   </div>
                   <div className="p-5">
-                    <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">{product.name}</h3>
-                    <p className="text-sm text-gray-600 mb-4 line-clamp-3">{product.description}</p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">
+                      {product.nameKey ? t(product.nameKey) : product.name}
+                    </h3>
+                    <p className="text-sm text-gray-600 mb-4 line-clamp-3">
+                      {product.descriptionKey ? t(product.descriptionKey) : product.description}
+                    </p>
                     <div className="flex gap-2 flex-wrap">
                       {product.certifications.slice(0, 2).map((cert, index) => (
                         <span
