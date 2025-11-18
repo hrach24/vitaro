@@ -1338,6 +1338,8 @@ export const categories = [
   { id: 'dental-implants', name: 'Dental Implants', count: mockProducts.filter(p => p.category === 'Dental Implants').length },
   { id: 'dental-lab-equipment', name: 'Dental Lab Equipment', count: mockProducts.filter(p => p.category === 'Dental Lab Equipment').length },
   { id: 'dental-parts', name: 'Dental Parts & Accessories', count: mockProducts.filter(p => p.category === 'Dental Parts & Accessories').length },
+  { id: 'medical-equipment', name: 'Medical Equipment', count: mockProducts.filter(p => p.category === 'Medical Equipment').length },
+  { id: 'medical-imaging', name: 'Medical Imaging', count: mockProducts.filter(p => p.category === 'Medical Imaging').length },
   { id: 'medical-supplies', name: 'Medical Supplies', count: mockProducts.filter(p => p.category === 'Medical Supplies').length },
   { id: 'orthodontic', name: 'Orthodontic Products', count: mockProducts.filter(p => p.category === 'Orthodontic Products').length },
   { id: 'sterilization', name: 'Sterilization Equipment', count: mockProducts.filter(p => p.category === 'Sterilization Equipment').length }
