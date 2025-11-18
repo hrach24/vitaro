@@ -1,13 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-<<<<<<< HEAD
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-=======
   darkMode: ["class"],
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
->>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
   theme: {
     extend: {
       borderRadius: {
@@ -15,13 +9,6 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-<<<<<<< HEAD
-      colors: {},
-    },
-  },
-  plugins: [require("tailwindcss-animate")],
-}
-=======
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
@@ -90,4 +77,3 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 };
->>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
