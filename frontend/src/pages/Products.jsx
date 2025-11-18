@@ -157,18 +157,22 @@ const Products = () => {
           {selectedProduct && (
             <>
               <DialogHeader>
-                <DialogTitle className="text-2xl">{selectedProduct.name}</DialogTitle>
+                <DialogTitle className="text-2xl">
+                  {selectedProduct.nameKey ? t(selectedProduct.nameKey) : selectedProduct.name}
+                </DialogTitle>
                 <DialogDescription>{selectedProduct.category}</DialogDescription>
               </DialogHeader>
               <div className="mt-4 space-y-6">
                 <img
                   src={selectedProduct.image}
-                  alt={selectedProduct.name}
+                  alt={selectedProduct.nameKey ? t(selectedProduct.nameKey) : selectedProduct.name}
                   className="w-full h-64 object-cover rounded-lg"
                 />
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('description')}</h3>
-                  <p className="text-gray-600">{selectedProduct.description}</p>
+                  <p className="text-gray-600">
+                    {selectedProduct.descriptionKey ? t(selectedProduct.descriptionKey) : selectedProduct.description}
+                  </p>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-3">{t('keySpecifications')}</h3>
