@@ -17,10 +17,10 @@ import CookiePolicy from "./pages/CookiePolicy";
 function App() {
   return (
     <LanguageProvider>
-      <div className="app">
+      <div className="App">
         <BrowserRouter>
           <Header />
-          <main className="app__main">
+          <main className="pt-20">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
