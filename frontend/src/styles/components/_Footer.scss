@@ -1,0 +1,212 @@
+.footer {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b, #0f172a);
+  color: $text-white;
+
+  &__newsletter {
+    border-bottom: 1px solid #334155;
+  }
+
+  &__newsletter-container {
+    @include container;
+    padding-top: $spacing-3xl;
+    padding-bottom: $spacing-3xl;
+  }
+
+  &__newsletter-content {
+    max-width: 48rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__newsletter-title {
+    font-size: $font-size-2xl;
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-md;
+  }
+
+  &__newsletter-text {
+    color: #cbd5e1;
+    margin-bottom: $spacing-lg;
+  }
+
+  &__newsletter-form {
+    display: flex;
+    gap: $spacing-md;
+    max-width: 28rem;
+    margin: 0 auto;
+
+    @media (max-width: $breakpoint-sm) {
+      flex-direction: column;
+    }
+  }
+
+  &__newsletter-input-wrapper {
+    flex: 1;
+    position: relative;
+  }
+
+  &__newsletter-icon {
+    position: absolute;
+    left: $spacing-md;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+  }
+
+  &__newsletter-input {
+    width: 100%;
+    padding: $spacing-md $spacing-md $spacing-md 2.75rem;
+    border-radius: $radius-lg;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    color: $text-white;
+    @include transition(all, $transition-base);
+
+    &::placeholder {
+      color: #94a3b8;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: transparent;
+      box-shadow: 0 0 0 2px #f97316;
+    }
+  }
+
+  &__newsletter-button {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    padding: $spacing-md $spacing-lg;
+    background-color: #f97316;
+    color: $text-white;
+    font-weight: $font-weight-semibold;
+    border-radius: $radius-lg;
+    @include transition(all, $transition-base);
+
+    &:hover {
+      background-color: #ea580c;
+      box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.3);
+    }
+  }
+
+  &__main {
+    @include container;
+    padding-top: $spacing-3xl;
+    padding-bottom: $spacing-3xl;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-2xl;
+
+    @include respond-to('md') {
+      justify-content: space-between;
+    }
+  }
+
+  &__column {
+    flex: 1;
+    min-width: 200px;
+
+    @media (max-width: $breakpoint-md) {
+      flex-basis: 100%;
+    }
+
+    @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+      flex-basis: calc(50% - #{$spacing-xl});
+    }
+  }
+
+  &__logo {
+    height: 2.5rem;
+    width: auto;
+    margin-bottom: $spacing-md;
+  }
+
+  &__description {
+    color: #cbd5e1;
+    font-size: $font-size-sm;
+    margin-bottom: $spacing-md;
+  }
+
+  &__column-title {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    margin-bottom: $spacing-md;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+
+  &__link {
+    color: #cbd5e1;
+    font-size: $font-size-sm;
+    @include transition(color, $transition-fast);
+
+    &:hover {
+      color: #fb923c;
+    }
+  }
+
+  &__contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+    color: #cbd5e1;
+    font-size: $font-size-sm;
+  }
+
+  &__contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: $spacing-sm;
+  }
+
+  &__contact-icon {
+    color: #fb923c;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  &__bottom {
+    border-top: 1px solid #334155;
+  }
+
+  &__bottom-container {
+    @include container;
+    padding-top: $spacing-lg;
+    padding-bottom: $spacing-lg;
+  }
+
+  &__bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $spacing-md;
+    font-size: $font-size-sm;
+    color: #94a3b8;
+
+    @include respond-to('md') {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__bottom-links {
+    display: flex;
+    gap: $spacing-lg;
+  }
+
+  &__bottom-link {
+    @include transition(color, $transition-fast);
+
+    &:hover {
+      color: #fb923c;
+    }
+  }
+}
