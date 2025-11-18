@@ -61,15 +61,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-<<<<<<< HEAD
-            <img
-              src="/images/logo.webp"
-              alt="VITARO Medical"
-              className="h-10 w-auto mb-4"
-            />
-=======
             <img src={logo} alt="VITARO Medical" className="h-10 w-auto mb-4" />
->>>>>>> edcf35e89b28c74804682ce18cad63dae8b2a14f
             <p className="text-slate-300 text-sm mb-4">
               {t("leadingManufacturer")}
             </p>
