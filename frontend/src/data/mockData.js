@@ -941,6 +941,95 @@ export const mockProducts = [
       applications: 'Scaling, plaque removal, root canal irrigation'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '53',
+    name: 'DTE i-SCAN Intraoral Scanner',
+    category: 'Dental Imaging',
+    description: 'Advanced DTE i-SCAN digital impression system with large color touchscreen interface. Features intuitive menu with Patient Card, Register, Settings, Images, and Scan functions. Captures high-resolution 3D digital models for restorative dentistry, orthodontics, and patient communication. Includes memory management and real-time scan display.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/1c29npzn_photo_1_2025-11-18_21-49-28.jpg',
+    specifications: {
+      manufacturer: 'DTE',
+      model: 'i-SCAN',
+      interface: 'Large color touchscreen (7-10 inch)',
+      functions: 'Patient Card, Register, Settings, Images, Scan',
+      memory: 'Digital storage with usage indicators',
+      design: 'Compact white and gold desktop unit',
+      applications: 'Digital impressions, crowns, bridges, aligners, surgical guides',
+      connectivity: 'USB, Wi-Fi, Ethernet (implied)'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '54',
+    name: 'DTE Dental Ultrasonic Scaler with Irrigation',
+    category: 'Dental Equipment',
+    description: 'Professional DTE ultrasonic scaler with integrated fluid delivery system. Features digital LCD display with Tip, Mode, Freq, Power, Water, and Clean settings. Includes handpiece with gold-coated tip, suspended water bag irrigation, and adjustable controls for customized scaling and periodontal treatment.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/a1ezsrw1_photo_2_2025-11-18_21-49-28.jpg',
+    specifications: {
+      manufacturer: 'DTE',
+      display: 'Digital LCD with multiple parameters',
+      settings: 'Tip type, Mode, Frequency, Power, Water flow',
+      handpiece: 'Ultrasonic with gold-coated tip',
+      irrigation: 'Transparent water bag with tubing',
+      holder: 'Integrated metal handpiece rack',
+      control: 'Foot pedal (implied)',
+      certifications_visible: 'CE mark on handpiece'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '55',
+    name: 'DTE Fi-G Cordless Gutta-Percha Compactor',
+    category: 'Dental Equipment',
+    description: 'DTE Fi-G cordless thermoplastic gutta-percha compactor for endodontic obturation. Features ergonomic pistol-grip design, digital temperature display (adjustable), rechargeable battery, and fine heated needle tip. Perfect for warm vertical condensation and continuous wave root canal filling techniques.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/gnpw9lvl_photo_3_2025-11-18_21-49-28.jpg',
+    specifications: {
+      manufacturer: 'DTE',
+      model: 'Fi-G',
+      design: 'Cordless pistol-grip with charging base',
+      display: 'Digital temperature screen (150°C shown)',
+      controls: 'Power, temperature adjustment buttons',
+      tip: 'Fine heated needle for gutta-percha',
+      power: 'Rechargeable lithium battery',
+      applications: 'Root canal obturation, thermoplastic compaction'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '56',
+    name: 'Dental Autoclave with Handpiece Cleaner System',
+    category: 'Sterilization Equipment',
+    description: 'Modern dental autoclave with color touchscreen interface and integrated handpiece flushing system. Features front-loading stainless steel chamber with multiple racks, digital cycle control, water reservoir, and pre-sterilization cleaning attachment. Ensures comprehensive instrument sterilization and reprocessing.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/vp9wtzo6_photo_4_2025-11-18_21-49-28.jpg',
+    specifications: {
+      chamber: 'Stainless steel front-loading',
+      interface: 'Color touchscreen control panel',
+      racks: 'Multiple stainless steel trays',
+      cleaning_system: 'Integrated handpiece flushing with spray nozzle',
+      reservoir: 'Side-mounted water/filtration system',
+      ventilation: 'Multiple grilles for heat dissipation',
+      design: 'Countertop white unit with modern aesthetic'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '57',
+    name: 'Runyes Dental Autoclave Sterilizer',
+    category: 'Sterilization Equipment',
+    description: 'Runyes brand tabletop dental autoclave with digital display and programmable controls. Features circular stainless steel chamber with multiple racks, hinged door with blue handle, USB connectivity, and power control. Provides reliable steam sterilization at 121°C or 134°C for surgical and dental instruments.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/2oz186f6_photo_5_2025-11-18_21-49-28.jpg',
+    specifications: {
+      manufacturer: 'Runyes',
+      chamber: 'Circular stainless steel with racks',
+      display: 'Digital LCD with cycle status',
+      controls: 'Button panel with programmable cycles',
+      door: 'Hinged with blue handle and latch',
+      connectivity: 'USB ports, water connections',
+      power: 'Green rocker switch',
+      design: 'Benchtop model with ventilation grilles'
+    },
+    certifications: ['CE', 'ISO 13485']
   }
 ];
 
