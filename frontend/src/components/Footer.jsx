@@ -57,7 +57,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <img
-              src="https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/sn5vj0hl_photo_6278288193371180170_y%20%282%29.jpg"
+              src="/images/logo.webp"
               alt="VITARO Medical"
               className="h-10 w-auto mb-4"
             />
