@@ -77,11 +77,4 @@ code {
 
 
 
-@layer base {
-  * {
-    @apply border-border;
-    }
-  body {
-    @apply bg-background text-foreground;
-    }
-}
+/* Removed custom layer to fix tailwind compilation */
