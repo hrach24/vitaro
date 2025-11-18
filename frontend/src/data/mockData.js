@@ -1117,6 +1117,93 @@ export const mockProducts = [
       applications: 'Intraoral radiography, caries detection'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '63',
+    name: 'RAYIMAGING Digital Dental Sensor with Touchscreen',
+    category: 'Dental Imaging',
+    description: 'Advanced RAYIMAGING digital dental sensor/detector with color touchscreen interface. Features exposure time display (0.160s), calibrated for 70kV 3mA X-ray parameters, multiple imaging modes with Chinese/English interface, and patient/tooth-specific settings. Combines radiation measurement and digital image capture for quality assurance and diagnosis.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/99fzh60o_photo_3_2025-11-18_21-59-28.jpg',
+    specifications: {
+      manufacturer: 'RAYIMAGING',
+      display: 'Color touchscreen with icon-based UI',
+      exposure_measurement: '0.160s displayed',
+      xray_parameters: '70kV, 3mA compatible',
+      modes: 'Multiple imaging profiles with patient/tooth icons',
+      design: 'Compact with lens detector component',
+      applications: 'Digital dental imaging, exposure verification, QA'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '64',
+    name: 'Mayar Med Portable Digital X-ray Imaging System',
+    category: 'Dental Imaging',
+    description: 'Complete portable digital X-ray system by Mayar Med with generator, digital detector plate, and laptop display. Features adjustable collimator with control knobs, comprehensive button panel for exposure settings, immediate digital output for chest and body imaging. Ideal for point-of-care diagnostics in emergency rooms, ICUs, mobile units, and veterinary applications.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/0ydkmfjo_photo_4_2025-11-18_21-59-28.jpg',
+    specifications: {
+      manufacturer: 'Mayar Med',
+      generator: 'Portable X-ray with handle',
+      detector: 'Digital flat panel with grid lines',
+      display: 'Laptop with immediate image viewing',
+      controls: 'Multi-button panel with digital displays',
+      collimator: 'Adjustable beam size with knobs',
+      applications: 'Point-of-care, emergency, ICU, mobile diagnostics'
+    },
+    certifications: ['CE', 'ISO 13485']
+  },
+  {
+    id: '65',
+    name: 'Professional Dental Intraoral Scanner (Blue)',
+    category: 'Dental Imaging',
+    description: 'Modern blue and white intraoral scanner with integrated orthodontic software. Features ergonomic pen-like handpiece design, wired connectivity with docking station, software with 3D tooth rendering and color-coded accuracy mapping. Ideal for digital impressions, orthodontic treatment planning, clear aligner fabrication, and treatment monitoring.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/rb79y2bh_photo_5_2025-11-18_21-59-28.jpg',
+    specifications: {
+      design: 'Ergonomic pen-like handpiece',
+      color: 'Blue body with white scanning tip',
+      connectivity: 'Wired with charging dock',
+      software: '3D rendering with orthodontic module',
+      features: 'Color accuracy map, scan review, export options',
+      docking_station: 'Gray base with charging',
+      applications: 'Digital impressions, orthodontics, aligners, restoration'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '66',
+    name: 'VITARO Portable Dental X-ray Unit (Made in Korea)',
+    category: 'Dental Imaging',
+    description: 'VITARO brand portable dental X-ray unit manufactured in Korea. Features digital display with 60kV and 2mA settings, 0.35s exposure time, battery-powered operation, tooth and patient positioning icons, radiation safety indicator, and intuitive button controls. Compact design for intraoral radiography, caries detection, and dental diagnostics.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/e1oj9oi5_photo_6_2025-11-18_21-59-28.jpg',
+    specifications: {
+      manufacturer: 'VITARO',
+      origin: 'Made in Korea',
+      kilovoltage: '60kV',
+      current: '2mA',
+      exposure_time: '0.35s',
+      power: 'Battery-powered (icon visible)',
+      display: 'Digital LCD with icons',
+      controls: 'Button interface with mode selection'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
+  },
+  {
+    id: '67',
+    name: 'Professional Dental Implant Motor with Touchscreen',
+    category: 'Dental Equipment',
+    description: 'Advanced dental implant motor system with large touchscreen control interface. Features 1000 r/min speed, 36 Nm torque capacity, 20:1 gear ratio contra-angle handpiece, multi-button foot pedal control, integrated irrigation system with IV bag and stand. Designed for precise bone preparation and implant placement with programmable protocols.',
+    image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/gx6ah2gl_photo_7_2025-11-18_21-59-28.jpg',
+    specifications: {
+      speed: '1000 r/min',
+      torque: '36 Nm',
+      gear_ratio: '20:1 contra-angle',
+      interface: 'Large color touchscreen',
+      foot_pedal: 'Multi-button with green/red controls',
+      irrigation: 'IV bag system with stand',
+      handpiece: 'Motor handpiece with coiled cable',
+      programs: 'Pre-programmed protocols and custom settings'
+    },
+    certifications: ['CE', 'ISO 13485', 'FDA']
   }
 ];
 
