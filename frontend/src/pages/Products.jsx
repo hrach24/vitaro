@@ -27,9 +27,8 @@ const Products = () => {
     setCategories([{ id: 'all', name: 'All', count: mockProducts.length }, ...mockCategories]);
     setLoading(false);
   }, []);
-
   const filteredProducts = products.filter((product) => {
-    const matchesCategory = selectedCategory === 'All' || product.category === selectedCategory;
+    const matchesCategory = selectedCategory === 'All' || product.categoryKey === selectedCategory;
     const productName = product.nameKey ? t(product.nameKey) : product.name;
     const productDesc = product.descriptionKey ? t(product.descriptionKey) : product.description;
     const matchesSearch = productName.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -37,6 +36,7 @@ const Products = () => {
     return matchesCategory && matchesSearch;
   });
 
+  console.log(categories,'categories')
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -81,14 +81,14 @@ const Products = () => {
               {categories.map((cat) => (
                 <button
                   key={cat.id}
-                  onClick={() => setSelectedCategory(cat.name)}
+                  onClick={() => setSelectedCategory(cat.nameKey)}
                   className={`px-4 py-3 rounded-lg font-medium transition-all ${
-                    selectedCategory === cat.name
+                    selectedCategory === cat.nameKey
                       ? 'bg-orange-500 text-white shadow-lg shadow-orange-500/30'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
                 >
-                  {cat.name} ({cat.count})
+                  {cat.nameKey ? t(cat.nameKey)  :  ''} ({cat.count})
                 </button>
               ))}
             </div>
@@ -123,7 +123,8 @@ const Products = () => {
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute top-3 right-3 px-3 py-1 bg-orange-500 text-white text-xs font-semibold rounded-full">
-                      {product.category}
+                      {product.categoryKey ? t(product.categoryKey) : product.category}
+                      {/*{product.category}*/}
                     </div>
                   </div>
                   <div className="p-5">

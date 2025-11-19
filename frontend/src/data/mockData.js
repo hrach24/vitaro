@@ -1,18 +1,15 @@
+/// mockData.js
 // Mock data for VITARO Medical Website
-// This file contains all mock data for products, news, etc.
 
 import dentalSolutions from '@/images/news/dentalSolutions.webp'
 import iso from '@/images/news/iso.webp'
 
-
-
 export const mockProducts = [
-
   {
     id: '22',
     nameKey: 'product22Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product22Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/7pgo77wk_photo_1_2025-11-17_22-37-11.jpg',
     specifications: {
       led_lights: 'Dual LED adjustable lights',
@@ -25,13 +22,12 @@ export const mockProducts = [
       lenses: 'Multiple magnification options included'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '23',
     nameKey: 'product23Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product23Desc',
+    categoryKey: 'dentalImagingTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/71taoc7t_photo_2_2025-11-17_22-37-11.jpg',
     specifications: {
       manufacturer: 'Carl Zeiss',
@@ -44,13 +40,12 @@ export const mockProducts = [
       applications: 'Endodontics, surgery, implantology'
     },
     certifications: ['CE', 'FDA', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '24',
     nameKey: 'product24Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product24Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/a9en07dq_photo_3_2025-11-17_22-37-11.jpg',
     specifications: {
       origin: 'Made in Germany',
@@ -63,13 +58,12 @@ export const mockProducts = [
       field_of_view: '80mm - 120mm'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '25',
     nameKey: 'product25Name',
-    category: 'Dental Instruments',
     descriptionKey: 'product25Desc',
+    categoryKey: 'dentalInstruments',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ejuryu0e_photo_4_2025-11-17_22-37-11.jpg',
     specifications: {
       material: 'Surgical grade stainless steel',
@@ -82,13 +76,12 @@ export const mockProducts = [
       model: 'EXP-001CE series'
     },
     certifications: ['CE', 'ISO 13485', 'EN 455']
-  },,
-,
+  },
   {
     id: '26',
     nameKey: 'product26Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product26Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/dwco7wiv_photo_1_2025-11-17_22-48-57.jpg',
     specifications: {
       display: 'Large color touchscreen',
@@ -101,13 +94,12 @@ export const mockProducts = [
       connectivity: 'USB port for charging/data'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '27',
     nameKey: 'product27Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product27Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/wj5a1zc3_photo_2_2025-11-17_22-48-57.jpg',
     specifications: {
       manufacturer: 'Dentsply Maillefer',
@@ -120,13 +112,12 @@ export const mockProducts = [
       battery: 'Rechargeable with charging port'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '28',
     nameKey: 'product28Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product28Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/d79xuy6v_photo_3_2025-11-17_22-48-57.jpg',
     specifications: {
       light_type: 'High-intensity LED',
@@ -139,13 +130,12 @@ export const mockProducts = [
       applications: 'Composite curing, bonding, sealants'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '29',
     nameKey: 'product29Name',
-    category: 'Dental Handpieces',
     descriptionKey: 'product29Desc',
+    categoryKey: 'dentalHandpiecesTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ezutwl1t_photo_4_2025-11-17_22-48-57.jpg',
     specifications: {
       manufacturer: 'NSK Dental',
@@ -158,13 +148,12 @@ export const mockProducts = [
       applications: 'Restorative, prosthetic, implantology'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '30',
     nameKey: 'product30Name',
-    category: 'Dental Handpieces',
     descriptionKey: 'product30Desc',
+    categoryKey: 'dentalHandpiecesTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/4vnj9l91_IMAGE%202025-11-18%2017%3A46%3A34.jpg',
     specifications: {
       model: 'A21Z0145',
@@ -177,13 +166,12 @@ export const mockProducts = [
       sterilization: 'Full autoclavable'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '31',
     nameKey: 'product31Name',
-    category: 'Dental Implants',
     descriptionKey: 'product31Desc',
+    categoryKey: 'dentalImplants',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/32mgk6rf_IMAGE%202025-11-18%2017%3A46%3A35.jpg',
     specifications: {
       material: 'Medical grade titanium alloy',
@@ -196,13 +184,12 @@ export const mockProducts = [
       sizes: 'Multiple lengths and diameters available'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '32',
     nameKey: 'product32Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product32Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/l6tp7bsy_IMAGE%202025-11-18%2017%3A46%3A39.jpg',
     specifications: {
       chair: 'Multi-position reclining with headrest',
@@ -215,13 +202,12 @@ export const mockProducts = [
       design: 'Ergonomic modular system'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '33',
     nameKey: 'product33Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product33Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/hd7a4bcp_IMAGE%202025-11-18%2017%3A46%3A40.jpg',
     specifications: {
       manufacturer: 'DAC/DCI',
@@ -234,13 +220,12 @@ export const mockProducts = [
       finish: 'Premium upholstery and chrome accents'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '34',
     nameKey: 'product34Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product34Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/hnf79sqp_IMAGE%202025-11-18%2017%3A48%3A02.jpg',
     specifications: {
       chair: 'Electric with programmable positions',
@@ -253,13 +238,12 @@ export const mockProducts = [
       features: 'Real-time patient monitoring integration'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '35',
     nameKey: 'product35Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product35Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/m251eer0_IMAGE%202025-11-18%2017%3A48%3A04.jpg',
     specifications: {
       upholstery: 'Black medical-grade leather/vinyl',
@@ -272,13 +256,12 @@ export const mockProducts = [
       design: 'Contemporary streamlined aesthetic'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '36',
     nameKey: 'product36Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product36Desc',
+    categoryKey: 'dentalImagingTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/m0xnggcc_IMAGE%202025-11-18%2017%3A48%3A06.jpg',
     specifications: {
       connectivity: 'Wi-Fi and Bluetooth wireless',
@@ -291,13 +274,12 @@ export const mockProducts = [
       power: 'Wireless operation with rechargeable battery'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '37',
     nameKey: 'product37Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product37Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/v0gfh7og_IMAGE%202025-11-18%2017%3A48%3A08.jpg',
     specifications: {
       handpiece: 'Angled metallic with ergonomic grip',
@@ -310,13 +292,12 @@ export const mockProducts = [
       design: 'Compact integrated system'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '38',
     nameKey: 'product38Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product38Desc',
+    categoryKey: 'dentalImagingTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/fhfxkrw7_IMAGE%202025-11-18%2017%3A48%3A10.jpg',
     specifications: {
       camera: 'Ergonomic handheld with LED illumination',
@@ -329,13 +310,12 @@ export const mockProducts = [
       applications: 'Diagnosis, documentation, patient education'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '39',
     nameKey: 'product39Name',
-    category: 'Dental Handpieces',
     descriptionKey: 'product39Desc',
+    categoryKey: 'dentalHandpiecesTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/p0spicl4_IMAGE%202025-11-18%2018%3A18%3A57.jpg',
     specifications: {
       speed: '300,000-450,000 RPM',
@@ -348,13 +328,12 @@ export const mockProducts = [
       applications: 'Cavity prep, crown prep, tooth shaping'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '40',
     nameKey: 'product40Name',
-    category: 'Dental Handpieces',
     descriptionKey: 'product40Desc',
+    categoryKey: 'dentalHandpiecesTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/tfp89b1j_IMAGE%202025-11-18%2018%3A18%3A59.jpg',
     specifications: {
       illumination: 'Fiber optic LED light',
@@ -367,13 +346,12 @@ export const mockProducts = [
       speed: 'High-speed rotation capability'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '41',
     nameKey: 'product41Name',
-    category: 'Dental Parts & Accessories',
     descriptionKey: 'product41Desc',
+    categoryKey: 'dentalParts',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/n7tx4ice_IMAGE%202025-11-18%2018%3A19%3A01.jpg',
     specifications: {
       components: 'Rotor, 2x ball bearings, O-ring, spacers',
@@ -386,13 +364,12 @@ export const mockProducts = [
       applications: 'Turbine maintenance and repair'
     },
     certifications: ['ISO 13485']
-  },,
-,
+  },
   {
     id: '42',
     nameKey: 'product42Name',
-    category: 'Dental Handpieces',
     descriptionKey: 'product42Desc',
+    categoryKey: 'dentalHandpiecesTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/2qcoeda1_IMAGE%202025-11-18%2018%3A19%3A02.jpg',
     specifications: {
       spray_system: '4-5 port water/air cooling',
@@ -405,13 +382,12 @@ export const mockProducts = [
       applications: 'Cavity prep, polishing, restoration'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '43',
     nameKey: 'product43Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product43Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/01yptg2l_IMAGE%202025-11-18%2018%3A19%3A04.jpg',
     specifications: {
       manufacturer: 'EASYDENT',
@@ -424,13 +400,12 @@ export const mockProducts = [
       features: 'Precision filling, temperature controlled'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '44',
     nameKey: 'product44Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product44Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/gxw396ru_IMAGE%202025-11-18%2018%3A37%3A13.jpg',
     specifications: {
       manufacturer: 'EASYDOC',
@@ -443,13 +418,12 @@ export const mockProducts = [
       design: 'Ergonomic white body with control buttons'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '45',
     nameKey: 'product45Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product45Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/47klintj_IMAGE%202025-11-18%2018%3A37%3A14.jpg',
     specifications: {
       manufacturer: 'KAVO',
@@ -462,13 +436,12 @@ export const mockProducts = [
       color: 'Dark blue body with silver accents'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '46',
     nameKey: 'product46Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product46Desc',
+    categoryKey: 'dentalEquipmentTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/jeqnur7j_IMAGE%202025-11-18%2018%3A37%3A20.jpg',
     specifications: {
       manufacturer: 'DTE / Woodpecker',
@@ -481,13 +454,12 @@ export const mockProducts = [
       connectivity: 'USB ports for data/updates'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '47',
     nameKey: 'product47Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product47Desc',
+    categoryKey: 'dentalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ort32rki_IMAGE%202025-11-18%2018%3A37%3A21.jpg',
     specifications: {
       manufacturer: 'VDW',
@@ -500,13 +472,12 @@ export const mockProducts = [
       technique: 'Reciprocating single-file system'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '48',
     nameKey: 'product48Name',
-    category: 'Dental Lab Equipment',
     descriptionKey: 'product48Desc',
+    categoryKey: 'dentalLabEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/2ipe79ex_photo_1_2025-11-18_21-43-44.jpg',
     specifications: {
       manufacturer: 'ASIGA',
@@ -519,13 +490,12 @@ export const mockProducts = [
       form_factor: 'Compact desktop unit'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '49',
     nameKey: 'product49Name',
-    category: 'Dental Lab Equipment',
     descriptionKey: 'product49Desc',
+    categoryKey: 'dentalLabEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/dswi5s85_photo_2_2025-11-18_21-43-44.jpg',
     specifications: {
       process: 'Vacuum forming/thermoforming',
@@ -538,13 +508,12 @@ export const mockProducts = [
       base_unit: 'White with motor and controls'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '50',
     nameKey: 'product50Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product50Desc',
+    categoryKey: 'dentalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/j3gbmw5g_photo_3_2025-11-18_21-43-44.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -557,13 +526,12 @@ export const mockProducts = [
       applications: 'Scaling, periodontal treatment, endodontics, bone surgery'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '51',
     nameKey: 'product51Name',
-    category: 'Dental Parts & Accessories',
     descriptionKey: 'product51Desc',
+    categoryKey: 'dentalParts',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/t0398l5x_photo_4_2025-11-18_21-43-44.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -576,13 +544,12 @@ export const mockProducts = [
       applications: 'Bone grafting, sinus lifts, ridge augmentation, extractions'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '52',
     nameKey: 'product52Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product52Desc',
+    categoryKey: 'dentalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/k3alss6r_photo_5_2025-11-18_21-43-44.jpg',
     specifications: {
       functions: 'Scaling and endodontic irrigation',
@@ -595,13 +562,12 @@ export const mockProducts = [
       applications: 'Scaling, plaque removal, root canal irrigation'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '53',
     nameKey: 'product53Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product53Desc',
+    categoryKey: 'dentalImaging',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/1c29npzn_photo_1_2025-11-18_21-49-28.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -614,13 +580,12 @@ export const mockProducts = [
       connectivity: 'USB, Wi-Fi, Ethernet (implied)'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '54',
     nameKey: 'product54Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product54Desc',
+    categoryKey: 'dentalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/a1ezsrw1_photo_2_2025-11-18_21-49-28.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -633,13 +598,12 @@ export const mockProducts = [
       certifications_visible: 'CE mark on handpiece'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '55',
     nameKey: 'product55Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product55Desc',
+    categoryKey: 'dentalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/gnpw9lvl_photo_3_2025-11-18_21-49-28.jpg',
     specifications: {
       manufacturer: 'DTE',
@@ -652,13 +616,12 @@ export const mockProducts = [
       applications: 'Root canal obturation, thermoplastic compaction'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '56',
     nameKey: 'product56Name',
-    category: 'Sterilization Equipment',
     descriptionKey: 'product56Desc',
+    categoryKey: 'sterilization',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/vp9wtzo6_photo_4_2025-11-18_21-49-28.jpg',
     specifications: {
       chamber: 'Stainless steel front-loading',
@@ -670,13 +633,12 @@ export const mockProducts = [
       design: 'Countertop white unit with modern aesthetic'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '57',
     nameKey: 'product57Name',
-    category: 'Sterilization Equipment',
     descriptionKey: 'product57Desc',
+    categoryKey: 'sterilization',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/2oz186f6_photo_5_2025-11-18_21-49-28.jpg',
     specifications: {
       manufacturer: 'Runyes',
@@ -689,13 +651,12 @@ export const mockProducts = [
       design: 'Benchtop model with ventilation grilles'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '58',
     nameKey: 'product58Name',
-    category: 'Sterilization Equipment',
     descriptionKey: 'product58Desc',
+    categoryKey: 'sterilization',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/7eaox13m_photo_1_2025-11-18_21-53-51.jpg',
     specifications: {
       manufacturer: 'WOSON',
@@ -708,13 +669,12 @@ export const mockProducts = [
       safety: 'Hot surface warning, secure door lock'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '59',
     nameKey: 'product59Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product59Desc',
+    categoryKey: 'dentalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/ny71rqmq_photo_2_2025-11-18_21-53-51.jpg',
     specifications: {
       manufacturer: 'COXO',
@@ -727,13 +687,12 @@ export const mockProducts = [
       programs: 'Multiple programmable presets (P1, P2, etc.)'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '60',
     nameKey: 'product60Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product60Desc',
+    categoryKey: 'dentalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/09e5ix91_photo_3_2025-11-18_21-53-51.jpg',
     specifications: {
       modes: '4 modes - Bone, Perio, Endo, Clean',
@@ -745,13 +704,12 @@ export const mockProducts = [
       program: 'E0 and customizable settings'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '61',
     nameKey: 'product61Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product61Desc',
+    categoryKey: 'dentalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/28etc275_photo_4_2025-11-18_21-53-51.jpg',
     specifications: {
       torque: '55 N.cm',
@@ -763,13 +721,12 @@ export const mockProducts = [
       features: 'Calibration, light, irrigation, pump control'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '62',
     nameKey: 'product62Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product62Desc',
+    categoryKey: 'dentalImaging',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/z6oen7re_photo_5_2025-11-18_21-53-51.jpg',
     specifications: {
       design: 'Portable handheld with integrated display',
@@ -781,13 +738,12 @@ export const mockProducts = [
       applications: 'Intraoral radiography, caries detection'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '63',
     nameKey: 'product63Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product63Desc',
+    categoryKey: 'dentalImaging',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/99fzh60o_photo_3_2025-11-18_21-59-28.jpg',
     specifications: {
       manufacturer: 'RAYIMAGING',
@@ -799,13 +755,12 @@ export const mockProducts = [
       applications: 'Digital dental imaging, exposure verification, QA'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '64',
     nameKey: 'product64Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product64Desc',
+    categoryKey: 'dentalImaging',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/0ydkmfjo_photo_4_2025-11-18_21-59-28.jpg',
     specifications: {
       manufacturer: 'Mayar Med',
@@ -817,13 +772,12 @@ export const mockProducts = [
       applications: 'Point-of-care, emergency, ICU, mobile diagnostics'
     },
     certifications: ['CE', 'ISO 13485']
-  },,
-,
+  },
   {
     id: '65',
     nameKey: 'product65Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product65Desc',
+    categoryKey: 'dentalImaging',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/rb79y2bh_photo_5_2025-11-18_21-59-28.jpg',
     specifications: {
       design: 'Ergonomic pen-like handpiece',
@@ -835,13 +789,12 @@ export const mockProducts = [
       applications: 'Digital impressions, orthodontics, aligners, restoration'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '66',
     nameKey: 'product66Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product66Desc',
+    categoryKey: 'dentalImaging',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/e1oj9oi5_photo_6_2025-11-18_21-59-28.jpg',
     specifications: {
       manufacturer: 'VITARO',
@@ -854,13 +807,12 @@ export const mockProducts = [
       controls: 'Button interface with mode selection'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '67',
     nameKey: 'product67Name',
-    category: 'Dental Equipment',
     descriptionKey: 'product67Desc',
+    categoryKey: 'dentalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medtech-vitaro/artifacts/gx6ah2gl_photo_7_2025-11-18_21-59-28.jpg',
     specifications: {
       speed: '1000 r/min',
@@ -873,13 +825,12 @@ export const mockProducts = [
       programs: 'Pre-programmed protocols and custom settings'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '68',
     nameKey: 'product68Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product68Desc',
+    categoryKey: 'dentalImaging',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/ns4z5bth_photo_1_2025-11-18_22-11-53.jpg',
     specifications: {
       voltage: '60kV',
@@ -892,13 +843,12 @@ export const mockProducts = [
       indicators: 'READY and EXPOSURE status lights'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '69',
     nameKey: 'product69Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product69Desc',
+    categoryKey: 'dentalImaging',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/ixvic8yl_photo_2_2025-11-18_22-11-53.jpg',
     specifications: {
       design: 'Handheld portable unit',
@@ -911,13 +861,12 @@ export const mockProducts = [
       applications: 'Caries, periodontal, endodontic, implant imaging'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '70',
     nameKey: 'product70Name',
-    category: 'Medical Imaging',
     descriptionKey: 'product70Desc',
+    categoryKey: 'medicalImaging',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/r9frnips_photo_3_2025-11-18_22-11-53.jpg',
     specifications: {
       brand: 'SonoScape',
@@ -931,13 +880,12 @@ export const mockProducts = [
       design: 'Compact and mobile'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '71',
     nameKey: 'product71Name',
-    category: 'Medical Equipment',
     descriptionKey: 'product71Desc',
+    categoryKey: 'medicalEquipment',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/oqjzd2ji_photo_4_2025-11-18_22-11-53.jpg',
     specifications: {
       measurement: 'Automated oscillometric blood pressure',
@@ -950,13 +898,12 @@ export const mockProducts = [
       applications: 'Clinics, hospitals, pharmacies, wellness programs'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '72',
     nameKey: 'product72Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product72Desc',
+    categoryKey: 'dentalImagingTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/d2zlwxd3_photo_5_2025-11-18_22-11-53.jpg',
     specifications: {
       imaging_type: 'Cone-Beam Computed Tomography (CBCT)',
@@ -970,13 +917,12 @@ export const mockProducts = [
       construction: 'Robust and durable frame'
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
-  },,
-,
+  },
   {
     id: '73',
     nameKey: 'product73Name',
-    category: 'Dental Imaging',
     descriptionKey: 'product73Desc',
+    categoryKey: 'dentalImagingTranslate',
     image: 'https://customer-assets.emergentagent.com/job_medequip-catalog/artifacts/hyk107e9_photo_1_2025-11-18_22-22-45.jpg',
     specifications: {
       imaging_modes: 'CBCT and Panoramic Radiography',
@@ -991,7 +937,6 @@ export const mockProducts = [
     },
     certifications: ['CE', 'ISO 13485', 'FDA']
   }
-
 ];
 
 export const mockNews = [
@@ -1016,17 +961,15 @@ export const mockNews = [
 ];
 
 export const categories = [
-  { id: 'all', name: 'All Products', count: mockProducts.length },
-  { id: 'dental-equipment', name: 'Dental Equipment', count: mockProducts.filter(p => p.category === 'Dental Equipment').length },
-  { id: 'dental-handpieces', name: 'Dental Handpieces', count: mockProducts.filter(p => p.category === 'Dental Handpieces').length },
-  { id: 'dental-imaging', name: 'Dental Imaging', count: mockProducts.filter(p => p.category === 'Dental Imaging').length },
-  { id: 'dental-instruments', name: 'Dental Instruments', count: mockProducts.filter(p => p.category === 'Dental Instruments').length },
-  { id: 'dental-implants', name: 'Dental Implants', count: mockProducts.filter(p => p.category === 'Dental Implants').length },
-  { id: 'dental-lab-equipment', name: 'Dental Lab Equipment', count: mockProducts.filter(p => p.category === 'Dental Lab Equipment').length },
-  { id: 'dental-parts', name: 'Dental Parts & Accessories', count: mockProducts.filter(p => p.category === 'Dental Parts & Accessories').length },
-  { id: 'medical-equipment', name: 'Medical Equipment', count: mockProducts.filter(p => p.category === 'Medical Equipment').length },
-  { id: 'medical-imaging', name: 'Medical Imaging', count: mockProducts.filter(p => p.category === 'Medical Imaging').length },
-  { id: 'medical-supplies', name: 'Medical Supplies', count: mockProducts.filter(p => p.category === 'Medical Supplies').length },
-  { id: 'orthodontic', name: 'Orthodontic Products', count: mockProducts.filter(p => p.category === 'Orthodontic Products').length },
-  { id: 'sterilization', name: 'Sterilization Equipment', count: mockProducts.filter(p => p.category === 'Sterilization Equipment').length }
+  // { id: 'all', nameKey: 'all', count: mockProducts.length },
+  { id: 'dental-equipment', nameKey: 'dentalEquipmentTranslate', count: mockProducts.filter(p => p.categoryKey === 'dentalEquipmentTranslate').length },
+  { id: 'dental-handpieces', nameKey: 'dentalHandpieces', count: mockProducts.filter(p => p.categoryKey === 'dentalHandpiecesTranslate').length },
+  { id: 'dental-imaging', nameKey: 'dentalImaging', count: mockProducts.filter(p => p.categoryKey === 'dentalImagingTranslate').length },
+  { id: 'dental-instruments', nameKey: 'dentalInstruments', count: mockProducts.filter(p => p.categoryKey === 'dentalInstruments').length },
+  { id: 'dental-implants', nameKey: 'dentalImplants', count: mockProducts.filter(p => p.categoryKey === 'dentalImplants').length },
+  { id: 'dental-lab-equipment', nameKey: 'dentalLabEquipment', count: mockProducts.filter(p => p.categoryKey === 'dentalLabEquipment').length },
+  { id: 'dental-parts', nameKey: 'dentalParts', count: mockProducts.filter(p => p.categoryKey === 'dentalParts').length },
+  { id: 'sterilization', nameKey: 'sterilization', count: mockProducts.filter(p => p.categoryKey === 'sterilization').length },
+  { id: 'medical-equipment', nameKey: 'medicalEquipment', count: mockProducts.filter(p => p.categoryKey === 'medicalEquipment').length },
+  { id: 'medical-imaging', nameKey: 'medicalImaging', count: mockProducts.filter(p => p.categoryKey === 'dentalImagingTranslate').length },
 ];
