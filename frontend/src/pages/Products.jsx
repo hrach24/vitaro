@@ -120,7 +120,7 @@ const Products = () => {
                     <img
                       src={product.image}
                       alt={product.nameKey ? t(product.nameKey) : product.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute top-3 right-3 px-3 py-1 bg-orange-500 text-white text-xs font-semibold rounded-full">
                       {product.categoryKey ? t(product.categoryKey) : product.category}
@@ -167,7 +167,7 @@ const Products = () => {
                 <img
                   src={selectedProduct.image}
                   alt={selectedProduct.nameKey ? t(selectedProduct.nameKey) : selectedProduct.name}
-                  className="w-full h-64 object-cover rounded-lg"
+                  className="w-full h-64 object-contain rounded-lg"
                 />
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{t('description')}</h3>
