@@ -76,7 +76,7 @@ const Footer = () => {
                   to="/about"
                   className="text-slate-300 hover:text-orange-400 transition-colors"
                 >
-                  About Us
+
                 </Link>
               </li>
               <li>
@@ -84,7 +84,7 @@ const Footer = () => {
                   to="/products"
                   className="text-slate-300 hover:text-orange-400 transition-colors"
                 >
-                  Products
+                  {t('products')}
                 </Link>
               </li>
               <li>
@@ -92,7 +92,7 @@ const Footer = () => {
                   to="/news"
                   className="text-slate-300 hover:text-orange-400 transition-colors"
                 >
-                  News & Updates
+                  {t('newsAndUpdates')}
                 </Link>
               </li>
               <li>
@@ -100,7 +100,7 @@ const Footer = () => {
                   to="/contact"
                   className="text-slate-300 hover:text-orange-400 transition-colors"
                 >
-                  Contact
+                  {t('contact')}
                 </Link>
               </li>
             </ul>

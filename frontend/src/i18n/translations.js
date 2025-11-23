@@ -303,6 +303,11 @@ export const translations = {
     product72Desc: 'Premium cone-beam computed tomography (CBCT) scanner delivering exceptional 3D diagnostic imaging for comprehensive oral and maxillofacial diagnostics. Features a robust C-arm structure for detailed volumetric data capture, ergonomic patient positioning system with chin rest and forehead support, and intuitive touchscreen interface. Provides high-resolution 3D reconstructions crucial for implantology, endodontics, orthodontics, and surgical planning. Modern design with clean lines and professional aesthetic that integrates seamlessly into contemporary dental practices.',
     product73Desc: 'Comprehensive dental imaging solution integrating Cone Beam Computed Tomography (CBCT) and Panoramic Radiography for complete diagnostic capabilities. Features high-resolution CBCT imaging with cross-sectional views (axial, sagittal, coronal) and stunning 3D volumetric reconstruction. Includes advanced visualization software with measurement tools, annotation capabilities, and rendering options. The panoramic mode captures the entire dentition and TMJs in a single view. Ideal for implant planning, orthodontic evaluation, surgical guides, endodontic assessment, and TMJ diagnostics.',
 
+
+
+
+    ourProducts: "Our Products",
+    premiumMedical: "Premium medical products designed for professional healthcare environments"
   },
   
   zh: {
@@ -313,6 +318,8 @@ export const translations = {
     news: '新闻',
     contact: '联系我们',
     getInTouch: '联系我们',
+
+    premiumMedical: "专为专业医疗环境设计的高端医疗产品",
     
     // Home Page
     trustedHealthcare: '值得信赖的医疗解决方案',
@@ -607,7 +614,9 @@ export const translations = {
     product70Desc: 'SonoScape 便携多普勒超声机，含彩色与频谱多普勒，用于血流分析。',
     product71Desc: '自动血压监测站，带高清触控屏、自动袖带与移动底座。',
     product72Desc: '高级牙科 CBCT 三维成像系统，具 C 臂结构、人体工学固定器与触控操作界面。',
-    product73Desc: '多合一牙科影像系统，含 CBCT 与全景成像，具 3D 重建、测量工具与诊断软件。'
+    product73Desc: '多合一牙科影像系统，含 CBCT 与全景成像，具 3D 重建、测量工具与诊断软件。',
+
+    ourProducts: "我们的产品"
   },
   
   ko: {
@@ -630,7 +639,7 @@ export const translations = {
     countriesServed: '서비스 국가',
     healthcarePartners: '헬스케어 파트너',
     qualityGuaranteed: '품질 보증',
-    
+    premiumMedical: "전문 의료 환경을 위해 설계된 프리미엄 의료 제품",
     // About Page
     aboutVitaro: 'VITARO Medical 소개',
     ourStory: '우리의 이야기',
@@ -912,6 +921,8 @@ export const translations = {
     product70Desc: 'SonoScape 휴대형 도플러 초음파 시스템으로 고화질 디스플레이, 혈류 분석용 컬러/스펙트럼 도플러 기능을 제공합니다.',
     product71Desc: '첨단 자동 혈압 측정 스테이션으로 터치스크린, 자동 커프 시스템, 이동형 베이스를 갖추고 있습니다.',
     product72Desc: '프리미엄 치과용 CBCT 시스템으로 3D 영상, 인체공학적 환자 포지셔닝, 터치 인터페이스를 제공합니다.',
-    product73Desc: 'CBCT 및 파노라마가 통합된 종합 치과 영상 솔루션으로 고해상도 3D 재구성 및 다양한 진단 기능을 제공합니다.'
+    product73Desc: 'CBCT 및 파노라마가 통합된 종합 치과 영상 솔루션으로 고해상도 3D 재구성 및 다양한 진단 기능을 제공합니다.',
+
+    ourProducts: '우리의 제품',
   }
 };
